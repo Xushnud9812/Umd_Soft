@@ -17,6 +17,10 @@
     "sass-loader": "^10.1.1"
   },
   "devDependencies": {
-    "@nuxtjs/style-resources": "^1.0.0"
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-regular-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "nuxt-fontawesome": "^0.4.0"
   }
 }
