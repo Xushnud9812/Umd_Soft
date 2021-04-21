@@ -448,7 +448,25 @@
 export default {};
 </script>
 
+<<<<<<< HEAD
 <style lang="scss">
+=======
+<style lang="scss" >
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+body, html{
+    overflow-x: hidden;
+}
+>>>>>>> 920033e9b18b24e5c3951f39b049adda8b62114e
 // ============= Home section Slider galery =================
 html, body{
 	overflow-x: hidden;
@@ -602,9 +620,78 @@ svg {
             }
         }
     }
+}.product-card{
+    flex: 1 1 15rem;
+    background-color: #FFFFFF;
+    margin: 12px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: relative;
+    .card-img{
+        .card-img-in{
+            width: 199px;
+            height: 199px;
+            margin: 0 auto;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
 }
 
+.card-text{
+    margin: 10px;
+    .info-pro{
+        font-family: "Roboto Bold",sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        color: #323232;
+        margin-bottom: 9px;
+    }
+    span{
+        font-family: "Roboto Bold",sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #666666;
+        
+    }
+    .price-savat{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 15px;
+    }
+    .price{
+        font-family: "Roboto Bold",sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+        color: #148E3C;
+    }
+    button{
+       border: 2px solid #148E3C;
+       color: #148E3C;
+       outline: none;
+       background: #fff;
+       width: 99px;
+       height: 32px;
+       border-radius: 2px;
+    }
+}
+
+<<<<<<< HEAD
 .card-text {
+=======
+
+.card-text{
+>>>>>>> 920033e9b18b24e5c3951f39b049adda8b62114e
     margin: 10px;
     .info-pro {
         font-family: "Roboto Bold", sans-serif;

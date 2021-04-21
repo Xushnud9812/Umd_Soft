@@ -14,7 +14,8 @@
     "core-js": "^3.9.1",
     "node-sass": "^5.0.0",
     "nuxt": "^2.15.3",
-    "sass-loader": "^10.1.1"
+    "sass-loader": "^10.1.1",
+    "vue-slick-carousel": "^1.0.6"
   },
   "devDependencies": {
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
