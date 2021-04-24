@@ -285,6 +285,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
 // Product info img
 .pro-img-price {
   display: flex;
@@ -309,8 +320,8 @@ export default {
     left: 5px;
     span {
       display: block;
-      width: 50px;
-      height: 46px;
+      width: 56px;
+      height: 56px;
       border: 1px solid #148e3c;
       margin: 3px;
     }
@@ -679,32 +690,113 @@ main {
   .pro-price {
     flex: 1 1 20rem;
   }
+
+  .buy-btn {
+  button:nth-child(1) {
+    width: 112px;
+    height: 36px;
+  }
+  button:nth-child(2) {
+    width: 189px;
+    height: 36px;
+  }
 }
 
-/*
-    ##Device = Tablets, Ipads (landscape)
-    ##Screen = B/w 768px to 1024px
-  */
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  /* CSS */
 }
 
-/*
-    ##Device = Low Resolution Tablets, Mobiles (Landscape)
-    ##Screen = B/w 481px to 767px
-  */
 
 @media (min-width: 481px) and (max-width: 767px) {
-  /* //CSS */
+   // Product image price
+   .pro-img-type{
+     left: 27px;
+   }
+   .pro-img-price{
+     flex-direction: column;
+   }
+  .pro-img div {
+    width: 300px;
+    height: 300px;
+  }
+
+  .pro-price {
+    flex: 1 1 20rem;
+.price-info{
+  padding: 0 30px;
+}
+.buy{
+  padding: 0 30px;
+}
+  .buy-btn {
+  button:nth-child(1) {
+    width: 112px;
+    height: 36px;
+  }
+  button:nth-child(2) {
+    width: 189px;
+    height: 36px;
+  }
+}
+
+}
+
+.product-card{
+  flex: 1 1 12rem;
+}
+
+main {
+    width: 98%;
+    margin: 0 auto;
+}
+
 }
 
 /*
     ##Device = Most of the Smartphones Mobiles (Portrait)
     ##Screen = B/w 320px to 479px
   */
-
 @media (min-width: 320px) and (max-width: 480px) {
-  /* //CSS */
+ // Product image price
+   .pro-img-type{
+     left: 27px;
+   }
+   .pro-img-price{
+     flex-direction: column;
+   }
+  .pro-img div {
+    width: 215px;
+    height: 215px;
+  }
+
+  .pro-price {
+    flex: 1 1 20rem;
+.price-info{
+  padding: 0 30px;
 }
+.buy{
+  padding: 0 30px;
+}
+  .buy-btn {
+  button:nth-child(1) {
+    width: 112px;
+    height: 36px;
+  }
+  button:nth-child(2) {
+    width: 189px;
+    height: 36px;
+  }
+}
+
+}
+
+.product-card{
+  flex: 1 1 12rem;
+}
+
+main {
+    width: 98%;
+    margin: 0 auto;
+}
+
+}
+
 </style>
