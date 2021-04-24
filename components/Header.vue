@@ -9,7 +9,7 @@
                 <h3>Все наченается с мечты !</h3>
             </div>
             <div class="contact-language">
-                <img class="header-phone-icon" src="/image/phone.svg" alt="">
+                <img class="header-phone-icon" src="~/assets/image/phone.svg" alt="">
                 <p class="head-phone-number">+998 (99) 329-14-04</p>
                 <select name="#" id="#">
                     <option value="#">uz</option>
@@ -28,34 +28,22 @@
 
 <script>
 export default {
-    mounted(){
-        const btn1 = document.getElementById("btn1");
-const btn2 = document.getElementById("btn2");
-const btn3 = document.getElementById("btn3");
-
-btn1.addEventListener('click', (e) => {
-      btn1.classList.toggle("s-click");
-      btn2.classList.remove("s-click");
-      btn3.classList.remove("s-click");
-})
-
-btn2.addEventListener('click', (e) => {
-    btn1.classList.remove("s-click");
-    btn2.classList.toggle("s-click");
-    btn3.classList.remove("s-click");
-})
-
-btn3.addEventListener('click', (e) => {
-    btn1.classList.remove("s-click");
-    btn2.classList.remove("s-click");
-    btn3.classList.toggle("s-click");
-})
-    }
 
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss" >
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+li{
+    list-style-type: none !important;
+}
+a{
+    text-decoration: none !important;
+}
 header{
      background: #699536;
 }

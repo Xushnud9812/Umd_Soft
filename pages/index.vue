@@ -49,6 +49,9 @@
 
 <!-- =========== New Product section ================ -->
 <main>
+      <NuxtLink to="/about">
+                      About
+                        </NuxtLink>
     <section class="new-product">
         <h2>Новинки продаж</h2>
         <div class="new-product-in">
@@ -56,9 +59,11 @@
             <div class="product-card">
                 <div class="card-img">
                     <div class="card-img-in">
-                        <a href="#">
+                      
+                         <a href="#">
                           <img src="~/assets/image/qozon.png" />
                         </a>
+                    
                     </div>
                 </div>
                 <div class="card-text">
@@ -322,7 +327,7 @@
             </div>
         </div>
     </section>
-</main>
+</main>DirectiveName
 
 <!-- ============= Advantages section ================ -->
 <section class="our-advantages">
@@ -340,7 +345,7 @@
         <img src="~/assets/image/advantages.svg" />
     </div>
 </section>
-
+ <Slider />
   </div>
 </template>
 
