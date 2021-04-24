@@ -390,7 +390,7 @@
                         </div>
                         <img
                             class="video-card-img"
-                            src="~/assets/image/videosection.svg"
+                            src="@/assets/image/sasa.svg"
                         />
                     </div>
                     <div class="video-card">
@@ -403,7 +403,7 @@
                         </div>
                         <img
                             class="video-card-img"
-                            src="~/assets/image/videosection.svg"
+                            src="@/assets/image/sasa.svg"
                         />
                     </div>
                 </div>
@@ -463,8 +463,8 @@ body {
 .slider {
     margin: 0 auto;
     width: 100%;
-    height: 551px;
-    overflow: hidden;
+    // height: 551px;
+    // overflow: hidden;
 }
 .slides {
     width: 500%;
@@ -723,7 +723,6 @@ svg {
 // =========== Product discount Slider section ===========
 .discount {
     width: 100%;
-    height: 462px;
     background: #148e3c;
 }
 .discount .slider {
@@ -759,6 +758,7 @@ svg {
     flex-wrap: wrap;
 }
 .discount-btn {
+    display: none;
     position: absolute;
     left: 50%;
     margin-top: 5px;
@@ -906,7 +906,6 @@ svg {
 .video-card {
     flex: 1 1 30rem;
     position: relative;
-    height: 347px;
     margin: 0 10px 10px 10px;
 
     .opacity-black {
@@ -1169,12 +1168,35 @@ svg {
     .slide-text {
         top: 40%;
     }
-    //  footer
-    .foot-logo img {
-        transform: scale(0.7);
-        margin-left: -15px;
+
+
+    .new-product h2{
+        font-size: calc(100% + 24px);;
     }
+     .our-advantages {
+        // flex-direction: column;
+        .advantages {
+            padding: 60px 0px 50px 90px;
+            width: 50%;
+            height: 421px;
+                flex: 1 1 30rem;
+            // flex: 0;
+        }
+        .advantages-img {
+            width: 50%  ;
+                flex: 1 1 30rem;
+            height: auto;
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+    //  footer
+    
 }
+
+
 
 @media (min-width: 481px) and (max-width: 767px) {
     .office-shop p {
@@ -1230,10 +1252,9 @@ svg {
         top: 40%;
     }
 
-
     //////////////////// Menu
 
-      .nav-link[data-v-cfc91daa] {
+    .nav-link[data-v-cfc91daa] {
         display: block !important;
         z-index: 2;
         width: 130px;
@@ -1246,7 +1267,7 @@ svg {
         transition: 0.5s;
     }
     .nav-link[data-v-cfc91daa] {
-        display: block ;
+        display: block;
         background: #699536 !important ;
         z-index: 2;
         width: 50% !important;
@@ -1267,7 +1288,7 @@ svg {
         width: 100%;
         height: 100vh;
         transition: 0.5s;
-        left: 30px;
+        left: 0px;
         position: absolute;
         z-index: 10;
     }
@@ -1287,38 +1308,24 @@ svg {
     }
 
 
-    //  footer
-    footer .foot-cover[data-v-0d2d6594] {
-        height: auto;
+    .new-product h2{
+        font-size: calc(100% + 24px);
     }
-    footer[data-v-0d2d6594] {
-        height: auto !important;
+      .video-section h2.video-head{
+         font-size: 42px
     }
-    .footer-nav[data-v-0d2d6594] {
-        flex-direction: column !important;
-        height: auto !important;
-        margin: 20px 0 0 0 !important;
-        width: 60% !important;
-        // background: #148e3c;
+    .our-advantages {
+        flex-direction: column;
+        .advantages {
+            padding: 60px 0px 50px 90px;
+        }
+        .advantages-img {
+            flex: 0;
+            height: 0;
+        }
     }
-    .foot-logo p[data-v-0d2d6594] {
-        font-size: 26px !important;
-        margin: 20px 0px 0px 0px !important;
-    }
-    .foot-logo h3[data-v-0d2d6594] {
-        font-size: 24px;
-    }
-    .foot-info[data-v-0d2d6594] {
-        margin: 35px 0 0 37px;
-    }
-    .foot-contact[data-v-0d2d6594] {
-        margin: 20px 0px 0px -60px;
-    }
+   
 }
-
-
-
-
 
 @media (max-width: 480px) {
     .navbar-inner[data-v-cfc91daa] {
@@ -1366,7 +1373,7 @@ svg {
 
     ///////////////// menu
 
-.nav-link[data-v-cfc91daa] {
+    .nav-link[data-v-cfc91daa] {
         display: block !important;
         z-index: 2;
         width: 130px;
@@ -1382,7 +1389,7 @@ svg {
         // display: none;
     }
     .nav-link[data-v-cfc91daa] {
-        display: block ;
+        display: block;
         background: #699536 !important ;
         z-index: 2;
         width: 100% !important;
@@ -1416,39 +1423,30 @@ svg {
         width: 100%;
         margin: 0 !important;
     }
-    // footer
-    .foot-logo img {
-        transform: scale(0.6);
-        margin-left: -70px;
+
+
+    
+    .new-product h2{
+        font-size: calc(100% + 16px);
     }
-    .foot-logo[data-v-0d2d6594] {
-        margin: 0 0 0 -60px;
+    .video-section h2.video-head{
+         font-size: 40px
     }
-    footer .foot-cover[data-v-0d2d6594] {
-        height: auto;
+    
+    .our-advantages {
+        flex-direction: column;
+        .advantages {
+            padding: 30px 0px 50px 35px;
+        }
+        .advantages-img {
+            flex: 0;
+            height: 0;
+        }
     }
-    footer[data-v-0d2d6594] {
-        height: auto !important;
+
+    .product-card {
+        width: auto !important;
     }
-    .footer-nav[data-v-0d2d6594] {
-        flex-direction: column !important;
-        height: auto !important;
-        margin: 0 auto !important;
-        width: 60% !important;
-        // background: #148e3c;
-    }
-    .foot-logo p[data-v-0d2d6594] {
-        font-size: 16px !important;
-        margin: 0px 0px 0px 0px !important;
-    }
-    .foot-logo h3[data-v-0d2d6594] {
-        font-size: 18px !important;
-    }
-    .foot-info[data-v-0d2d6594] {
-        margin: 0px 0 0 -50px;
-    }
-    .foot-contact[data-v-0d2d6594] {
-        margin: 20px 0px 0px -60px;
-    }
+    
 }
 </style>
