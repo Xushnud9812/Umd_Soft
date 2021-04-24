@@ -441,6 +441,7 @@
                 <img src="~/assets/image/advantages.svg" />
             </div>
         </section>
+        <Slider />
     </div>
 </template>
 
