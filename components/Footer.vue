@@ -224,7 +224,15 @@ svg{
     }
 }   
 
-
+@media (min-width: 1024px) and (max-width: 1280px){
+    .foot-logo img {
+        transform: scale(0.9);
+        margin-left: -15px;
+    }
+    .foot-info {
+        margin-left: 50px !important;
+    }
+}
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .foot-logo img {
@@ -259,6 +267,10 @@ svg{
     }
     .foot-contact[data-v-0d2d6594] {
         margin: 20px 0px 0px -60px;
+    }
+     .foot-logo img {
+        transform: scale(0.8);
+        margin-left: -40px;
     }
 }
 
