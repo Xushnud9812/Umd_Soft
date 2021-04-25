@@ -22,12 +22,12 @@
                     </div>
                 </div>
             </div>
-            <a href="#" class="hamburger-icon">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-            </a>
-            <fa class="bar" id="bar" icon="bars" />
+            <div id="bar" class="hamburger-icon">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+           
         </nav>
     </header>
 </template>
@@ -242,6 +242,15 @@ header {
     }
     .slide-text {
         top: 40%;
+    }
+    .hamburger-icon{
+        span{
+            display: block;
+            background-color: #fff;
+            width: 20px;
+            height: 3px;
+            margin: 2px;
+        }
     }
     
 }
