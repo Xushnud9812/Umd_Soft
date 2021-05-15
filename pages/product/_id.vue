@@ -4,16 +4,21 @@
       <div class="pro-img-price">
         <div class="pro-img">
           <span class="pro-img-type">
+
+            <!-- <span v-for="(i, index) of product" :key="index">
+              <img :src="`http://server.mechta-posuda.uz:3000/${i.images}`" />
+              </span> -->
+
+
+            <!-- <span><img src="@/assets/image/qozon.png" alt="qozon" /></span>
             <span><img src="@/assets/image/qozon.png" alt="qozon" /></span>
-            <span><img src="@/assets/image/qozon.png" alt="qozon" /></span>
-            <span><img src="@/assets/image/qozon.png" alt="qozon" /></span>
-            <span><img src="@/assets/image/qozon.png" alt="qozon" /></span>
+            <span><img src="@/assets/image/qozon.png" alt="qozon" /></span> -->
           </span>
+          
           <div>
             <img src="@/assets/image/qozon.png" alt="qozon" />
           </div>
         </div>
-
         <div class="pro-price">
           <div class="price-info">
             <h3>Кастрюля «Гранит» 4л</h3>
@@ -63,9 +68,10 @@
         <div class="tab-content">
           <!-- description default none-->
           <p id="content-desc" class="content-desc content-none">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia
+            <!-- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia
             assumenda ipsum quam autem commodi suscipit cum, veniam natus
-            numquam nobis!
+            numquam nobis! -->
+          <span>{{product}}</span>
           </p>
           <!-- izoh -->
           <p id="content-note" class="content-note">
@@ -224,17 +230,33 @@
                 </div>
             </div>
         </section>
-        
     </main>
   </div>
 </template>
-
 <script>
 export default {
   data() {
-    return {};
+    return {
+        product: "",
+    };
   },
-  mounted() {
+  
+ async mounted() {
+       let response = await this.$axios.$get(`/product/` + this.$route.params.id);
+       this.product = response.descriptionUz; 
+        console.log(response);
+
+      //  .then(response => {
+      //    this.product = response.descriptionUz
+      //    console.log(response.descriptionUz);
+      //    })
+      //   .catch((error) => {
+      //     console.log(error);
+      //   })
+       
+     
+     
+
     // ============ Tab content ================
 
     const note = document.getElementById("note");
@@ -279,7 +301,7 @@ export default {
       border2.classList.remove("border");
       border3.classList.add("border");
     });
-  }
+   }
 
 };
 </script>
