@@ -71,7 +71,7 @@
             <!-- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia
             assumenda ipsum quam autem commodi suscipit cum, veniam natus
             numquam nobis! -->
-          <span>{{product}}</span>
+          <span v-if="product != null">{{product}}</span>
           </p>
           <!-- izoh -->
           <p id="content-note" class="content-note">
@@ -244,7 +244,7 @@ export default {
  async mounted() {
        let response = await this.$axios.$get(`/product/` + this.$route.params.id);
        this.product = response.descriptionUz; 
-        console.log(response);
+        console.log(this.product);
 
       //  .then(response => {
       //    this.product = response.descriptionUz
