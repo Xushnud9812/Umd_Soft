@@ -25,5 +25,22 @@
     export default {
 
     }
-
 </script>
+
+<style lang="scss">
+    .navbar{
+        height: 90px;
+        background: #F6F6F6;
+        .nav{
+            button{
+                width: 145px;
+                height: 47px;
+                background: #1e6bdd;
+                color: #fff;
+            }
+            li a{
+                color: #000000;
+            }
+        }
+    }
+</style>
