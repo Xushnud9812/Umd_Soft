@@ -5,13 +5,13 @@
                 <div class="row top">
                     <div class="col-md-6 left">
                         <h1>
-                            Дизайнерские <br />
-                            услуги
+                            Заказать <br />
+                            приложения
                         </h1>
                         <button class="btn ">Заказат проект</button>
                     </div>
                     <div class="col-md-6 right">
-                        <img src="@/assets/img/Group.png" alt="" />
+                        <img src="@/assets/img/mobileimg.png" alt="" />
                     </div>
                 </div>
             </div>
@@ -23,8 +23,8 @@
                     <div class="col-3 boxs">
                         <u-animate
                             name="fadeIn"
-                            delay="0.5s"
-                            duration="2s"
+                            delay="0s"
+                            duration="1s"
                             :iteration="1"
                             :offset="0"
                             animateClass="animate__animated animate__fadeInUp"
@@ -42,8 +42,8 @@
                     <div class="col-3 boxs">
                         <u-animate
                             name="fadeIn"
-                            delay="0.7s"
-                            duration="2s"
+                            delay="0.2s"
+                            duration="1s"
                             :iteration="1"
                             :offset="0"
                             animateClass="animate__animated animate__fadeInUp"
@@ -62,8 +62,8 @@
                     <div class="col-3 boxs">
                         <u-animate
                             name="fadeIn"
-                            delay="1s"
-                            duration="2s"
+                            delay="0.4s"
+                            duration="1s"
                             :iteration="1"
                             :offset="0"
                             animateClass="animate__animated animate__fadeInUp"
@@ -79,8 +79,8 @@
                     <div class="col-3 boxs">
                         <u-animate
                             name="fadeIn"
-                            delay="1.3s"
-                            duration="2s"
+                            delay="0.6s"
+                            duration="1s"
                             :iteration="1"
                             :offset="0"
                             animateClass="animate__animated animate__fadeInUp"
@@ -104,21 +104,21 @@
             <div class="container">
                 <u-animate
                     name="fadeIn"
-                    delay="1s"
-                    duration="2s"
+                    delay="0s"
+                    duration="1s"
                     :iteration="1"
                     :offset="0"
                     animateClass="animate__animated animate__fadeInUp"
                     :begin="false"
                 >
-                    <h1>Наши этапы проектирования</h1>
+                    <h1>Как мы развиваем сайт?</h1>
                 </u-animate>
                 <div class="row">
                     <div class="col-md-5 etap">
                         <u-animate
                             name="fadeIn"
-                            delay="0.5s"
-                            duration="2s"
+                            delay="0s"
+                            duration="1s"
                             :iteration="1"
                             :offset="0"
                             animateClass="animate__animated animate__fadeInUp"
@@ -126,18 +126,17 @@
                         >
                             <div class="col-12">
                                 <span>01 </span>
-                                <h3>Сначала мы определяем проблему</h3>
+                                <h3>Создаем карту сайта</h3>
                             </div>
                             <div class="col-12">
                                 <span>03 </span>
                                 <h3>
-                                    Намечаем шаги, которые предпримет
-                                    пользователь для достижения своей цели!
+                                    Создаем уникальный дизайн
                                 </h3>
                             </div>
                             <div class="col-12">
                                 <span>05 </span>
-                                <h3>Адаптируем ко всем устройствам</h3>
+                                <h3>Разрабатываем программное обеспечение</h3>
                             </div>
                         </u-animate>
                     </div>
@@ -191,15 +190,15 @@
                         >
                             <div class="col-12">
                                 <span>02 </span>
-                                <h3>Смотрим на похожие продукты</h3>
+                                <h3>Готовим технический документ</h3>
                             </div>
                             <div class="col-12">
                                 <span>04 </span>
-                                <h3>Создаем уникальный дизайн</h3>
+                                <h3>Адаптируем ко всем устройствам</h3>
                             </div>
                             <div class="col-12">
                                 <span>06 </span>
-                                <h3>Подготовиться к программированию</h3>
+                                <h3>Предварительное тестирование</h3>
                             </div>
                         </u-animate>
                     </div>
@@ -213,7 +212,7 @@
                     <u-animate
                         name="fadeIn"
                         delay="0s"
-                        duration="2s"
+                        duration="1s"
                         :iteration="1"
                         :offset="0"
                         animateClass="animate__animated animate__fadeInUp"
@@ -225,7 +224,7 @@
                     <u-animate
                         name="fadeIn"
                         delay="0s"
-                        duration="2s"
+                        duration="1s"
                         :iteration="1"
                         :offset="0"
                         animateClass="animate__animated animate__fadeInUp"
@@ -247,7 +246,7 @@
                                                 item-text="text"
                                                 return-object
                                                 @change="changeSelect"
-                                                label="Мобильный дизайн"
+                                                label="Ландинг"
                                                 solo
                                             ></v-select>
                                             <!-- <p>{{ valueSelect }}</p> -->
@@ -576,7 +575,7 @@
                         <u-animate
                             name="fadeIn"
                             delay="0s"
-                            duration="2s"
+                            duration="1s"
                             :iteration="1"
                             :offset="0"
                             animateClass="animate__animated animate__fadeInUp"
@@ -593,69 +592,60 @@
                         <div class="lan">
                             <u-animate
                                 name="fadeIn"
-                                delay="0.5s"
-                                duration="2s"
+                                delay="0s"
+                                duration="1s"
                                 :iteration="1"
                                 :offset="0"
                                 animateClass="animate__animated animate__fadeInUp"
                                 :begin="false"
                             >
                                 <div class="card">
-                                    <img src="@/assets/img/figma.png" alt="" />
-                                    <p>Figma</p>
+                                    <img src="@/assets/img/node.png" alt="" />
+                                    <p>NodeJS</p>
                                 </div>
                             </u-animate>
                             <u-animate
                                 name="fadeIn"
-                                delay="0.8s"
-                                duration="2s"
+                                delay="0.2s"
+                                duration="1s"
                                 :iteration="1"
                                 :offset="0"
                                 animateClass="animate__animated animate__fadeInUp"
                                 :begin="false"
                             >
                                 <div class="card">
-                                    <img
-                                        src="@/assets/img/illustrator.png"
-                                        alt=""
-                                    />
-                                    <p>Illustrator</p>
+                                    <img src="@/assets/img/Vue.png" alt="" />
+                                    <p>Vue</p>
                                 </div>
                             </u-animate>
 
                             <u-animate
                                 name="fadeIn"
-                                delay="1.1s"
-                                duration="2s"
+                                delay="0.4s"
+                                duration="1s"
                                 :iteration="1"
                                 :offset="0"
                                 animateClass="animate__animated animate__fadeInUp"
                                 :begin="false"
                             >
                                 <div class="card">
-                                    <img
-                                        src="@/assets/img/photoshop.png"
-                                        alt=""
-                                    />
-                                    <p>Photoshop</p>
+                                    <img src="@/assets/img/Python.png" alt="" />
+                                    <p>Python</p>
                                 </div>
                             </u-animate>
 
                             <u-animate
                                 name="fadeIn"
-                                delay="1.4s"
-                                duration="2s"
+                                delay="0.6s"
+                                duration="1s"
                                 :iteration="1"
                                 :offset="0"
                                 animateClass="animate__animated animate__fadeInUp"
                                 :begin="false"
                             >
                                 <div class="card">
-                                    <img
-                                        src="@/assets/img/adobe-x.png"
-                                        alt=""
-                                    />
-                                    <p>Xd</p>
+                                    <img src="@/assets/img/React.png" alt="" />
+                                    <p>React</p>
                                 </div>
                             </u-animate>
                         </div>
@@ -663,7 +653,62 @@
                         <div></div>
                     </div>
                 </div>
+
+                <div class="row"></div>
             </div>
+        </u-animate-container>
+
+        <u-animate-container>
+            <u-animate
+                name="fadeIn"
+                delay="0s"
+                duration="1s"
+                :iteration="1"
+                :offset="0"
+                animateClass="animate__animated animate__fadeInUp"
+                :begin="false"
+            >
+                <div class="container">
+                    <div class="oplata">
+                        <div class="row">
+                            <h1>Интеграция платежних системы</h1>
+                            <div class="col-2">
+                                <div class="op-box">
+                                    <img src="@/assets/img/Click.png" alt="" />
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="op-box">
+                                    <img src="@/assets/img/payme.png" alt="" />
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="op-box">
+                                    <img src="@/assets/img/stripe.png" alt="" />
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="op-box">
+                                    <img src="@/assets/img/oson.png" alt="" />
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="op-box">
+                                    <img
+                                        src="@/assets/img/apelsin.png"
+                                        alt=""
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="op-box">
+                                    <img src="@/assets/img/visa.png" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </u-animate>
         </u-animate-container>
 
         <u-animate-container>
@@ -1055,10 +1100,6 @@ export default {
     }
 }
 .right {
-    img {
-        width: 100%;
-        margin-top: 60px;
-    }
 }
 .down {
     margin-top: 30px;
@@ -1290,6 +1331,24 @@ export default {
 .child {
     margin: -20px 0 0 28px;
 }
+
+.op-box {
+    cursor: pointer;
+    background: #f6f6f6;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 30px 10px;
+    // margin-left: 20px;
+    margin: 20px 0 30px 20px;
+    width: 169px;
+    height: 139px;
+    display: flex;
+    align-items: center;
+    img {
+        width: 144px;
+    }
+}
+
 .tik {
     display: flex;
     width: 20px;
@@ -1300,15 +1359,13 @@ export default {
 }
 .circle.active,
 .line.active {
-    background: #1E6BDD;
-
+    background: blue;
 }
 .circle {
     width: 22px;
     height: 22px;
     border-radius: 50%;
     background: #e8eaf2;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
 }
 .line {
     width: 6px;

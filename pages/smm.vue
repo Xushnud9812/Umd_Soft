@@ -5,13 +5,13 @@
                 <div class="row top">
                     <div class="col-md-6 left">
                         <h1>
-                            Дизайнерские <br />
-                            услуги
+                            Заказать <br />
+                            СММ услуги
                         </h1>
                         <button class="btn ">Заказат проект</button>
                     </div>
                     <div class="col-md-6 right">
-                        <img src="@/assets/img/Group.png" alt="" />
+                        <img src="@/assets/img/smmimg.png" alt="" />
                     </div>
                 </div>
             </div>
@@ -31,10 +31,11 @@
                             :begin="false"
                         >
                             <div class="box ">
-                                <img src="@/assets/img/Group (1).png" alt="" />
-                                <h2>Landing page</h2>
+                                <img src="@/assets/img/smmbox1.png" alt="" />
+                                <h2>Таргеттинг</h2>
                                 <p>
-                                    Получиили бесценный опыт идоверие клиентов
+                                    Привлекайте больше  покупателей, тратя
+                                    меньше денег
                                 </p>
                             </div>
                         </u-animate>
@@ -50,11 +51,11 @@
                             :begin="false"
                         >
                             <div class="box down">
-                                <img src="@/assets/img/Group (2).png" alt="" />
-                                <h2>Интернет магазин</h2>
+                                <img src="@/assets/img/smmbox2.png" alt="" />
+                                <h2>Копирайтинг</h2>
                                 <p>
-                                    Экономим на времени,но не экономим на
-                                    качестве
+                                    Общаться с аудиторией с  помощью
+                                    эффективного текста
                                 </p>
                             </div>
                         </u-animate>
@@ -70,8 +71,8 @@
                             :begin="false"
                         >
                             <div class="box">
-                                <img src="@/assets/img/Group (3).png" alt="" />
-                                <h2>Многостраничные сайты</h2>
+                                <img src="@/assets/img/smmbox3.png" alt="" />
+                                <h2>Команда СММ</h2>
                                 <p>Наша цель-сделать Ваш бизнес эффективне</p>
                             </div>
                         </u-animate>
@@ -87,11 +88,11 @@
                             :begin="false"
                         >
                             <div class="box down">
-                                <img src="@/assets/img/Group (4).png" alt="" />
-                                <h2>Мобильный дизайн</h2>
+                                <img src="@/assets/img/smmbox4.png" alt="" />
+                                <h2>Пост в социальных сетях</h2>
                                 <p>
-                                    Найдем наилучшее решение для каждой задачи и
-                                    каждого человека
+                                    Найдем наилучшее решение для каждой задачи и
+                                    каждого человека
                                 </p>
                             </div>
                         </u-animate>
@@ -111,7 +112,7 @@
                     animateClass="animate__animated animate__fadeInUp"
                     :begin="false"
                 >
-                    <h1>Наши этапы проектирования</h1>
+                    <h1>Как мы работаем?</h1>
                 </u-animate>
                 <div class="row">
                     <div class="col-md-5 etap">
@@ -126,18 +127,17 @@
                         >
                             <div class="col-12">
                                 <span>01 </span>
-                                <h3>Сначала мы определяем проблему</h3>
+                                <h3>Бизнес изучается</h3>
                             </div>
                             <div class="col-12">
                                 <span>03 </span>
                                 <h3>
-                                    Намечаем шаги, которые предпримет
-                                    пользователь для достижения своей цели!
+                                    Контент планируется
                                 </h3>
                             </div>
                             <div class="col-12">
                                 <span>05 </span>
-                                <h3>Адаптируем ко всем устройствам</h3>
+                                <h3>Представлено владельцу бренда</h3>
                             </div>
                         </u-animate>
                     </div>
@@ -191,15 +191,17 @@
                         >
                             <div class="col-12">
                                 <span>02 </span>
-                                <h3>Смотрим на похожие продукты</h3>
+                                <h3>Стратегия сделана</h3>
                             </div>
                             <div class="col-12">
                                 <span>04 </span>
-                                <h3>Создаем уникальный дизайн</h3>
+                                <h3>
+                                    PR, Tergetting, Создана рекламная концепция
+                                </h3>
                             </div>
                             <div class="col-12">
                                 <span>06 </span>
-                                <h3>Подготовиться к программированию</h3>
+                                <h3>Сделано</h3>
                             </div>
                         </u-animate>
                     </div>
@@ -582,7 +584,7 @@
                             animateClass="animate__animated animate__fadeInUp"
                             :begin="false"
                         >
-                            <h1>Наши Cтеки</h1>
+                            <h1>Мы работаем</h1>
                             <div class="pag">
                                 <img src="@/assets/img/Arrow 1.png" alt="" />
                                 <img src="@/assets/img/Arrow 2.png" alt="" />
@@ -601,8 +603,8 @@
                                 :begin="false"
                             >
                                 <div class="card">
-                                    <img src="@/assets/img/figma.png" alt="" />
-                                    <p>Figma</p>
+                                    <img src="@/assets/img/insta.png" alt="" />
+                                    <p>Instagram</p>
                                 </div>
                             </u-animate>
                             <u-animate
@@ -616,10 +618,10 @@
                             >
                                 <div class="card">
                                     <img
-                                        src="@/assets/img/illustrator.png"
+                                        src="@/assets/img/telegram.png"
                                         alt=""
                                     />
-                                    <p>Illustrator</p>
+                                    <p>Telegram</p>
                                 </div>
                             </u-animate>
 
@@ -634,10 +636,10 @@
                             >
                                 <div class="card">
                                     <img
-                                        src="@/assets/img/photoshop.png"
+                                        src="@/assets/img/facebook.png"
                                         alt=""
                                     />
-                                    <p>Photoshop</p>
+                                    <p>Facebook</p>
                                 </div>
                             </u-animate>
 
@@ -651,11 +653,8 @@
                                 :begin="false"
                             >
                                 <div class="card">
-                                    <img
-                                        src="@/assets/img/adobe-x.png"
-                                        alt=""
-                                    />
-                                    <p>Xd</p>
+                                    <img src="@/assets/img/tiktok.png" alt="" />
+                                    <p>Tik tok</p>
                                 </div>
                             </u-animate>
                         </div>
@@ -1290,6 +1289,7 @@ export default {
 .child {
     margin: -20px 0 0 28px;
 }
+
 .tik {
     display: flex;
     width: 20px;
@@ -1300,15 +1300,13 @@ export default {
 }
 .circle.active,
 .line.active {
-    background: #1E6BDD;
-
+    background: blue;
 }
 .circle {
     width: 22px;
     height: 22px;
     border-radius: 50%;
     background: #e8eaf2;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
 }
 .line {
     width: 6px;

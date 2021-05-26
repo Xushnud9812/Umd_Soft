@@ -17,80 +17,47 @@
             asperiores exercitationem quasi eos ratione rerum dolores!
         </p>
 
-        <div class="wrap">
-            <div id="app ">
-            <v-app id="inspire wrap1">
-                <v-stepper v-model="e1">
-                    <v-stepper-items>
-                        <v-stepper-content step="1">
-                             <p>Название организации</p>
-                            <v-text-field
-                                label=""
-                                placeholder="Пример : UMDSOFT "
-                            ></v-text-field>
-
-                            <v-btn color="primary" @click="e1 = 2">
-                                Enter
-                            </v-btn>
-                        </v-stepper-content>
-
-                        <v-stepper-content step="2">
-                            <p>Ф.И.О</p>
-                            <v-text-field
-                                label=""
-                                placeholder="Пример : Насимов Мироншох "
-                            ></v-text-field>
-
-                            <v-btn color="primary" @click="e1 = 3">
-                                Continue 2
-                            </v-btn>
-                        </v-stepper-content>
-
-                        <v-stepper-content step="3">
-                            <p>Номер телефона</p>
-                            <v-text-field
-                                label=""
-                                value="+998"
-                                
-                            ></v-text-field>
-
-                            <v-btn color="primary" @click="e1 = 4">
-                                Continue 3
-                            </v-btn>
-                        </v-stepper-content>
-                        <v-stepper-content step="4">
-                            <p>Удобное время звонка</p>
-                            <v-text-field
-                                label=""
-                                placeholder="-- : --"
-                            ></v-text-field>
-
-                            <v-btn color="primary" @click="e1 = 1">
-                                Enter 4
-                            </v-btn>
-                        </v-stepper-content>
-                    </v-stepper-items>
-                    <v-stepper-header>
-                        <v-stepper-step :complete="e1 > 1" step="1">
-                        </v-stepper-step>
-
-                        <v-divider></v-divider>
-
-                        <v-stepper-step :complete="e1 > 2" step="2">
-                        </v-stepper-step>
-
-                        <v-divider></v-divider>
-
-                        <v-stepper-step :complete="e1 > 3" step="3">
-                        </v-stepper-step>
-
-                        <v-divider></v-divider>
-                        <v-stepper-step :complete="e1 > 4" step="4">
-                        </v-stepper-step>
-                    </v-stepper-header>
-                </v-stepper>
-            </v-app>
-        </div>
+        <div class="row">
+            <div class="col-5">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Aperiam unde expedita velit debitis ab laborum veniam itaque
+                    quo omnis possimus error eveniet praesentium maxime,
+                    laudantium modi ut temporibus aliquid ullam!
+                </p>
+            </div>
+            <div class="col-2">
+                <div class="tik">
+                    <div class="circle active"></div>
+                    <div class="line active"></div>
+                </div>
+                <div class="tik">
+                    <div class="circle"></div>
+                    <div class="line"></div>
+                </div>
+                <div class="tik">
+                    <div class="circle"></div>
+                    <div class="line"></div>
+                </div>
+                <div class="tik">
+                    <div class="circle"></div>
+                    <div class="line"></div>
+                </div>
+                <div class="tik">
+                    <div class="circle"></div>
+                    <div class="line"></div>
+                </div>
+                <div class="tik">
+                    <div class="circle"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+            <div class="col-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+                eligendi voluptates repudiandae at eaque laudantium, voluptatum
+                maiores quae hic delectus asperiores commodi ipsam consequatur
+                quia fuga ad? Deserunt, nesciunt quam!
+            </div>
         </div>
 
         <u-animate-container>
@@ -128,13 +95,28 @@ export default {
 };
 </script>
 
-<style lang="scss" >
-    .wrap{
-        padding: 0px;
-        width: 600px;
-        margin: 20px auto;
-    }
-   #app{
-       padding: 50px;
-   }
+<style lang="scss">
+.tik{
+        display: flex;
+    width: 20px;
+    /* background: silver; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.circle.active, .line.active{
+    background: blue;
+}
+.circle{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #E8EAF2;
+}
+.line{
+    width: 6px;
+    background: #E8EAF2;
+
+    height: 110px;
+}
 </style>
