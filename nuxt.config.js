@@ -59,7 +59,6 @@ export default {
 
         "@nuxtjs/vuetify",
 
-        ["@nuxtjs/vuetify", {}]
     ],
     styleResources: {
         scss: ["@assets/scss/*.scss"]
@@ -71,6 +70,5 @@ export default {
     // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {
         transpile: ["vue-slick"],
-        vendor: ["wowjs"]
     }
 };
