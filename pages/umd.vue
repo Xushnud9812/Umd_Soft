@@ -819,7 +819,6 @@
 </template>
 
 <script>
-import Footera from "../components/footera.vue";
 
 export default {
     data() {
