@@ -61,8 +61,8 @@
                 width: 40px;
                 height: 40px;
                 border-radius: 20px;
-                background: #FFFFFF;
                 text-align: center;
+                background: #FFFFFF;
                 align-items: center;
                 display: flex;
                 justify-content: center;
