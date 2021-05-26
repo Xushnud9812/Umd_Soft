@@ -64,7 +64,7 @@
                 <div class="col-3 cardlar">
                     <div class="card">
                         <h3>Опыт</h3>
-                        <p>Получиили бесценный опыт и <br> и доверие клиентов</p>
+                        <p>Получиили бесценный опыт и <br> и доверие клиентов</p>
                         <h1>01</h1>
                         <div class="lorem"></div>
                     </div>
@@ -72,7 +72,7 @@
                 <div class="col-3 cardlar">
                     <div class="card">
                         <h3>Скорость</h3>
-                        <p>Экономим на времени,но не экономим на качестве</p>
+                        <p>Экономим на времени,но не экономим на качестве</p>
                         <h1>02</h1>
                         <div class="lorem"></div>
                     </div>
@@ -80,7 +80,7 @@
                 <div class="col-3 cardlar">
                     <div class="card">
                         <h3>Результат</h3>
-                        <p>Наша цель-сделать Ваш <br> бизнес эффективне</p>
+                        <p>Наша цель-сделать Ваш <br> бизнес эффективне</p>
                         <h1>03</h1>
                         <div class="lorem"></div>
                     </div>
@@ -88,7 +88,7 @@
                 <div class="col-3 cardlar">
                     <div class="card">
                         <h3 class="mt-2">Индивидиульный подход</h3>
-                        <p class="mt-0">Найдем наилучшее решение для каждой задачи и каждого <br> человека</p>
+                        <p class="mt-0">Найдем наилучшее решение для каждой задачи и каждого <br> человека</p>
                         <h1 class="mt-0">04</h1>
                         <div class="lorem"></div>
                     </div>
@@ -137,7 +137,7 @@
                         <div class="col-3 razrabotka">
                             <div class="card">
                                 <img src="@/assets/img/logo3.png" alt="">
-                                <p>Разработка моб. приложений</p>
+                                <p>Разработка моб. приложений</p>
                             </div>
                         </div>
                     </div>

@@ -951,7 +951,6 @@
 </template>
 
 <script>
-import Footera from "../components/footera.vue";
 
 export default {
     data() {
@@ -1186,8 +1185,7 @@ export default {
         color: #ffffff;
     }
 }
-.right {
-}
+
 .down {
     margin-top: 30px;
 }

@@ -61,6 +61,7 @@
         </div>
 
         <u-animate-container>
+            
             <u-animate
                 name="fadeIn"
                 delay="0s"
