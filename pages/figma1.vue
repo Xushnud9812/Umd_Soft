@@ -1,309 +1,436 @@
 <template>
     <div>
         <u-animate-container>
-            <div class="kompyuter">
-                <div class="container mb-0">
-                    <div class="row">
-                        <div class="col-12">
-                            <u-animate
-                                name="fadeIn"
-                                delay="0.7s"
-                                duration="2s"
-                                :iteration="1"
-                                :offset="0"
-                                animateClass="animate__animated animate__fadeInUp"
-                                :begin="false"
-                            >
-
-                            </u-animate>
-                            <div class="card bg-transparent border-0">
-                                <img class="mb-0" src="@/assets/img/card7.png" alt="">
+            <u-animate
+                name="fadeIn"
+                delay="0.5s"
+                duration="2s"
+                :iteration="1"
+                :offset="0"
+                animateClass="animate__animated animate__fadeInUp"
+                :begin="false"
+            >
+                <div class="kompyuter">
+                    <div class="container mb-0">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card bg-transparent border-0">
+                                    <img class="mb-0" src="@/assets/img/card7.png" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </u-animate>
+
         </u-animate-container>
 
+        <u-animate-container>
+            <u-animate
+                name="fadeIn"
+                delay="0.5s"
+                duration="2s"
+                :iteration="1"
+                :offset="0"
+                animateClass="animate__animated animate__fadeInUp"
+                :begin="false"
+            >
+                <div class="bacrount">
+                    <div class="container top">
+                        <div class="row">
+                            <div class="col-md-6 Нас">
+                                <h1>О нас</h1>
+                                <p>Качественный сайт – это основа продвижения Вашего бизнеса в <br> интернете. Он создаёт имидж
+                                    компании
+                                    и увеличивает Ваши продажи <br> 24/7. Мы сделаем для Вас рабочий инструмент, который
+                                    значительно
+                                    <br>
+                                    поможет в развитии бизнеса. <br>
+                                    Качественный сайт – это основа продвижения Вашего бизнеса в <br> интернете. Он создаёт имидж
+                                    компании
+                                    и увеличивает Ваши продажи <br> 24/7. Мы сделаем для Вас рабочий инструмент, который
+                                    значительно
+                                    <br>
+                                    поможет в развитии бизнеса.</p>
 
-        <div class="bacrount">
-            <div class="container top">
-                <div class="row">
-                    <div class="col-md-6 Нас">
-                        <h1>О нас</h1>
-                        <p>Качественный сайт – это основа продвижения Вашего бизнеса в <br> интернете. Он создаёт имидж
-                            компании
-                            и увеличивает Ваши продажи <br> 24/7. Мы сделаем для Вас рабочий инструмент, который
-                            значительно
-                            <br>
-                            поможет в развитии бизнеса. <br>
-                            Качественный сайт – это основа продвижения Вашего бизнеса в <br> интернете. Он создаёт имидж
-                            компании
-                            и увеличивает Ваши продажи <br> 24/7. Мы сделаем для Вас рабочий инструмент, который
-                            значительно
-                            <br>
-                            поможет в развитии бизнеса.</p>
-
-                        <h5>Подробнее</h5>
-                        <img src="@/assets/img/logo1.png" alt="">
-                    </div>
-                    <div class="col-md-6">
-                        <div class="rectangle">
-                            <div class="line"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container cards">
-            <div class="row">
-                <div class="col-12">
-                    <h1>Наши преимущества</h1>
-                </div>
-                <div class="col-3 cardlar">
-                    <div class="card">
-                        <h3>Опыт</h3>
-                        <p>Получиили бесценный опыт и <br> и доверие клиентов</p>
-                        <h1>01</h1>
-                        <div class="lorem"></div>
-                    </div>
-                </div>
-                <div class="col-3 cardlar">
-                    <div class="card">
-                        <h3>Скорость</h3>
-                        <p>Экономим на времени,но не экономим на качестве</p>
-                        <h1>02</h1>
-                        <div class="lorem"></div>
-                    </div>
-                </div>
-                <div class="col-3 cardlar">
-                    <div class="card">
-                        <h3>Результат</h3>
-                        <p>Наша цель-сделать Ваш <br> бизнес эффективне</p>
-                        <h1>03</h1>
-                        <div class="lorem"></div>
-                    </div>
-                </div>
-                <div class="col-3 cardlar">
-                    <div class="card">
-                        <h3 class="mt-2">Индивидиульный подход</h3>
-                        <p class="mt-0">Найдем наилучшее решение для каждой задачи и каждого <br> человека</p>
-                        <h1 class="mt-0">04</h1>
-                        <div class="lorem"></div>
-                    </div>
-                </div>
-
-                <div class="d-flex">
-                    <div class="col-6 usluga">
-                        <h1>Наши услуги</h1>
-                        <h3>Разработка сайтов в Ташкенте</h3>
-                        <p>Качественный сайт – это основа продвижения Вашего <br> бизнеса в интернете. Он создаёт имидж
-                            компании
-                            и <br> увеличивает Ваши продажи <b>24/7.</b> Мы сделаем для Вас <br> рабочий инструмент,
-                            который значительно
-                            поможет в <br> развитии бизнеса.</p>
-                        <div class="Заказат">
-                            <button type="button" class="btn">Заказат проект</button>
-                            <div class="strelka">
                                 <h5>Подробнее</h5>
                                 <img src="@/assets/img/logo1.png" alt="">
                             </div>
+                            <div class="col-md-6">
+                                <div class="rectangle">
+                                    <div class="line"></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="hover">
-                        <div class="col-3 razrabotka">
+                </div>
+            </u-animate>
+        </u-animate-container>
+
+        <u-animate-container>
+            <u-animate
+                name="fadeIn"
+                delay="0.5s"
+                duration="2s"
+                :iteration="1"
+                :offset="0"
+                animateClass="animate__animated animate__fadeInUp"
+                :begin="false"
+            >
+                <div class="container cards">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1>Наши преимущества</h1>
+                        </div>
+                        <div class="col-3 cardlar">
                             <div class="card">
-                                <img src="@/assets/img/logo2.png" alt="">
-                                <p>Разработка сайтов</p>
-
+                                <h3>Опыт</h3>
+                                <p>Получиили бесценный опыт и <br> и доверие клиентов</p>
+                                <h1>01</h1>
+                                <div class="lorem"></div>
                             </div>
                         </div>
-                        <div class="col-3 razrabotka">
+                        <div class="col-3 cardlar">
                             <div class="card">
-                                <img src="@/assets/img/logo3.png" alt="">
-                                <p>Продвижение в социальных сетях</p>
+                                <h3>Скорость</h3>
+                                <p>Экономим на времени,но не экономим на качестве</p>
+                                <h1>02</h1>
+                                <div class="lorem"></div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="hover1">
-                        <div class="col-3 razrabotka">
+                        <div class="col-3 cardlar">
                             <div class="card">
-                                <img src="@/assets/img/logo3.png" alt="">
-                                <p>Веб дизайн</p>
+                                <h3>Результат</h3>
+                                <p>Наша цель-сделать Ваш <br> бизнес эффективне</p>
+                                <h1>03</h1>
+                                <div class="lorem"></div>
                             </div>
                         </div>
-                        <div class="col-3 razrabotka">
+                        <div class="col-3 cardlar">
                             <div class="card">
-                                <img src="@/assets/img/logo3.png" alt="">
-                                <p>Разработка моб. приложений</p>
+                                <h3 class="mt-2">Индивидиульный подход</h3>
+                                <p class="mt-0">Найдем наилучшее решение для каждой задачи и каждого <br> человека</p>
+                                <h1 class="mt-0">04</h1>
+                                <div class="lorem"></div>
                             </div>
                         </div>
-                    </div>
 
-                </div>
-
-            </div>
-        </div>
-
-        <div class="Наши">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h1>Наши резултаты</h1>
-                    </div>
-                    <div class="col-3 number">
-                        <h2>15&#x2b;</h2>
-                        <h5>Компетентных специалистов</h5>
-                        <div class="line2"></div>
-                    </div>
-                    <div class="col-3 number">
-                        <h2>50&#x2b;</h2>
-                        <h5>Довольные клиенты</h5>
-                        <div class="line2"></div>
-                    </div>
-                    <div class="col-3 number">
-                        <h2>75&#x25;</h2>
-                        <h5>Успешных проектов</h5>
-                        <div class="line2 mt-2"></div>
-                    </div>
-                    <div class="col-3 number">
-                        <h2>100&#x25;</h2>
-                        <h5>Успешных проектов</h5>
-                        <div class="line2 mt-2"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container imags">
-            <div class="row">
-                <div class="col-12">
-                    <h1>Наши работы</h1>
-                </div>
-                <ul class="nav d-flex justify-content-between">
-                    <li class="nav-item"><a href="#" class="nav-link">Все проекты</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Landing page</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Сайты визитки</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Корпоративные сайты </a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Интернет магазини</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Каталог сайты</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Мобильные приложения
-                    </a></li>
-                </ul>
-                <div class="box-afrika">
-                    <div class=" afrika">
-                        <img src="@/assets/img/card1.png" alt="">
-                    </div>
-                    <div class=" afrika">
-                        <img src="@/assets/img/card2.png" alt="">
-                    </div>
-                    <div class=" afrika">
-                        <img src="@/assets/img/card3.png" alt="">
-                    </div>
-                </div>
-                <div class="box-afrika mt-0">
-                    <div class=" afrika">
-                        <img src="@/assets/img/card4.png" alt="">
-                    </div>
-                    <div class=" afrika">
-                        <img src="@/assets/img/card1.png" alt="">
-                    </div>
-                    <div class=" afrika">
-                        <img src="@/assets/img/card5.png" alt="">
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-
-        <div class="clent">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="d-flex justify-content-between">
-                            <h1>Наши клиенты говорят </h1>
-                            <img src="@/assets/img/lodo5.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-6 axror">
-                        <div class="card">
-                            <h4>Невероятный опыт</h4>
-                            <p>Мне очень понравилась работа этой команды.
-                                Мастера своего дела <br> выполнили проект в короткие сроки, качественно, по доступной
-                                цене.
-                                <br>
-                                Рекомендую вам и буду работать с этой командой снова в будущем.
-                            </p>
-                        </div>
-                        <div class="d-flex deriktor">
-                            <div>
-                                <img src="@/assets/img/logo6.png" alt="">
+                        <div class="d-flex">
+                            <div class="col-6 usluga">
+                                <h1>Наши услуги</h1>
+                                <h3>Разработка сайтов в Ташкенте</h3>
+                                <p>Качественный сайт – это основа продвижения Вашего <br> бизнеса в интернете. Он создаёт имидж
+                                    компании
+                                    и <br> увеличивает Ваши продажи <b>24/7.</b> Мы сделаем для Вас <br> рабочий инструмент,
+                                    который значительно
+                                    поможет в <br> развитии бизнеса.</p>
+                                <div class="Заказат">
+                                    <button type="button" class="btn">Заказат проект</button>
+                                    <div class="strelka">
+                                        <h5>Подробнее</h5>
+                                        <img src="@/assets/img/logo1.png" alt="">
+                                    </div>
+                                </div>
                             </div>
-                            <div class="logo">
-                                <h4 class="mb-0">Максудов Ахрор</h4>
-                                <p>Директор, Tujjor</p>
+                            <div class="hover">
+                                <div class="col-3 razrabotka">
+                                    <div class="card">
+                                        <img src="@/assets/img/logo2.png" alt="">
+                                        <p>Разработка сайтов</p>
+
+                                    </div>
+                                </div>
+                                <div class="col-3 razrabotka">
+                                    <div class="card">
+                                        <img src="@/assets/img/logo3.png" alt="">
+                                        <p>Продвижение в социальных сетях</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="hover1">
+                                <div class="col-3 razrabotka">
+                                    <div class="card">
+                                        <img src="@/assets/img/logo3.png" alt="">
+                                        <p>Веб дизайн</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 razrabotka">
+                                    <div class="card">
+                                        <img src="@/assets/img/logo3.png" alt="">
+                                        <p>Разработка моб. приложений</p>
+                                    </div>
+                                </div>
                             </div>
 
                         </div>
-                        <div class="rectangle"></div>
-                    </div>
-                    <div class="col-6 axror">
-                        <div class="card">
-                            <h4>Невероятный опыт</h4>
-                            <p>Мне очень понравилась работа этой команды.
-                                Мастера своего дела <br> выполнили проект в короткие сроки, качественно, по доступной
-                                цене.
-                                <br>
-                                Рекомендую вам и буду работать с этой командой снова в будущем.
-                            </p>
-                        </div>
-                        <div class="d-flex deriktor">
-                            <div class="ms-4">
-                                <img src="@/assets/img/logo7.png" alt="">
-                            </div>
-                            <div class="logo">
-                                <h4 class="mb-0">Ибрахим Турдиев</h4>
-                                <p>CEO, CLOZZONE</p>
-                            </div>
 
-                        </div>
-                        <div class="rectangle"></div>
                     </div>
-                    <div class="rounttop">
-                        <div style="background: #1e6bdd" class="round"></div>
-                        <div class="round"></div>
-                        <div class="round"></div>
-                    </div>
-
                 </div>
-            </div>
-        </div>
+            </u-animate>
+        </u-animate-container>
 
-        <div class="navigator">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="col-6 ms-auto inputs">
-                            <div class="card">
-                                <h4>Cвяжитесь с нами</h4>
-                                <h5>Имя</h5>
-                                <input type="text" class="form-control" placeholder="Ваше имя">
-
-                                <h5>Номер</h5>
-                                <input type="number" class="form-control" placeholder="Ваш номер">
-
-                                <h5>Коментарий</h5>
-                                <textarea name="" id="" cols="30" rows="10" placeholder="Оставьте отзыв"></textarea>
-
-                                <button type="button" class="btn">Отправить сообщение</button>
+        <u-animate-container>
+            <u-animate
+                name="fadeIn"
+                delay="0.5s"
+                duration="2s"
+                :iteration="1"
+                :offset="0"
+                animateClass="animate__animated animate__fadeInUp"
+                :begin="false"
+            >
+                <div class="Наши">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <h1>Наши резултаты</h1>
+                            </div>
+                            <div class="col-3 number">
+                                <h2>15&#x2b;</h2>
+                                <h5>Компетентных специалистов</h5>
+                                <div class="line2"></div>
+                            </div>
+                            <div class="col-3 number">
+                                <h2>50&#x2b;</h2>
+                                <h5>Довольные клиенты</h5>
+                                <div class="line2"></div>
+                            </div>
+                            <div class="col-3 number">
+                                <h2>75&#x25;</h2>
+                                <h5>Успешных проектов</h5>
+                                <div class="line2 mt-2"></div>
+                            </div>
+                            <div class="col-3 number">
+                                <h2>100&#x25;</h2>
+                                <h5>Успешных проектов</h5>
+                                <div class="line2 mt-2"></div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </u-animate>
+        </u-animate-container>
+
+        <u-animate-container>
+            <u-animate
+                name="fadeIn"
+                delay="0.5s"
+                duration="2s"
+                :iteration="1"
+                :offset="0"
+                animateClass="animate__animated animate__fadeInUp"
+                :begin="false"
+            >
+                <div class="container imags">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1>Наши работы</h1>
+                        </div>
+                        <ul class="nav d-flex justify-content-between">
+                            <li class="nav-item"><a href="#" class="nav-link">Все проекты</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Landing page</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Сайты визитки</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Корпоративные сайты </a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Интернет магазини</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Каталог сайты</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Мобильные приложения
+                            </a></li>
+                        </ul>
+                        <div class="box-afrika">
+                            <div class=" afrika">
+                                <img src="@/assets/img/card1.png" alt="">
+                            </div>
+                            <div class=" afrika">
+                                <img src="@/assets/img/card2.png" alt="">
+                            </div>
+                            <div class=" afrika">
+                                <img src="@/assets/img/card3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="box-afrika mt-0">
+                            <div class=" afrika">
+                                <img src="@/assets/img/card4.png" alt="">
+                            </div>
+                            <div class=" afrika">
+                                <img src="@/assets/img/card1.png" alt="">
+                            </div>
+                            <div class=" afrika">
+                                <img src="@/assets/img/card5.png" alt="">
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </u-animate>
+        </u-animate-container>
+
+        <u-animate-container>
+            <u-animate
+                name="fadeIn"
+                delay="0.5s"
+                duration="2s"
+                :iteration="1"
+                :offset="0"
+                animateClass="animate__animated animate__fadeInUp"
+                :begin="false"
+            >
+                <div class="container imags">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1>Наши работы</h1>
+                        </div>
+                        <ul class="nav d-flex justify-content-between">
+                            <li class="nav-item"><a href="#" class="nav-link">Все проекты</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Landing page</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Сайты визитки</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Корпоративные сайты </a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Интернет магазини</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Каталог сайты</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Мобильные приложения
+                            </a></li>
+                        </ul>
+                        <div class="box-afrika">
+                            <div class=" afrika">
+                                <img src="@/assets/img/card1.png" alt="">
+                            </div>
+                            <div class=" afrika">
+                                <img src="@/assets/img/card2.png" alt="">
+                            </div>
+                            <div class=" afrika">
+                                <img src="@/assets/img/card3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="box-afrika mt-0">
+                            <div class=" afrika">
+                                <img src="@/assets/img/card4.png" alt="">
+                            </div>
+                            <div class=" afrika">
+                                <img src="@/assets/img/card1.png" alt="">
+                            </div>
+                            <div class=" afrika">
+                                <img src="@/assets/img/card5.png" alt="">
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </u-animate>
+        </u-animate-container>
+
+        <u-animate-container>
+            <u-animate
+                name="fadeIn"
+                delay="0.5s"
+                duration="2s"
+                :iteration="1"
+                :offset="0"
+                animateClass="animate__animated animate__fadeInUp"
+                :begin="false"
+            >
+                <div class="clent">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="d-flex justify-content-between">
+                                    <h1>Наши клиенты говорят </h1>
+                                    <img src="@/assets/img/lodo5.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-6 axror">
+                                <div class="card">
+                                    <h4>Невероятный опыт</h4>
+                                    <p>Мне очень понравилась работа этой команды.
+                                        Мастера своего дела <br> выполнили проект в короткие сроки, качественно, по доступной
+                                        цене.
+                                        <br>
+                                        Рекомендую вам и буду работать с этой командой снова в будущем.
+                                    </p>
+                                </div>
+                                <div class="d-flex deriktor">
+                                    <div>
+                                        <img src="@/assets/img/logo6.png" alt="">
+                                    </div>
+                                    <div class="logo">
+                                        <h4 class="mb-0">Максудов Ахрор</h4>
+                                        <p>Директор, Tujjor</p>
+                                    </div>
+
+                                </div>
+                                <div class="rectangle"></div>
+                            </div>
+                            <div class="col-6 axror">
+                                <div class="card">
+                                    <h4>Невероятный опыт</h4>
+                                    <p>Мне очень понравилась работа этой команды.
+                                        Мастера своего дела <br> выполнили проект в короткие сроки, качественно, по доступной
+                                        цене.
+                                        <br>
+                                        Рекомендую вам и буду работать с этой командой снова в будущем.
+                                    </p>
+                                </div>
+                                <div class="d-flex deriktor">
+                                    <div class="ms-4">
+                                        <img src="@/assets/img/logo7.png" alt="">
+                                    </div>
+                                    <div class="logo">
+                                        <h4 class="mb-0">Ибрахим Турдиев</h4>
+                                        <p>CEO, CLOZZONE</p>
+                                    </div>
+
+                                </div>
+                                <div class="rectangle"></div>
+                            </div>
+                            <div class="rounttop">
+                                <div style="background: #1e6bdd" class="round"></div>
+                                <div class="round"></div>
+                                <div class="round"></div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </u-animate>
+        </u-animate-container>
+
+        <u-animate-container>
+            <u-animate
+                name="fadeIn"
+                delay="0.5s"
+                duration="2s"
+                :iteration="1"
+                :offset="0"
+                animateClass="animate__animated animate__fadeInUp"
+                :begin="false"
+            >
+                <div class="navigator">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="col-6 ms-auto inputs">
+                                    <div class="card">
+                                        <h4>Cвяжитесь с нами</h4>
+                                        <h5>Имя</h5>
+                                        <input type="text" class="form-control" placeholder="Ваше имя">
+
+                                        <h5>Номер</h5>
+                                        <input type="number" class="form-control" placeholder="Ваш номер">
+
+                                        <h5>Коментарий</h5>
+                                        <textarea name="" id="" cols="30" rows="10" placeholder="Оставьте отзыв"></textarea>
+
+                                        <button type="button" class="btn">Отправить сообщение</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </u-animate>
+        </u-animate-container>
+
     </div>
 </template>
 
