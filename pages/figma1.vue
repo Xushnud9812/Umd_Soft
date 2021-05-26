@@ -1,16 +1,30 @@
 <template>
     <div>
-        <div class="kompyuter">
-            <div class="container mb-0">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="card bg-transparent border-0">
-                            <img class="mb-0" src="@/assets/img/card7.png" alt="">
+        <u-animate-container>
+            <div class="kompyuter">
+                <div class="container mb-0">
+                    <div class="row">
+                        <div class="col-12">
+                            <u-animate
+                                name="fadeIn"
+                                delay="0.7s"
+                                duration="2s"
+                                :iteration="1"
+                                :offset="0"
+                                animateClass="animate__animated animate__fadeInUp"
+                                :begin="false"
+                            >
+
+                            </u-animate>
+                            <div class="card bg-transparent border-0">
+                                <img class="mb-0" src="@/assets/img/card7.png" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </u-animate-container>
+
 
         <div class="bacrount">
             <div class="container top">
