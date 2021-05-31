@@ -203,18 +203,20 @@ export default {
 </script>
 
 <style lang="scss">
-.slick-dots li button:before {
-    font-family: "slick";
-    font-size: 6px;
-    line-height: 20px;
-    width: 10px;
-    height: 10px;
-    content: "";
-    text-align: center;
-    border-radius: 50%;
-    background: #1e6bdd;
-    border: 1px solid #1e6bdd;
-    box-sizing: border-box;
+.clent {
+    .slick-dots li button:before {
+        font-family: "slick";
+        font-size: 6px;
+        line-height: 20px;
+        width: 10px;
+        height: 10px;
+        content: "";
+        text-align: center;
+        border-radius: 50%;
+        background: #1e6bdd;
+        border: 1px solid #1e6bdd;
+        box-sizing: border-box;
+    }
 }
 .person {
     width: 100%;

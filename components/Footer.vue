@@ -53,7 +53,10 @@
                 <div class="col-3 umd">
                     <h4>Cоциальные сети</h4>
                     <div class="set">
-                        <a href="https://www.instagram.com/umdsoft" class="nav-li ">
+                        <a
+                            href="https://www.instagram.com/umdsoft"
+                            class="nav-li "
+                        >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="15"
@@ -82,7 +85,10 @@
                                     fill="#1E6BDD"
                                 /></svg
                         ></a>
-                        <a href="https://www.facebook.com/umdsoft" class="nav-li">
+                        <a
+                            href="https://www.facebook.com/umdsoft"
+                            class="nav-li"
+                        >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="8"
@@ -130,9 +136,11 @@ a.nav-li:hover {
         }
     }
 }
-svg {
-    path {
-        fill: #fff;
+.set {
+    svg {
+        path {
+            fill: #fff;
+        }
     }
 }
 .set {
@@ -142,10 +150,10 @@ svg {
     display: flex;
     justify-content: space-around;
 }
-a{
-    color: #D9DBE1;
+.umd a {
+    color: #d9dbe1;
 }
-a:hover {
+.umd a:hover {
     color: #fff !important;
 }
 .footer {
@@ -199,14 +207,14 @@ a:hover {
             margin-top: 24px;
             a {
                 font-size: 14px;
-line-height: 24px;
-/* identical to box height, or 171% */
+                line-height: 24px;
+                /* identical to box height, or 171% */
 
-font-feature-settings: 'liga' off;
+                font-feature-settings: "liga" off;
 
-/* Text / Gray 300 */
+                /* Text / Gray 300 */
 
-color: #8d8d95;
+                color: #8d8d95;
             }
         }
         h4 {

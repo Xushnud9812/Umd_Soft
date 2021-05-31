@@ -1363,10 +1363,7 @@ svg.go {
 .starbox {
     animation: star 10s linear infinite;
 }
-@keyframes star {
-    100% {
-    }
-}
+
 .img {
     width: 270px;
     margin: 0 auto;

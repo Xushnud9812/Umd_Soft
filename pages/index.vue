@@ -156,16 +156,13 @@
 </template>
 
 <script>
-import Coment from '../components/coment.vue';
+import Coment from "../components/coment.vue";
 import result from "../components/result.vue";
 import Team from "../components/team.vue";
 import wework from "../components/wework.vue";
 import karta from "../components/karta.vue";
 export default {
-    components: { wework,Team,result,Coment,karta },
-
-    
-        
+    components: { wework, Team, result, Coment, karta }
 };
 
 // data() {
@@ -182,7 +179,7 @@ export default {
 </script>
 
 <style lang="scss">
-*{
+* {
     scroll-behavior: smooth;
 }
 .wrap {
@@ -266,11 +263,9 @@ export default {
     }
 }
 
-
 .boxs {
     margin-bottom: 40px;
 }
-
 
 @media (min-width: 768px) and (max-width: 1200px) {
 }
