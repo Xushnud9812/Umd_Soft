@@ -3,7 +3,7 @@
         <u-animate-container>
             <div class="container ">
                 <div class="row sayt">
-                    <div class="col-6 chap">
+                    <div class="col-md-6 order-md-1 order-2 chap">
                         <u-animate
                             name="fadeIn"
                             delay="0s"
@@ -13,22 +13,25 @@
                             animateClass="animate__animated animate__fadeInUp"
                             :begin="false"
                         >
-                            <h1>Наши услуги</h1>
-                            <h2>Разработка сайтов в Ташкенте</h2>
-                            <p>
-                                Качественный сайт – это основа продвижения
-                                Вашего бизнеса в интернете. Он создаёт имидж
-                                компании и увеличивает Ваши продажи
-                                <b>24/7</b> . Мы сделаем для Вас рабочий
-                                инструмент, который значительно поможет в
-                                развитии бизнеса.
-                            </p>
+                            <div class="auto">
+                                <h1>Наши услуги</h1>
+                                <h2>Разработка сайтов в Ташкенте</h2>
+                                <p>
+                                    Качественный сайт – это основа продвижения
+                                    Вашего бизнеса в интернете. Он создаёт имидж
+                                    компании и увеличивает Ваши продажи
+                                    <b>24/7</b> . Мы сделаем для Вас рабочий
+                                    инструмент, который значительно поможет в
+                                    развитии бизнеса.
+                                </p>
 
-                            <button>Заказат проект</button>
+                                <button>Заказат проект</button>
+                            </div>
+
                         </u-animate>
                     </div>
 
-                    <div class="col-6 ong">
+                    <div class="col-md-6 ong order-md-2 order-1">
                         <div class="row">
                             <div class="col-6 box">
                                 <u-animate
@@ -123,7 +126,7 @@
                             animateClass="animate__animated animate__fadeInUp"
                             :begin="false"
                         >
-                           
+
                                 <div class="cardone">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -211,7 +214,7 @@
                             animateClass="animate__animated animate__fadeInUp"
                             :begin="false"
                         >
-                           
+
                                 <div class="cardone">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -295,7 +298,7 @@
                             animateClass="animate__animated animate__fadeInUp"
                             :begin="false"
                         >
-                           
+
                                 <div class="cardone">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -440,4 +443,89 @@
         }
     }
 }
+
+    @media (min-width: 768px) and (max-width: 960px) {
+        .chap {
+            .auto{
+                margin-left: 83px;
+                h1{
+                    font-style: normal;
+                    font-size: 24px;
+                    line-height: 130%;
+                    color: #202020;
+                }
+                h2{
+                    font-size: 20px;
+                    margin-top: 20px;
+                }
+                p{
+                    font-size: 15px;
+                }
+                button{
+                    margin: 0 auto;
+                    display: block;
+                }
+            }
+
+        }
+    }
+    @media (min-width: 576px) and (max-width: 768px) {
+        .chap {
+            .auto{
+                margin-left: 40px;
+                h1{
+                    font-style: normal;
+                    font-size: 24px;
+                    //line-height: 130%;
+                    color: #202020;
+                }
+                h2{
+                    font-size: 20px;
+                }
+                p{
+                    font-size: 15px;
+                    margin-top: 15px;
+                }
+                button{
+                    margin: 0 auto;
+                    display: block;
+                    margin-top: 15px;
+                }
+            }
+
+        }
+    }
+    @media (min-width: 340px) and (max-width: 576px){
+        .chap {
+            padding-right: 0;
+            h1{
+                margin-top: 30px;
+                font-style: normal;
+                font-size: 24px;
+                color: #202020;
+            }
+            h2 {
+                font-style: normal;
+                font-weight: initial;
+                font-size: 16px;
+                line-height: 130%;
+                color: #202020;
+            }
+            p {
+                //font-family: Poppins;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 21px;
+            }
+            button{
+                width: 130px;
+                height: 45px;
+                margin: 0 auto;
+                display: block;
+                margin-top: 30px;
+            }
+        }
+    }
+
 </style>

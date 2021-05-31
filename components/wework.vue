@@ -27,7 +27,7 @@
                     >
                         <ul class="nav d-flex justify-content-between">
                             <li class="nav-item">
-                                <a href="#" class="nav-link">Все проекты</a>
+                                <a href="#" class="nav-link d-block">Все проекты</a>
                             </li>
                             <li class="nav-item">
                                 <a href="#" class="nav-link">Landing page</a>
@@ -54,6 +54,7 @@
                                 </a>
                             </li>
                         </ul>
+
                     </u-animate>
                     <u-animate
                         name="fadeIn"
@@ -117,6 +118,7 @@ export default {};
     }
 
     .nav {
+
         margin-top: 40px;
         margin-left: 0 !important;
 
@@ -179,4 +181,14 @@ export default {};
         }
     }
 }
+
+    @media (min-width: 768px) and (max-width: 960px){
+
+    }
+    @media (min-width: 576px) and (max-width: 768px){
+
+    }
+    @media (min-width: 340px) and (max-width: 576px){
+
+    }
 </style>

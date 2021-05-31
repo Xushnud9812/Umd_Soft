@@ -2,7 +2,7 @@
     <div class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-3 umd">
+                <div class="col-md-3 col-6 umd">
                     <div class="img">
                         <img src="@/assets/img/umd.png" alt="" />
                     </div>
@@ -13,7 +13,7 @@
                         massa non nisi, placerat.
                     </p>
                 </div>
-                <div class="col-3 umd">
+                <div class="col-md-3 col-6 umd">
                     <h4>Быстрые ссылки</h4>
                     <ul class="nav flex-column">
                         <a href="#" class="nav-link">О нас</a>
@@ -23,7 +23,7 @@
                         <a href="#" class="nav-link">Отзывы</a>
                     </ul>
                 </div>
-                <div class="col-3 umd">
+                <div class="col-md-3 col-6 umd">
                     <h4>Связаться с нами</h4>
                     <ul class="nav flex-column">
                         <a href="#" class="nav-link "
@@ -50,7 +50,7 @@
                         </a>
                     </ul>
                 </div>
-                <div class="col-3 umd">
+                <div class="col-md-3 col-6 umd">
                     <h4>Cоциальные сети</h4>
                     <div class="set">
                         <a
@@ -183,8 +183,8 @@ a.nav-li:hover {
         }
         .up {
             position: fixed;
-            bottom: 10px;
-            right: 10px;
+            bottom: 20px;
+            right: 50px;
             width: 40px;
             height: 40px;
             border-radius: 20px;
@@ -193,7 +193,7 @@ a.nav-li:hover {
             align-items: center;
             display: flex;
             justify-content: center;
-            left: 1265px;
+            //left: 1275px;
             margin-top: -120px;
             cursor: pointer;
         }
@@ -208,12 +208,7 @@ a.nav-li:hover {
             a {
                 font-size: 14px;
                 line-height: 24px;
-                /* identical to box height, or 171% */
-
                 font-feature-settings: "liga" off;
-
-                /* Text / Gray 300 */
-
                 color: #8d8d95;
             }
         }
@@ -222,6 +217,34 @@ a.nav-li:hover {
             font-size: 20px;
         }
     }
+}
+
+    @media (min-width: 340px) and (max-width: 576px){
+        .umd{
+            .img{
+                img{
+                    width: 85px;
+                }
+            }
+            h4{
+                font-size: 24px;
+                font-weight: lighter;
+                //line-height: 30px;
+            }
+            .set{
+                width: 150px;
+                margin-left: 8px;
+                a.nav-li{
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+
+        }
+    }
+
+.footer .umd .nav a{
+    line-height: 14px;
 }
 </style>
 <script></script>
