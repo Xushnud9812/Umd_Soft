@@ -179,7 +179,7 @@ export default {
                     {
                         breakpoint: 1024,
                         settings: {
-                            slidesToShow: 4,
+                            slidesToShow: 1,
                             infinite: false,
                             slidesToScroll: 4,
                             dots: true,
@@ -189,7 +189,7 @@ export default {
                     {
                         breakpoint: 600,
                         settings: {
-                            slidesToShow: 2,
+                            slidesToShow: 1,
                             infinite: false,
                             slidesToScroll: 2,
                             draggable: true

@@ -6,7 +6,7 @@
             <div class="wrap">
                 <div class="container">
                     <div class="row asl">
-                        <div class="col-6 left">
+                        <div class="col-md-6 col-sm-12 order-md-1 order-2 left">
                             <u-animate
                                 name="fadeIn"
                                 delay="0s"
@@ -36,7 +36,9 @@
                             </u-animate>
                         </div>
 
-                        <div class="col-6 right">
+                        <div
+                            class="col-md-6 col-sm-12 order-md-2 order-1  right"
+                        >
                             <u-animate
                                 name="fadeIn"
                                 delay="0.2s"
@@ -58,7 +60,7 @@
             <div class="container">
                 <h1>Наши преимущества</h1>
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-md-3  col-6 tab">
                         <u-animate
                             name="fadeIn"
                             delay="0s"
@@ -78,7 +80,7 @@
                         </u-animate>
                     </div>
 
-                    <div class="col-3 down">
+                    <div class="col-md-3 col-6 tab down">
                         <u-animate
                             name="fadeIn"
                             delay="0.2s"
@@ -99,7 +101,7 @@
                         </u-animate>
                     </div>
 
-                    <div class="col-3">
+                    <div class="col-md-3 col-6 tab">
                         <u-animate
                             name="fadeIn"
                             delay="0.4s"
@@ -117,7 +119,7 @@
                         </u-animate>
                     </div>
 
-                    <div class="col-3 down">
+                    <div class="col-md-3 col-6 tab down">
                         <u-animate
                             name="fadeIn"
                             delay="0.6s"
@@ -131,7 +133,7 @@
                                 <h2>Индивидиульный подход</h2>
                                 <p>
                                     Найдем наилучшее решение для каждой задачи и
-                                    каждогочеловека
+                                    каждого человека
                                 </p>
                                 <span class="four">04</span>
                             </div></u-animate
@@ -181,6 +183,9 @@ export default {
 <style lang="scss">
 * {
     scroll-behavior: smooth;
+    button:focus{
+        outline: none;
+    }
 }
 .wrap {
     background: #f6f6f6;
@@ -226,7 +231,7 @@ export default {
 .down {
     margin-top: 30px;
 }
-.col-3 .box {
+.tab .box {
     margin-top: 30px;
     padding: 25px 10px;
     width: 250px;
@@ -267,9 +272,57 @@ export default {
     margin-bottom: 40px;
 }
 
-@media (min-width: 768px) and (max-width: 1200px) {
+@media (min-width: 576px) and (max-width: 953px) {
+    .right {
+        div.img {
+            margin-left: 0;
+            margin: 0 auto;
+        }
+    }
+    .down {
+        margin-top: 0;
+    }
 }
-$breakpoint-tablet: 768px;
-@media (min-width: $breakpoint-tablet) {
+@media (min-width: 320px) and (max-width: 576px) {
+    .right {
+        div.img {
+            margin-left: 0;
+            margin: 0 auto;
+            width: 281px;
+            height: 201px;
+        }
+    }
+    .left {
+        h1 {
+            font-size: 24px;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+    .tab {
+        .box {
+            width: 157px;
+            height: 180px;
+            border-bottom: 0px;
+            h2 {
+                font-size: 16px;
+            }
+            p {
+                font-size: 11px;
+            }
+            span {
+                font-size: 70px;
+                margin: 0px 0 0 80px;
+            }
+            span.four {
+                line-height: 0%;
+                margin: 0px 0 0 80px;
+            }
+        }
+    }
+    .down {
+        margin-top: 0;
+    }
 }
 </style>

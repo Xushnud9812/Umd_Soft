@@ -183,8 +183,8 @@ a.nav-li:hover {
         }
         .up {
             position: fixed;
-            bottom: 10px;
-            right: 10px;
+            bottom: 20px;
+            right: 40px;
             width: 40px;
             height: 40px;
             border-radius: 20px;
@@ -193,8 +193,6 @@ a.nav-li:hover {
             align-items: center;
             display: flex;
             justify-content: center;
-            left: 1265px;
-            margin-top: -120px;
             cursor: pointer;
         }
         h4 {

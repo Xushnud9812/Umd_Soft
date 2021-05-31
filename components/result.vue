@@ -3,27 +3,27 @@
         <div class="Result">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12 result">
                         <h1>Наши резултаты</h1>
                         <!-- <h3>
                           <span class="timer">15</span>+</h3> -->
                     </div>
-                    <div class="col-3 number">
+                    <div class="col-md-3 col-sm-6 col-12 number">
                         <h2><span class="timer">15</span>+</h2>
                         <h5>Компетентных специалистов</h5>
                         <div class="line2"></div>
                     </div>
-                    <div class="col-3 number">
+                    <div class="col-md-3 col-sm-6 col-12 number">
                         <h2><span class="timer">50</span>+</h2>
                         <h5>Довольные клиенты</h5>
                         <div class="line2"></div>
                     </div>
-                    <div class="col-3 number">
+                    <div class="col-md-3 col-sm-6 col-12 number">
                         <h2><span class="timer">75</span>%</h2>
                         <h5>Успешных проектов</h5>
                         <div class="line2 mt-2"></div>
                     </div>
-                    <div class="col-3 number">
+                    <div class="col-md-3 col-sm-6 col-12 number">
                         <h2><span class="timer">100</span>%</h2>
                         <h5>Успешных проектов</h5>
                         <div class="line2 mt-2"></div>
@@ -75,12 +75,14 @@ export default {
 .Result {
     background: #f6f6f6;
     margin-top: 90px;
+    transition: .5s ease-in;
 
-    .col-12 {
+    .result {
         h1 {
             font-size: 48px;
             font-weight: bold;
             margin-top: 40px;
+            color: #1e6bdd;
         }
     }
 
@@ -103,6 +105,29 @@ export default {
             height: 3px;
             margin-bottom: 41px;
         }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+    .Result {
+        .result {
+            h1 {
+                font-size: 24px;
+            }
+        }
+        .number{
+            padding-left: 50px;
+        }
+    }
+}
+@media (min-width: 577px) and (max-width: 800px) {
+    .Result {
+        .result {
+            h1 {
+                font-size: 38px;
+            }
+        }
+      
     }
 }
 </style>
