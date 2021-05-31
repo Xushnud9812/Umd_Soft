@@ -25,7 +25,7 @@
                         <li class="nav-item">
                             <a href="#" class="nav-link">Отзыве</a>
                         </li>
-                        <button @click="modal" type="button" class="btn">
+                        <button @click="modal" type="button" class="">
                             Заказат проект
                         </button>
                         <!-- <v-btn class="btn" type="bu" color="primary" dark @click="dialog = true">
@@ -69,10 +69,20 @@ export default {
     background: #f6f6f6;
     z-index: 200;
     .nav {
-        button {
-            padding: 0px 12px;
+          button {
+            padding: 6px 12px;
             background: #1e6bdd;
             color: #fff;
+            border-radius: 5px;
+            transition: .3s ease;
+            border: 1px solid #1e6bdd;
+            
+        }
+        button:active{
+            outline: none;
+        }
+        button:focus{
+            outline: none !important;
         }
         button:hover {
             background: #fff;

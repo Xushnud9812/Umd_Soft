@@ -184,7 +184,11 @@ a.nav-li:hover {
         .up {
             position: fixed;
             bottom: 20px;
+<<<<<<< HEAD
             right: 50px;
+=======
+            right: 40px;
+>>>>>>> dac6fe57884608cd501c154e50789d79d80d158c
             width: 40px;
             height: 40px;
             border-radius: 20px;
@@ -193,8 +197,11 @@ a.nav-li:hover {
             align-items: center;
             display: flex;
             justify-content: center;
+<<<<<<< HEAD
             //left: 1275px;
             margin-top: -120px;
+=======
+>>>>>>> dac6fe57884608cd501c154e50789d79d80d158c
             cursor: pointer;
         }
         h4 {
