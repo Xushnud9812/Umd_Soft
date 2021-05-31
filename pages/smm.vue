@@ -102,114 +102,6 @@
         </u-animate-container>
 
         <u-animate-container>
-            <div class="container">
-                <u-animate
-                    name="fadeIn"
-                    delay="1s"
-                    duration="2s"
-                    :iteration="1"
-                    :offset="0"
-                    animateClass="animate__animated animate__fadeInUp"
-                    :begin="false"
-                >
-                    <h1>Как мы работаем?</h1>
-                </u-animate>
-                <div class="row">
-                    <div class="col-md-5 etap">
-                        <u-animate
-                            name="fadeIn"
-                            delay="0.5s"
-                            duration="2s"
-                            :iteration="1"
-                            :offset="0"
-                            animateClass="animate__animated animate__fadeInUp"
-                            :begin="false"
-                        >
-                            <div class="col-12">
-                                <span>01 </span>
-                                <h3>Бизнес изучается</h3>
-                            </div>
-                            <div class="col-12">
-                                <span>03 </span>
-                                <h3>
-                                    Контент планируется
-                                </h3>
-                            </div>
-                            <div class="col-12">
-                                <span>05 </span>
-                                <h3>Представлено владельцу бренда</h3>
-                            </div>
-                        </u-animate>
-                    </div>
-
-                    <div class="col-md-2">
-                        <u-animate
-                            name="fadeIn"
-                            delay="1s"
-                            duration="2s"
-                            :iteration="1"
-                            :offset="0"
-                            animateClass="animate__animated animate__fadeInUp"
-                            :begin="false"
-                        >
-                            <div class="vertical">
-                                <div class="tik">
-                                    <div class="circle active"></div>
-                                    <div class="line active"></div>
-                                </div>
-                                <div class="tik">
-                                    <div class="circle"></div>
-                                    <div class="line"></div>
-                                </div>
-                                <div class="tik">
-                                    <div class="circle"></div>
-                                    <div class="line"></div>
-                                </div>
-                                <div class="tik">
-                                    <div class="circle"></div>
-                                    <div class="line"></div>
-                                </div>
-                                <div class="tik">
-                                    <div class="circle"></div>
-                                    <div class="line"></div>
-                                </div>
-                                <div class="tik">
-                                    <div class="circle"></div>
-                                </div>
-                            </div>
-                        </u-animate>
-                    </div>
-                    <div class="col-md-5 etap two">
-                        <u-animate
-                            name="fadeIn"
-                            delay="1s"
-                            duration="2s"
-                            :iteration="1"
-                            :offset="0"
-                            animateClass="animate__animated animate__fadeInUp"
-                            :begin="false"
-                        >
-                            <div class="col-12">
-                                <span>02 </span>
-                                <h3>Стратегия сделана</h3>
-                            </div>
-                            <div class="col-12">
-                                <span>04 </span>
-                                <h3>
-                                    PR, Tergetting, Создана рекламная концепция
-                                </h3>
-                            </div>
-                            <div class="col-12">
-                                <span>06 </span>
-                                <h3>Сделано</h3>
-                            </div>
-                        </u-animate>
-                    </div>
-                </div>
-            </div>
-        </u-animate-container>
-
-        <u-animate-container>
             <div class="container-fluid full">
                 <div class="container">
                     <u-animate
@@ -249,7 +141,7 @@
                                                 item-text="text"
                                                 return-object
                                                 @change="changeSelect"
-                                                label="Мобильный дизайн"
+                                                label="SMM Дизайн"
                                                 solo
                                             ></v-select>
                                             <!-- <p>{{ valueSelect }}</p> -->
@@ -380,7 +272,7 @@
                                         </div>
                                     </v-container>
                                 </div>
-                                <div class="text" v-if="valueSelect.id == 4">
+                                <div class="text" v-if="valueSelect4.id == 4">
                                     <div class="d-flex">
                                         <h4>Количество</h4>
                                         <span
@@ -516,38 +408,6 @@
                                 <p></p>
                             </div>
                             <div class="col-6">
-                                <div class="narx" v-if="valueSelect.id == 1">
-                                    <p>
-                                        Цена:<span>{{ result.price }} $</span>
-                                    </p>
-                                    <p>
-                                        Время:<span>{{ result.day }} ден</span>
-                                    </p>
-                                </div>
-                                <div class="narx" v-if="valueSelect.id == 2">
-                                    <p>
-                                        Цена:<span
-                                            >{{ result.priceTwo }} $</span
-                                        >
-                                    </p>
-                                    <p>
-                                        Время:<span
-                                            >{{ result.dayTwo }} ден</span
-                                        >
-                                    </p>
-                                </div>
-                                <div class="narx" v-if="valueSelect.id == 3">
-                                    <p>
-                                        Цена:<span
-                                            >{{ result.priceThree }} $</span
-                                        >
-                                    </p>
-                                    <p>
-                                        Время:<span
-                                            >{{ result.dayThree }} ден</span
-                                        >
-                                    </p>
-                                </div>
                                 <div class="narx" v-if="valueSelect.id == 4">
                                     <p>
                                         Цена:<span
@@ -818,7 +678,6 @@
 </template>
 
 <script>
-
 export default {
     data() {
         return {
@@ -834,6 +693,10 @@ export default {
             valueSelect: {
                 text: "Лого брандинг",
                 id: 2
+            },
+            valueSelect4: {
+                text: "SMM Дизайн",
+                id: 4
             },
 
             children: [
@@ -863,18 +726,6 @@ export default {
                 }
             ],
             items: [
-                {
-                    text: "Мобильный дизайн",
-                    id: 1
-                },
-                {
-                    text: "Лого брандинг",
-                    id: 2
-                },
-                {
-                    text: "Веб дизайн",
-                    id: 3
-                },
                 {
                     text: "Smm дизайн",
                     id: 4

@@ -1,123 +1,280 @@
 <template>
     <div>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            optio dignissimos architecto obcaecati nemo illum blanditiis
-            assumenda quas, esse hic rerum cupiditate repellat dolore dicta
-            ipsum fuga et quos vel.lorem Lorem, ipsum dolor sit amet consectetur
-            adipisicing elit. Maiores maxime mollitia et provident natus
-            suscipit perferendis voluptatum autem culpa voluptatem. Omnis, quod?
-            Consequuntur consectetur maxime aliquam minus quia, expedita at?
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, qui.
-            Quia sapiente, iusto aliquid quae quasi enim non. Autem mollitia
-            nam, voluptatibus eos ab eum aut asperiores modi labore
-            reprehenderit? Lorem ipsum dolor sit, amet consectetur adipisicing
-            elit. Ducimus praesentium quas consequatur explicabo illum
-            blanditiis commodi, sunt impedit totam tempore magnam eligendi sint
-            asperiores exercitationem quasi eos ratione rerum dolores!
-        </p>
-
-        <div class="row">
-            <div class="col-5">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Aperiam unde expedita velit debitis ab laborum veniam itaque
-                    quo omnis possimus error eveniet praesentium maxime,
-                    laudantium modi ut temporibus aliquid ullam!
-                </p>
-            </div>
-            <div class="col-2">
-                <div class="tik">
-                    <div class="circle active"></div>
-                    <div class="line active"></div>
-                </div>
-                <div class="tik">
-                    <div class="circle"></div>
-                    <div class="line"></div>
-                </div>
-                <div class="tik">
-                    <div class="circle"></div>
-                    <div class="line"></div>
-                </div>
-                <div class="tik">
-                    <div class="circle"></div>
-                    <div class="line"></div>
-                </div>
-                <div class="tik">
-                    <div class="circle"></div>
-                    <div class="line"></div>
-                </div>
-                <div class="tik">
-                    <div class="circle"></div>
-                    <div class="line"></div>
-                </div>
-            </div>
-            <div class="col-5">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-                eligendi voluptates repudiandae at eaque laudantium, voluptatum
-                maiores quae hic delectus asperiores commodi ipsam consequatur
-                quia fuga ad? Deserunt, nesciunt quam!
-            </div>
-        </div>
+        <anime />
 
         <u-animate-container>
-            
-            <u-animate
-                name="fadeIn"
-                delay="0s"
-                duration="1s"
-                :iteration="1"
-                :offset="0"
-                animateClass="animate__animated animate__fadeInUp"
-                :begin="false"
-            >
-                <h1>sefwesfweo;ihnef;kjn</h1>
-            </u-animate>
+            <div class="wrap">
+                <div class="container">
+                    <div class="row asl">
+                        <div class="col-6 left">
+                            <u-animate
+                                name="fadeIn"
+                                delay="0s"
+                                duration="1.5s"
+                                :iteration="1"
+                                :offset="0"
+                                animateClass="animate__animated animate__fadeInUp"
+                                :begin="false"
+                            >
+                                <h1>О нас</h1>
+                                <p>
+                                    Качественный сайт – это основа продвижения
+                                    Вашего бизнеса в интернете. Он создаёт имидж
+                                    компании и увеличивает Ваши продажи 24/7. Мы
+                                    сделаем для Вас рабочий инструмент, который
+                                    значительно поможет в развитии бизнеса.
+                                    Качественный сайт – это основа продвижения
+                                    Вашего бизнеса в интернете. Он создаёт имидж
+                                    компании и увеличивает Ваши продажи 24/7. Мы
+                                    сделаем для Вас рабочий инструмент, который
+                                    значительно поможет в развитии бизнеса.
+                                </p>
+                                <div class="lan">
+                                    <span>Подробнее</span>
+                                </div>
+                                <img src="@/assets/img/Arrow 2.png" alt="" />
+                            </u-animate>
+                        </div>
+
+                        <div class="col-6 right">
+                            <u-animate
+                                name="fadeIn"
+                                delay="0.2s"
+                                duration="1.5s"
+                                :iteration="1"
+                                :offset="0"
+                                animateClass="animate__animated animate__fadeInUp"
+                                :begin="false"
+                            >
+                                <div class="img"></div>
+                            </u-animate>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </u-animate-container>
+
+        <u-animate-container>
+            <div class="container">
+                <h1>Наши преимущества</h1>
+                <div class="row">
+                    <div class="col-3">
+                        <u-animate
+                            name="fadeIn"
+                            delay="0s"
+                            duration="1.5s"
+                            :iteration="1"
+                            :offset="0"
+                            animateClass="animate__animated animate__fadeInUp"
+                            :begin="false"
+                        >
+                            <div class="box ">
+                                <h2>Опыт</h2>
+                                <p>
+                                    Получиили бесценный опыт идоверие клиентов
+                                </p>
+                                <span>01</span>
+                            </div>
+                        </u-animate>
+                    </div>
+
+                    <div class="col-3 down">
+                        <u-animate
+                            name="fadeIn"
+                            delay="0.2s"
+                            duration="1.5s"
+                            :iteration="1"
+                            :offset="0"
+                            animateClass="animate__animated animate__fadeInUp"
+                            :begin="false"
+                        >
+                            <div class="box ">
+                                <h2>Скорость</h2>
+                                <p>
+                                    Экономим на времени,но неэкономим на
+                                    качестве
+                                </p>
+                                <span>02</span>
+                            </div>
+                        </u-animate>
+                    </div>
+
+                    <div class="col-3">
+                        <u-animate
+                            name="fadeIn"
+                            delay="0.4s"
+                            duration="1.5s"
+                            :iteration="1"
+                            :offset="0"
+                            animateClass="animate__animated animate__fadeInUp"
+                            :begin="false"
+                        >
+                            <div class="box ">
+                                <h2>Результат</h2>
+                                <p>Наша цель-сделать Ваш бизнес эффективне</p>
+                                <span>03</span>
+                            </div>
+                        </u-animate>
+                    </div>
+
+                    <div class="col-3 down">
+                        <u-animate
+                            name="fadeIn"
+                            delay="0.6s"
+                            duration="1.5s"
+                            :iteration="1"
+                            :offset="0"
+                            animateClass="animate__animated animate__fadeInUp"
+                            :begin="false"
+                        >
+                            <div class="box">
+                                <h2>Индивидиульный подход</h2>
+                                <p>
+                                    Найдем наилучшее решение для каждой задачи и
+                                    каждогочеловека
+                                </p>
+                                <span class="four">04</span>
+                            </div></u-animate
+                        >
+                    </div>
+                </div>
+            </div>
+        </u-animate-container>
+
+        <service />
+
+        <result />
+
+        <wework />
+
+        <team />
+
+        <coment />
+
+        <karta />
     </div>
 </template>
 
 <script>
+import Coment from '../components/coment.vue';
+import result from "../components/result.vue";
+import Team from "../components/team.vue";
+import wework from "../components/wework.vue";
+import karta from "../components/karta.vue";
 export default {
-    data() {
-        return {
-            e1: 1
-        };
-    }
+    components: { wework,Team,result,Coment,karta },
 
-    // mounted() {
-    //     this.$nextTick(() => {
-    //         if (process.browser) {
-    //             // On the page mounted In the life cycle Instantiate according to the environment WOW
-    //             new WOW({ animateClass: "animate__animated" }).init();
-    //         }
-    //     });
-    // }
+    
+        
 };
+
+// data() {
+//     return {
+//         posts: null
+//     };
+// },
+// async mounted() {
+//     const posts = await this.$axios.$get(
+//         "https://jsonplaceholder.typicode.com/posts"
+//     );
+//     this.posts = posts;
+// }
 </script>
 
 <style lang="scss">
-.tik{
-        display: flex;
-    width: 20px;
-    /* background: silver; */
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+*{
+    scroll-behavior: smooth;
 }
-.circle.active, .line.active{
-    background: blue;
+.wrap {
+    background: #f6f6f6;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    .left {
+        padding-right: 20px;
+        h1 {
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 72px;
+            color: #1e6bdd;
+        }
+        p {
+            font-weight: normal;
+            font-size: 16px;
+            // line-height: 130%;
+            color: #202020;
+            margin-bottom: 40px;
+        }
+        .lan {
+            margin: 100px 0 0 0px;
+        }
+        img {
+            margin: -10px 0 0 55px;
+        }
+    }
 }
-.circle{
-    width: 22px;
-    height: 22px;
-    border-radius: 50%;
-    background: #E8EAF2;
+.right {
+    padding: 20px 0;
+    div.img {
+        margin-left: 110px;
+        width: 470px;
+        height: 400px;
+        background: #ffffff;
+        border: 2px solid #1e6bdd;
+        box-sizing: border-box;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+    }
 }
-.line{
-    width: 6px;
-    background: #E8EAF2;
 
-    height: 110px;
+.down {
+    margin-top: 30px;
+}
+.col-3 .box {
+    margin-top: 30px;
+    padding: 25px 10px;
+    width: 250px;
+    height: 295px;
+    background: #f6f6f6;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px 0px;
+    border-bottom: 8px solid #1e6bdd;
+    overflow: hidden;
+    h2 {
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 141.3%;
+        color: #1e6bdd;
+    }
+    p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        // line-height: 141.3%;
+        color: #000000;
+    }
+    span {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 160px;
+        line-height: 120%;
+        color: #ffffff;
+        margin: 0px 0 0 90px;
+    }
+    span.four {
+        // margin-top: -80px;
+        line-height: 50%;
+    }
+}
+
+
+.boxs {
+    margin-bottom: 40px;
+}
+
+
+@media (min-width: 768px) and (max-width: 1200px) {
+}
+$breakpoint-tablet: 768px;
+@media (min-width: $breakpoint-tablet) {
 }
 </style>

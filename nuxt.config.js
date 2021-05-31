@@ -1,7 +1,7 @@
 export default {
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
-        title: "mechta",
+        title: "Umd",
         htmlAttrs: {
             lang: "en"
         },
@@ -43,7 +43,7 @@ export default {
     components: true,
 
     // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-    buildModules: ["@nuxtjs/fontawesome"],
+    buildModules: ["@nuxtjs/fontawesome", "nuxt-animejs"],
     fontawesome: {
         component: "fa",
         icons: {
@@ -57,8 +57,7 @@ export default {
         "@nuxtjs/style-resources",
         "bootstrap-vue/nuxt",
 
-        "@nuxtjs/vuetify",
-
+        "@nuxtjs/vuetify"
     ],
     styleResources: {
         scss: ["@assets/scss/*.scss"]
@@ -69,6 +68,6 @@ export default {
 
     // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {
-        transpile: ["vue-slick"],
-    }
+        transpile: ["vue-slick"]
+    },
 };
