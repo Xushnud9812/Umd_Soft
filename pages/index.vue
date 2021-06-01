@@ -241,6 +241,7 @@ export default {
     border-radius: 5px 0px;
     border-bottom: 8px solid #1e6bdd;
     overflow: hidden;
+    margin: 0 auto;
     h2 {
         font-weight: 600;
         font-size: 28px;
