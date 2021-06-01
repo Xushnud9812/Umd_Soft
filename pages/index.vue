@@ -268,9 +268,6 @@ export default {
         line-height: 50%;
     }
 }
-.box{
-    //margin-top: 15px;
-}
 
 .boxs {
     margin-bottom: 40px;
@@ -329,6 +326,7 @@ export default {
     }
     .down {
         margin-top: 0;
+        // margin-left: 5px;
     }
 }
 </style>

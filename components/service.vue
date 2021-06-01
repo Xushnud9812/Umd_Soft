@@ -386,7 +386,7 @@
         line-height: 24px;
     }
     button {
-        padding: 12px 16px;
+        padding: 0px 16px;
         background: #1e6bdd;
         border-radius: 5px;
         font-size: 16px;

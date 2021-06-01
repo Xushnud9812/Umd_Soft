@@ -15,6 +15,7 @@
                             <h1>Наши команда</h1>
                         </u-animate>
                         <div class="row">
+                            <Carousel v-bind="slickOptions">
                             <div class="col">
                                 <u-animate
                                     name="fadeIn"
@@ -417,6 +418,7 @@
                                     </div>
                                 </u-animate>
                             </div>
+                            </Carousel>
                         </div>
                     </div>
                 </div>
@@ -428,7 +430,37 @@
 <script>
 export default {
     data() {
-        return {};
+        return { 
+                slickOptions: {
+                dots: false,
+                speed: 500,
+                slidesToShow: 5,
+                slidesToScroll: 1,
+                draggable: true,
+                infinite: true,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 2,
+                            infinite: false,
+                            slidesToScroll: 2,
+                            dots: true,
+                            draggable: true
+                        }
+                    },
+                    {
+                        breakpoint: 500,
+                        settings: {
+                            dots: true,
+                            slidesToShow: 2,
+                            infinite: false,
+                            slidesToScroll: 1,
+                            draggable: true
+                        }
+                    }
+                ]
+            }};
     }
 };
 </script>
@@ -536,6 +568,16 @@ export default {
     @media (min-width: 340px) and (max-width: 576px){
         .team{
             overflow-x: scroll;
+        }
+        .team .card[data-v-1ced0998]{
+            width: 166px;
+            padding: 15px;
+            img{
+                width: 125px;
+            }
+        }
+        .team .card h4 a{
+            font-size: 12px;
         }
     }
 </style>
