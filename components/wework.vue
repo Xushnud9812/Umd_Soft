@@ -26,35 +26,14 @@
                         :begin="false"
                     >
                         <ul class="nav d-flex justify-content-between">
-                            <li class="nav-item">
-                                <a href="#" class="nav-link d-block">Все проекты</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">Landing page</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">Сайты визитки</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link"
-                                    >Корпоративные сайты
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link"
-                                    >Интернет магазини</a
-                                >
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">Каталог сайты</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link"
-                                    >Мобильные приложения
-                                </a>
-                            </li>
+                            <li class="nav-item">Все проекты</li>
+                            <li class="nav-item">Landing page</li>
+                            <li class="nav-item">Сайты визитки</li>
+                            <li class="nav-item">Корпоративные сайты</li>
+                            <li class="nav-item">Интернет магазини</li>
+                            <li class="nav-item">Каталог сайты</li>
+                            <li class="nav-item">Мобильные приложения</li>
                         </ul>
-
                     </u-animate>
                     <u-animate
                         name="fadeIn"
@@ -67,24 +46,48 @@
                     >
                         <div class="boxs">
                             <div class="box-afrika">
-                                <nuxt-link tag="div" class="afrika" to="/product">
+                                <nuxt-link
+                                    tag="div"
+                                    class="afrika"
+                                    to="/product"
+                                >
                                     <img src="@/assets/img/card1.png" alt="" />
                                 </nuxt-link>
-                                <nuxt-link tag="div" class="afrika" to="/product">
+                                <nuxt-link
+                                    tag="div"
+                                    class="afrika"
+                                    to="/product"
+                                >
                                     <img src="@/assets/img/card2.png" alt="" />
                                 </nuxt-link>
-                                <nuxt-link tag="div" class="afrika" to="/product">
+                                <nuxt-link
+                                    tag="div"
+                                    class="afrika"
+                                    to="/product"
+                                >
                                     <img src="@/assets/img/card3.png" alt="" />
                                 </nuxt-link>
                             </div>
                             <div class="box-afrika mt-0">
-                                <nuxt-link tag="div" class="afrika" to="/product">
+                                <nuxt-link
+                                    tag="div"
+                                    class="afrika"
+                                    to="/product"
+                                >
                                     <img src="@/assets/img/card4.png" alt="" />
                                 </nuxt-link>
-                                <nuxt-link tag="div" class="afrika" to="/product">
+                                <nuxt-link
+                                    tag="div"
+                                    class="afrika"
+                                    to="/product"
+                                >
                                     <img src="@/assets/img/card1.png" alt="" />
                                 </nuxt-link>
-                               <nuxt-link tag="div" class="afrika" to="/product">
+                                <nuxt-link
+                                    tag="div"
+                                    class="afrika"
+                                    to="/product"
+                                >
                                     <img src="@/assets/img/card5.png" alt="" />
                                 </nuxt-link>
                             </div>
@@ -118,23 +121,22 @@ export default {};
     }
 
     .nav {
-
         margin-top: 40px;
         margin-left: 0 !important;
 
-        li a {
+        li{
             color: #8c8c8c;
             font-size: 16px;
             font-weight: 600;
         }
 
-        li a:hover {
+        li:hover {
             color: #000;
             position: relative;
         }
     }
 
-    li a::after {
+    li::after {
         content: "";
         width: 0;
         height: 3px;
@@ -145,7 +147,7 @@ export default {};
         transition: all 0.2s linear;
     }
 
-    li a:hover::after {
+    li:hover::after {
         width: 100%;
     }
 
@@ -182,13 +184,10 @@ export default {};
     }
 }
 
-    @media (min-width: 768px) and (max-width: 960px){
-
-    }
-    @media (min-width: 576px) and (max-width: 768px){
-
-    }
-    @media (min-width: 340px) and (max-width: 576px){
-
-    }
+@media (min-width: 768px) and (max-width: 960px) {
+}
+@media (min-width: 576px) and (max-width: 768px) {
+}
+@media (min-width: 340px) and (max-width: 576px) {
+}
 </style>

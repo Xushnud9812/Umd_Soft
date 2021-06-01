@@ -34,6 +34,7 @@
                                 
                             ></v-text-field>
                             <v-text-field
+                            type="time"
                                 label=""
                                 placeholder="Удобное время звонка "
                             ></v-text-field>

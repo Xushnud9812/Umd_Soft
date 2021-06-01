@@ -241,6 +241,7 @@ export default {
     border-radius: 5px 0px;
     border-bottom: 8px solid #1e6bdd;
     overflow: hidden;
+    margin: 0 auto;
     h2 {
         font-weight: 600;
         font-size: 28px;
@@ -266,6 +267,9 @@ export default {
         // margin-top: -80px;
         line-height: 50%;
     }
+}
+.box{
+    //margin-top: 15px;
 }
 
 .boxs {
@@ -305,6 +309,7 @@ export default {
             width: 157px;
             height: 180px;
             border-bottom: 0px;
+            margin-top: 15px;
             h2 {
                 font-size: 16px;
             }

@@ -2,7 +2,7 @@
     <div>
         <div class="container">
             <div class="row tag">
-                <div class="col-md-4 col-12 order-md-1 order-2">
+                <div class="col-md-4 col-12 ">
                     <div class="text">
                         <img src="@/assets/img/UMDSOFT.png" alt="" />
                         <h1>IT Компания</h1>
@@ -12,7 +12,7 @@
                         </button>
                     </div>
                 </div>
-                <div class="col-md-8 col-12 order-md-2  order-1">
+                <div class="col-md-8 col-12 ">
                     <div class="img">
                         <img src="@/assets/img/Graphics.png" alt="" />
                     </div>
@@ -33,12 +33,15 @@ export default {
 </script>
 
 <style lang="scss">
+*{
+    transition: .5s;
+}
 .tag {
     margin-top: 70px;
     .text {
-        padding: 160px 0;
+        padding-top: 100px;
         img {
-            width: 343px;
+            width: 393px;
         }
         h1 {
             margin-top: 20px;
@@ -80,11 +83,12 @@ export default {
 
     div.img {
         width: 100%;
-        // height: 560, 36px;
-        margin-left: 50px;
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 40px;
     }
     img {
-        width: 100%;
+        width: 80%;
         pointer-events: none;
         // user-select: none;
         // margin-top: 30px;
@@ -92,22 +96,65 @@ export default {
     }
 }
 @media (min-width: 320px) and (max-width: 576px) {
-    .tag{
-        .text{
+    .tag {
+        .text {
             padding: 20px 0;
-            margin: 0 0 0 30px;
-            img{
+            // margin: 0 0 0 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            img {
                 width: 200px;
             }
-            h1, h2{
+
+            h1,
+            h2 {
                 font-size: 20px;
             }
         }
+
+        div.img {
+            width: 100%;
+            justify-content: center;
+            margin-left: 0;
+        }
     }
+
     div.img {
         width: 100%;
         //height: 560, 36px;
         margin-left: 0px;
+
+    }
+    @media (min-width: 577px) and (max-width: 950px) {
+        .tag {
+            .text {
+                padding: 20px 0;
+                // margin: 0 0 0 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                img {
+                    width: 200px;
+                }
+
+                h1,
+                h2 {
+                    font-size: 20px;
+                }
+            }
+
+            div.img {
+                width: 100%;
+                justify-content: center;
+                margin-left: 0;
+            }
+
+        }
     }
 }
 </style>

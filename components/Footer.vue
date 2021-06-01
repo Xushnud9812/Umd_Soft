@@ -185,7 +185,11 @@ a.nav-li:hover {
             position: fixed;
             bottom: 20px;
 
+
             right: 50px;
+
+            /*right: 40px;*/
+
             width: 40px;
             height: 40px;
             border-radius: 20px;
@@ -194,6 +198,7 @@ a.nav-li:hover {
             align-items: center;
             display: flex;
             justify-content: center;
+
             //left: 1275px;
             margin-top: -120px;
             cursor: pointer;

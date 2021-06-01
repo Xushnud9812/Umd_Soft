@@ -406,10 +406,9 @@
     }
 }
 .ong {
+    padding: 0 110px;
     .box {
         display: flex;
-        justify-content: center;
-        align-items: center;
         .cardone {
             display: flex;
             justify-content: center;
@@ -424,7 +423,8 @@
             text-align: center;
             position: relative;
             p {
-                margin-top: 5px;
+                margin-top: 15px;
+                margin-bottom: 0;
             }
         }
         .cardone::after {
@@ -496,6 +496,12 @@
         }
     }
     @media (min-width: 340px) and (max-width: 576px){
+        .ong{
+            padding: 0;
+            .box{
+
+            }
+        }
         .chap {
             padding-right: 0;
             h1{
@@ -519,7 +525,7 @@
                 line-height: 21px;
             }
             button{
-                width: 130px;
+                width: 180px;
                 height: 45px;
                 margin: 0 auto;
                 display: block;
