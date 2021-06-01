@@ -116,6 +116,7 @@ export default {
         }
 
         div.img {
+            display: none;
             width: 100%;
             justify-content: center;
             margin-left: 0;
@@ -153,7 +154,6 @@ export default {
                 justify-content: center;
                 margin-left: 0;
             }
-
         }
     }
 }
