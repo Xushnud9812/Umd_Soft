@@ -390,8 +390,12 @@
         margin-bottom: 0;
     }
     button {
+<<<<<<< HEAD
         width: 155px;
         padding: 12px 16px;
+=======
+        padding: 0px 16px;
+>>>>>>> e18e157bc03ec56728d6f17f3cf4680154acf266
         background: #1e6bdd;
         border-radius: 5px;
         font-size: 16px;

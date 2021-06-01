@@ -11,8 +11,12 @@
                 @click:outside="clickOutside"
             >
                 <v-card>
-                    <div class="head">
+                    <div class="headone"> 
+                        <!-- <div class="close">
+                                x
+                            </div> -->
                         <div class="login">
+                           
                             <!-- <img
                                 class="close"
                                 src="@/assets/img/closeLogin.png"
@@ -82,7 +86,7 @@ h1 {
     margin-bottom: 100px;
 }
 
-.head {
+.headone {
     height: 484px;
     background: #f6f6f6;
 }
@@ -129,7 +133,7 @@ h1 {
 }
 
     @media (min-width: 340px) and (max-width: 576px){
-        .head{
+        .headone{
 
             //width: 300px;
             .login{
@@ -138,14 +142,14 @@ h1 {
                 h1{
                     font-size: 18px;
                     display: flex;
-                    margin-top: 30px;
-                    margin-bottom: 20px;
-                    line-height: 35px;
+                    // margin-top: 30px;    
+                    // margin-bottom: 20px;
+                    // line-height: 35px;
 
                 }
                 .inputss{
                     font-size: 13px;
-                    margin-top: 20px;
+                    // margin-top: 20px;
                 }
                 button{
                     margin-top: 10px;
@@ -154,7 +158,7 @@ h1 {
         }
     }
     @media (min-width: 576px) and (max-width: 768px){
-        .head{
+        .headone{
 
             //width: 300px;
             .login{
@@ -179,7 +183,7 @@ h1 {
         }
     }
     @media (min-width: 768px) and (max-width: 960px){
-        .head{
+        .headone{
 
             //width: 300px;
             .login{

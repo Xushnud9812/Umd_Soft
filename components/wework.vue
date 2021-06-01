@@ -159,6 +159,7 @@ ul.all {
     list-style: none;
     svg {
         display: none;
+        margin-left: 5px;
     }
     li {
         display: inline-block;
@@ -253,11 +254,12 @@ ul.pages {
             width: 100%;
         }
     }
-    .col-12 {
+    .col-md-12 {
         h1 {
             font-weight: 600;
             font-size: 24px;
-            line-height: 36px;
+            line-height: 26px !important;
+            margin-top: 5px;
         }
     }
     .link {
