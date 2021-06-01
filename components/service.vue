@@ -366,6 +366,7 @@
 .chap {
     padding-right: 125px;
     h1 {
+        //margin-top: 10px;
         font-style: normal;
         font-weight: 600;
         font-size: 48px;
@@ -378,14 +379,18 @@
         font-size: 30px;
         line-height: 130%;
         color: #202020;
+        margin-top: 15px;
     }
     p {
         font-style: normal;
-        font-weight: 500;
+
         font-size: 16px;
         line-height: 24px;
+        margin-top: 20px;
+        margin-bottom: 0;
     }
     button {
+        width: 155px;
         padding: 12px 16px;
         background: #1e6bdd;
         border-radius: 5px;
@@ -394,6 +399,7 @@
         color: #ffffff;
         transition: 0.3s ease;
         border: 1px solid #1e6bdd;
+        margin-top: 30px;
     }
     button:hover {
         background: #fff;
@@ -402,7 +408,7 @@
     }
 }
 .ong {
-    padding: 0 110px;
+    //padding: 0 110px;
     .box {
         display: flex;
         .cardone {

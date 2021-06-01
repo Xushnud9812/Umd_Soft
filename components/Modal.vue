@@ -114,7 +114,7 @@ h1 {
         width: 100%;
         border-radius: 5px;
         padding: 12px 16px;
-        margin-top: 60px;
+        margin-top: 20px;
         transition: 0.3s ease;
         border: 1px solid #1e6bdd;
         background: #1e6bdd;
