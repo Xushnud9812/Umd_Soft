@@ -106,7 +106,7 @@ export default {
     }
     div.img {
         width: 100%;
-        height: 560, 36px;
+        //height: 560, 36px;
         margin-left: 0px;
     }
 }

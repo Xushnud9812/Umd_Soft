@@ -121,4 +121,120 @@ export default {};
         }
     }
 }
+
+    @media (min-width: 340px) and (max-width: 576px){
+        .navigator{
+            .inputs{
+                .card{
+                    width: 230px;
+                    /*height: 282px;*/
+                    margin-left: -60px;
+                    h4{
+                        font-size: 14px;
+                        margin-top: 10px;
+                    }
+                    h5{
+                        font-size: 10px;
+                        margin-top: 7px;
+                    }
+                    input{
+                        width: 185px;
+                        height: 24px;
+                        font-size: 10px;
+                        margin-top: 0;
+                    }
+                    textarea{
+                        width: 185px;
+                        height: 60px;
+                        margin-top: 0;
+                        font-size: 10px;
+                    }
+                    button{
+                        width: 185px;
+                        height: 24px;
+                        font-size: 10px;
+                        margin-top: 27px;
+                        margin-bottom: 13px;
+                    }
+                }
+            }
+        }
+
+    }
+    @media (min-width: 576px) and (max-width: 768px){
+        .navigator{
+            .inputs{
+                .card{
+                    width: 230px;
+                    /*height: 282px;*/
+                    margin-left: -80px;
+                    h4{
+                        font-size: 14px;
+                        margin-top: 10px;
+                    }
+                    h5{
+                        font-size: 10px;
+                        margin-top: 7px;
+                    }
+                    input{
+                        width: 185px;
+                        height: 24px;
+                        font-size: 10px;
+                        margin-top: 0;
+                    }
+                    textarea{
+                        width: 185px;
+                        height: 60px;
+                        margin-top: 0;
+                        font-size: 10px;
+                    }
+                    button{
+                        width: 185px;
+                        height: 28px;
+                        font-size: 10px;
+                        margin-top: 27px;
+                        margin-bottom: 13px;
+                    }
+                }
+            }
+        }
+    }
+    @media (min-width: 768px) and (max-width: 960px){
+        .navigator{
+            .inputs{
+                .card{
+                    width: 230px;
+                    /*height: 282px;*/
+                    margin-left: -80px;
+                    h4{
+                        font-size: 14px;
+                        margin-top: 10px;
+                    }
+                    h5{
+                        font-size: 10px;
+                        margin-top: 7px;
+                    }
+                    input{
+                        width: 185px;
+                        height: 24px;
+                        font-size: 10px;
+                        margin-top: 0;
+                    }
+                    textarea{
+                        width: 185px;
+                        height: 60px;
+                        margin-top: 0;
+                        font-size: 10px;
+                    }
+                    button{
+                        width: 185px;
+                        height: 28px;
+                        font-size: 10px;
+                        margin-top: 27px;
+                        margin-bottom: 13px;
+                    }
+                }
+            }
+        }
+    }
 </style>

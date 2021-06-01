@@ -303,4 +303,189 @@ export default {
         margin-bottom: 80px;
     }
 }
+
+    @media (min-width: 768px) and (max-width: 960px){
+        .clent{
+            .col-12{
+                h1{
+                    font-weight: 800;
+                    font-size: 24px;
+                    line-height: 64px
+                }
+                img{
+                    width: 70px;
+                    position: absolute;
+                    margin-right: 285px;
+                    margin-top: 35px;
+
+                }
+            }
+            .axror{
+                .card{
+                    width: 380px;
+                    height: 143px;
+                    margin-bottom: 0;
+                    padding: 15px;
+                    h4{
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 28px;
+                        margin-top: 0;
+                    }
+                    p{
+                        font-size: 10px;
+                        line-height: 24px;
+                    }
+                }
+                .rectangle{
+                    position: absolute;
+                    margin-top: -105px;
+                    margin-left: 180px;
+                }
+                .person{
+                    img{
+                        width: 51px;
+                        height: 51px;
+                        margin-left: -80px;
+                    }
+                    h4{
+                        font-weight: bold;
+                        font-size: 16px;
+                        line-height: 28px;
+                        margin-bottom: 0;
+                        margin-left: -10px;
+                        margin-top: 0;
+                    }
+                    p{
+                        font-size: 12px;
+                        line-height: 24px;
+                        margin-left: -10px;
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+    }
+    @media (min-width: 576px) and (max-width: 768px){
+        .clent{
+            .col-12{
+                h1{
+                    font-weight: 800;
+                    font-size: 24px;
+                    line-height: 64px
+                }
+                img{
+                    width: 70px;
+                    position: absolute;
+                    margin-right: 25px;
+                    margin-top: 35px;
+                }
+            }
+            .axror{
+                .card{
+                    width: 380px;
+                    height: 143px;
+                    margin-bottom: 0;
+                    padding: 15px;
+                    h4{
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 28px;
+                        margin-top: 0;
+                    }
+                    p{
+                        font-size: 10px;
+                        line-height: 24px;
+                    }
+                }
+                .rectangle{
+                    position: absolute;
+                    margin-top: -105px;
+                    margin-left: 180px;
+                }
+                .person{
+                    img{
+                        width: 51px;
+                        height: 51px;
+                        margin-left: -80px;
+                    }
+                    h4{
+                        font-weight: bold;
+                        font-size: 16px;
+                        line-height: 28px;
+                        margin-bottom: 0;
+                        margin-left: -10px;
+                        margin-top: 0;
+                    }
+                    p{
+                        font-size: 12px;
+                        line-height: 24px;
+                        margin-left: -10px;
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+    }
+    @media (min-width: 340px) and (max-width: 576px){
+        .clent{
+            .col-12{
+                h1{
+                    font-weight: 800;
+                    font-size: 24px;
+                    line-height: 64px
+                }
+                img{
+                    width: 70px;
+                    position: absolute;
+                    margin-right: -25px;
+                    margin-top: 35px;
+                }
+            }
+            .axror{
+                .card{
+                    width: 380px;
+                    height: 143px;
+                    margin-bottom: 0;
+                    padding: 15px;
+                    h4{
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 28px;
+                        margin-top: 0;
+                    }
+                    p{
+                        font-size: 10px;
+                        line-height: 24px;
+                    }
+                }
+                .rectangle{
+                    position: absolute;
+                    margin-top: -105px;
+                    margin-left: 180px;
+                }
+                .person{
+                    img{
+                        width: 51px;
+                        height: 51px;
+                        margin-left: -80px;
+                    }
+                    h4{
+                        font-weight: bold;
+                        font-size: 16px;
+                        line-height: 28px;
+                        margin-bottom: 0;
+                        margin-left: -10px;
+                        margin-top: 0;
+                    }
+                    p{
+                        font-size: 12px;
+                        line-height: 24px;
+                        margin-left: -10px;
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+    }
 </style>
