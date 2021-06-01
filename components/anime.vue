@@ -12,7 +12,7 @@
                         </button>
                     </div>
                 </div>
-                <div class="col-md-8 col-12 ">
+                <div class="col-md-8 col-12">
                     <div class="img">
                         <img src="@/assets/img/Graphics.png" alt="" />
                     </div>

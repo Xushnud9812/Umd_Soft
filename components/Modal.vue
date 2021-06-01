@@ -23,21 +23,36 @@
                                 Заполните форму прямо сейчас и получите
                                 квалифицированную
                             </h1>
-                            <v-text-field
+                            <v-text-field class="inputss"
                                 :rules="required"
                                 label=""
                                 placeholder="Ф.И.О "
                             ></v-text-field>
-                            <v-text-field
+                            <v-text-field class="inputss"
+                                          type="number"
                                 label=""
                                 placeholder="Номер телефона"
-                                
+
                             ></v-text-field>
-                            <v-text-field
+                            <v-text-field class="inputss"
                             type="time"
                                 label=""
                                 placeholder="Удобное время звонка "
                             ></v-text-field>
+
+                            <v-text-field class="inputss"
+                            type="text"
+                                label=""
+                                placeholder="lorem input dollor"
+                            ></v-text-field>
+
+
+
+<!--                            <v-text-field class="inputss"-->
+<!--                                          type="textarea"-->
+<!--                                          label=""-->
+<!--                                          placeholder="Удобное время звонка "-->
+<!--                            ></v-text-field>-->
 
                             <button>Заказат проект</button>
                         </div>
@@ -112,4 +127,81 @@ h1 {
         background: #fff;
     }
 }
+
+    @media (min-width: 340px) and (max-width: 576px){
+        .head{
+
+            //width: 300px;
+            .login{
+                padding: 0;
+                width: 300px;
+                h1{
+                    font-size: 18px;
+                    display: flex;
+                    margin-top: 30px;
+                    margin-bottom: 20px;
+                    line-height: 35px;
+
+                }
+                .inputss{
+                    font-size: 13px;
+                    margin-top: 20px;
+                }
+                button{
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+    @media (min-width: 576px) and (max-width: 768px){
+        .head{
+
+            //width: 300px;
+            .login{
+                padding: 0;
+                width: 300px;
+                h1{
+                    font-size: 19px;
+                    display: flex;
+                    margin-top: 30px;
+                    margin-bottom: 20px;
+                    line-height: 35px;
+
+                }
+                .inputss{
+                    font-size: 14px;
+                    margin-top: 20px;
+                }
+                button{
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+    @media (min-width: 768px) and (max-width: 960px){
+        .head{
+
+            //width: 300px;
+            .login{
+                padding: 0;
+                width: 300px;
+                h1{
+                    font-size: 19px;
+                    display: flex;
+                    margin-top: 30px;
+                    margin-bottom: 20px;
+                    line-height: 35px;
+
+                }
+                .inputss{
+                    font-size: 14px;
+                    margin-top: 22px;
+                }
+                button{
+                    margin-top: 10px;
+                    /*margin-bottom: 40px;*/
+                }
+            }
+        }
+    }
 </style>

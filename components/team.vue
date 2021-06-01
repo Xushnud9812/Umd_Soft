@@ -535,7 +535,7 @@ export default {
     }
     @media (min-width: 340px) and (max-width: 576px){
         .team{
-
+            overflow-x: scroll;
         }
     }
 </style>
