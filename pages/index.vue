@@ -268,6 +268,9 @@ export default {
         line-height: 50%;
     }
 }
+.box{
+    //margin-top: 15px;
+}
 
 .boxs {
     margin-bottom: 40px;
@@ -305,7 +308,8 @@ export default {
         .box {
             width: 157px;
             height: 180px;
-           border-bottom: 6px solid #1e6bdd;
+            border-bottom: 0px;
+            margin-top: 15px;
             h2 {
                 font-size: 16px;
             }

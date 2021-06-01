@@ -26,31 +26,38 @@
                             animateClass="animate__animated animate__fadeInUp"
                             :begin="false"
                         >
-                            <ul class="all" @click="toggleUl = !toggleUl">
-                                <li class="nav-item">
-                                    Все проекты<svg
-                                    :class="toggleUl ? 'bur' : ''"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        width="8"
-                                        height="6"
-                                        viewBox="0 0 8 6"
-                                        fill="none"
-                                    >
-                                        <path
-                                            d="M7.95898 1.56258L7.31315 0.916748L4.00065 4.22925L0.688151 0.916748L0.0423178 1.56258L4.00065 5.50008L7.95898 1.56258Z"
-                                            fill="#1E6BDD"
-                                        />
-                                    </svg>
-                                </li>
-                            </ul>
-                            <ul :class="toggleUl ? 'pages-media' : 'pages'">
-                                <li class="nav-item one">Landing page</li>
-                                <li class="nav-item">Сайты визитки</li>
-                                <li class="nav-item">Корпоративные сайты</li>
-                                <li class="nav-item">Интернет магазини</li>
-                                <li class="nav-item">Каталог сайты</li>
-                                <li class="nav-item">Мобильные приложения</li>
-                            </ul>
+                            <div class="line">
+                                <ul class="all" @click="toggleUl = !toggleUl">
+                                    <li class="nav-item">
+                                        Все проекты
+                                        <svg
+                                            :class="toggleUl ? 'bur' : ''"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="8"
+                                            height="6"
+                                            viewBox="0 0 8 6"
+                                            fill="none"
+                                        >
+                                            <path
+                                                d="M7.95898 1.56258L7.31315 0.916748L4.00065 4.22925L0.688151 0.916748L0.0423178 1.56258L4.00065 5.50008L7.95898 1.56258Z"
+                                                fill="#1E6BDD"
+                                            />
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <ul :class="toggleUl ? 'pages-media' : 'pages'">
+                                    <li class="nav-item one">Landing page</li>
+                                    <li class="nav-item">Сайты визитки</li>
+                                    <li class="nav-item">
+                                        Корпоративные сайты
+                                    </li>
+                                    <li class="nav-item">Интернет магазини</li>
+                                    <li class="nav-item">Каталог сайты</li>
+                                    <li class="nav-item">
+                                        Мобильные приложения
+                                    </li>
+                                </ul>
+                            </div>
                         </u-animate>
                     </div>
                     <u-animate
@@ -144,6 +151,10 @@ export default {
     transition: 0.5s;
     // justify-content: space-between;
 }
+.line{
+    display: flex;
+    transition: .5s;
+}
 ul.all {
     list-style: none;
     svg {
@@ -158,13 +169,15 @@ ul.all {
 }
 ul.pages {
     // display: none;
-    list-style: none;
+    transition: .5s;
+    list-style: none !important;
     li {
         display: inline-block;
         margin-left: 25px;
         color: #8c8c8c;
         font-size: 16px;
         font-weight: 600;
+        transition: .5s;
     }
 }
 
@@ -230,6 +243,16 @@ ul.pages {
     }
 }
 @media (min-width: 280px) and (max-width: 950px) {
+    *{
+        transition: .5s;
+    }
+    .imags .box-afrika {
+        display: block;
+        padding-right: 0px;
+        .afrika {
+            width: 100%;
+        }
+    }
     .col-12 {
         h1 {
             font-weight: 600;
@@ -246,6 +269,7 @@ ul.pages {
 
     ul.all {
         display: block;
+        transition: .5s;
         svg {
             display: block;
             transform: rotate(0deg);
@@ -269,8 +293,17 @@ ul.pages {
             display: none;
         }
     }
-
+    .line{
+        display: block;
+        transition: .5s;
+        margin-left: 60px;
+    }
+    ul.pages{
+        display: none;
+        transition: .5s;
+    }
     ul.pages-media {
+        transition: .5s;
         display: block;
         list-style: none;
         li {
@@ -283,7 +316,7 @@ ul.pages {
             line-height: 120%;
             color: #666666;
         }
-        
+
         li:hover::after {
             width: 0;
             display: none;

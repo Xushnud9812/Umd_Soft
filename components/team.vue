@@ -1,7 +1,6 @@
 <template>
     <div>
         <u-animate-container>
-            <div class="container">
                 <div class="team">
                     <div class="container">
                         <u-animate
@@ -421,7 +420,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+
         </u-animate-container>
     </div>
 </template>
@@ -436,8 +435,10 @@ export default {
 
 <style lang="scss" scoped>
 .team {
+    *{
+        margin: 0 auto;
+    }
     // width: 1160px;
-    margin: 0 auto;
     h1 {
         font-style: normal;
         font-weight: 600;
@@ -526,4 +527,15 @@ export default {
         }
     }
 }
+    @media (min-width: 768px) and (max-width: 960px){
+
+    }
+    @media (min-width: 576px) and (max-width: 768px){
+
+    }
+    @media (min-width: 340px) and (max-width: 576px){
+        .team{
+
+        }
+    }
 </style>
