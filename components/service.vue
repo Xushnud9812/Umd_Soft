@@ -406,6 +406,7 @@
     }
 }
 .ong {
+    padding: 0 105px;
     .box {
         display: flex;
         justify-content: center;

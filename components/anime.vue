@@ -113,13 +113,14 @@ export default {
             }
         }
         div.img {
+            display: none;
             width: 100%;
             justify-content: center;
             margin-left: 0;
         }
     }
 }
-@media (min-width: 577px) and (max-width: 950px) {
+@media (min-width: 577px) and (max-width: 960px) {
     .tag {
         .text {
             padding: 20px 0;
@@ -137,6 +138,7 @@ export default {
             }
         }
         div.img {
+            display: none;
             width: 100%;
             justify-content: center;
             margin-left: 0;

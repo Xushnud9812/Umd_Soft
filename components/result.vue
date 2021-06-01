@@ -112,7 +112,7 @@ export default {
     .Result {
         .result {
             h1 {
-                font-size: 24px;
+                font-size: 34px;
             }
         }
         .number{

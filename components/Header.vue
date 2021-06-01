@@ -1,6 +1,6 @@
 <template>
     <div>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="nav-menu navbar-expand-lg">
             <div class="container head">
                 <div>
                     <img href="#" src="@/assets/img/logo8.png" alt="" />
@@ -103,12 +103,15 @@ export default {
 }
 .head {
     padding: 0 !important;
+    display: flex;
+    justify-content: space-between;
     img {
         cursor: pointer;
         height: 46px;
     }
 }
-.navbar {
+.nav-menu {
+    padding: 6px 0;
     position: fixed;
     width: 100%;
     background: #f6f6f6;

@@ -73,7 +73,7 @@
                             <div class="box ">
                                 <h2>Опыт</h2>
                                 <p>
-                                    Получиили бесценный опыт идоверие клиентов
+                                    Получиили бесценный опыт и доверие клиентов
                                 </p>
                                 <span>01</span>
                             </div>
@@ -305,12 +305,13 @@ export default {
         .box {
             width: 157px;
             height: 180px;
-            border-bottom: 0px;
+           border-bottom: 6px solid #1e6bdd;
             h2 {
                 font-size: 16px;
             }
             p {
                 font-size: 11px;
+                line-height: 141.3%;
             }
             span {
                 font-size: 70px;

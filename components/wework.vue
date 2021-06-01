@@ -3,7 +3,7 @@
         <u-animate-container>
             <div class="container imags">
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-md-12 col-6">
                         <u-animate
                             name="fadeIn"
                             delay="0s"
@@ -16,25 +16,43 @@
                             <h1>Наши работы</h1>
                         </u-animate>
                     </div>
-                    <u-animate
-                        name="fadeIn"
-                        delay="0s"
-                        duration="1.5s"
-                        :iteration="1"
-                        :offset="0"
-                        animateClass="animate__animated animate__fadeInUp"
-                        :begin="false"
-                    >
-                        <ul class="nav d-flex justify-content-between">
-                            <li class="nav-item">Все проекты</li>
-                            <li class="nav-item">Landing page</li>
-                            <li class="nav-item">Сайты визитки</li>
-                            <li class="nav-item">Корпоративные сайты</li>
-                            <li class="nav-item">Интернет магазини</li>
-                            <li class="nav-item">Каталог сайты</li>
-                            <li class="nav-item">Мобильные приложения</li>
-                        </ul>
-                    </u-animate>
+                    <div class="col-md-12 col-6 link">
+                        <u-animate
+                            name="fadeIn"
+                            delay="0s"
+                            duration="1.5s"
+                            :iteration="1"
+                            :offset="0"
+                            animateClass="animate__animated animate__fadeInUp"
+                            :begin="false"
+                        >
+                            <ul class="all" @click="toggleUl = !toggleUl">
+                                <li class="nav-item">
+                                    Все проекты<svg
+                                    :class="toggleUl ? 'bur' : ''"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="8"
+                                        height="6"
+                                        viewBox="0 0 8 6"
+                                        fill="none"
+                                    >
+                                        <path
+                                            d="M7.95898 1.56258L7.31315 0.916748L4.00065 4.22925L0.688151 0.916748L0.0423178 1.56258L4.00065 5.50008L7.95898 1.56258Z"
+                                            fill="#1E6BDD"
+                                        />
+                                    </svg>
+                                </li>
+                            </ul>
+                            <ul :class="toggleUl ? 'pages-media' : 'pages'">
+                                <li class="nav-item one">Landing page</li>
+                                <li class="nav-item">Сайты визитки</li>
+                                <li class="nav-item">Корпоративные сайты</li>
+                                <li class="nav-item">Интернет магазини</li>
+                                <li class="nav-item">Каталог сайты</li>
+                                <li class="nav-item">Мобильные приложения</li>
+                            </ul>
+                        </u-animate>
+                    </div>
                     <u-animate
                         name="fadeIn"
                         delay="0s"
@@ -99,10 +117,19 @@
     </div>
 </template>
 <script>
-export default {};
+export default {
+    data() {
+        return {
+            toggleUl: false
+        };
+    }
+};
 </script>
 
 <style lang="scss">
+* {
+    transition: 0.5s;
+}
 .v-application ul,
 .v-application ol {
     margin-left: 0px !important;
@@ -111,6 +138,36 @@ export default {};
 .v-application ol {
     padding-left: 0px !important;
 }
+
+.link {
+    display: flex;
+    transition: 0.5s;
+    // justify-content: space-between;
+}
+ul.all {
+    list-style: none;
+    svg {
+        display: none;
+    }
+    li {
+        display: inline-block;
+        color: #8c8c8c;
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
+ul.pages {
+    // display: none;
+    list-style: none;
+    li {
+        display: inline-block;
+        margin-left: 25px;
+        color: #8c8c8c;
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
+
 .imags {
     .col-12 {
         h1 {
@@ -120,20 +177,9 @@ export default {};
         }
     }
 
-    .nav {
-        margin-top: 40px;
-        margin-left: 0 !important;
-
-        li{
-            color: #8c8c8c;
-            font-size: 16px;
-            font-weight: 600;
-        }
-
-        li:hover {
-            color: #000;
-            position: relative;
-        }
+    li:hover {
+        color: #000;
+        position: relative;
     }
 
     li::after {
@@ -180,6 +226,67 @@ export default {};
 
         .afrika:hover::after {
             width: 100%;
+        }
+    }
+}
+@media (min-width: 280px) and (max-width: 950px) {
+    .col-12 {
+        h1 {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 36px;
+        }
+    }
+    .link {
+        display: flex;
+        // justify-content: flex-end;
+        // align-items: center;
+        padding: 10px 0;
+    }
+
+    ul.all {
+        display: block;
+        svg {
+            display: block;
+            transform: rotate(0deg);
+        }
+        svg.bur {
+            display: block;
+            transform: rotate(-180deg);
+        }
+        li {
+            margin-top: 12px;
+            display: flex;
+            align-items: center;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 120%;
+            color: #1e6bdd !important;
+        }
+        li:hover::after {
+            width: 0;
+            display: none;
+        }
+    }
+
+    ul.pages-media {
+        display: block;
+        list-style: none;
+        li {
+            margin-top: 10px;
+            display: block;
+            margin-left: 0px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 120%;
+            color: #666666;
+        }
+        
+        li:hover::after {
+            width: 0;
+            display: none;
         }
     }
 }
