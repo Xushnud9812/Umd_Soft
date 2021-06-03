@@ -14,6 +14,7 @@
                             :begin="false"
                         >
                             <h1>Наши работы</h1>
+                            
                         </u-animate>
                     </div>
                     <div class="col-md-12 col-6 link">
@@ -45,7 +46,13 @@
                                         </svg>
                                     </li>
                                 </ul>
-                                <ul :class="toggleUl ? 'pages-media' : 'pages'">
+                                <ul
+                                    :class="
+                                        toggleUl
+                                            ? 'pages-media pages'
+                                            : 'pages '
+                                    "
+                                >
                                     <li class="nav-item one">Landing page</li>
                                     <li class="nav-item">Сайты визитки</li>
                                     <li class="nav-item">
@@ -151,9 +158,9 @@ export default {
     transition: 0.5s;
     // justify-content: space-between;
 }
-.line{
+.line {
     display: flex;
-    transition: .5s;
+    transition: 0.5s;
 }
 ul.all {
     list-style: none;
@@ -170,7 +177,7 @@ ul.all {
 }
 ul.pages {
     // display: none;
-    transition: .5s;
+    transition: 0.5s;
     list-style: none !important;
     li {
         display: inline-block;
@@ -178,7 +185,7 @@ ul.pages {
         color: #8c8c8c;
         font-size: 16px;
         font-weight: 600;
-        transition: .5s;
+        transition: 0.5s;
     }
 }
 
@@ -244,8 +251,8 @@ ul.pages {
     }
 }
 @media (min-width: 280px) and (max-width: 950px) {
-    *{
-        transition: .5s;
+    * {
+        transition: 0.5s;
     }
     .imags .box-afrika {
         display: block;
@@ -271,7 +278,7 @@ ul.pages {
 
     ul.all {
         display: block;
-        transition: .5s;
+        transition: 0.5s;
         svg {
             display: block;
             transform: rotate(0deg);
@@ -295,19 +302,20 @@ ul.pages {
             display: none;
         }
     }
-    .line{
+    .line {
         display: block;
-        transition: .5s;
+        transition: 0.5s;
         margin-left: 60px;
     }
-    ul.pages{
-        display: none;
-        transition: .5s;
+    ul.pages {
+        display: none !important;
+        transition: 0.5s;
     }
     ul.pages-media {
-        transition: .5s;
-        display: block;
+        transition: 0.5s;
+        display: block !important;
         list-style: none;
+
         li {
             margin-top: 10px;
             display: block;
@@ -325,7 +333,11 @@ ul.pages {
         }
     }
 }
-
+@media (min-width: 950px) {
+    ul.pages {
+        display: block !important;
+    }
+}
 @media (min-width: 768px) and (max-width: 960px) {
 }
 @media (min-width: 576px) and (max-width: 768px) {

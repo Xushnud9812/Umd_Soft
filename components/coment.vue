@@ -61,83 +61,9 @@
                                 <h4>Невероятный опыт</h4>
                                 <p>
                                     Мне очень понравилась работа этой команды.
-                                    Мастера своего дела <br />
-                                    выполнили проект в короткие сроки,
-                                    качественно, по доступной цене.
-                                    <br />
-                                    Рекомендую вам и буду работать с этой
-                                    командой снова в будущем.
-                                </p>
-                            </div>
-                            <div class="person">
-                                <div>
-                                    <img src="@/assets/img/logo6.png" alt="" />
-                                </div>
-                                <div class="name">
-                                    <h4>Максудов Ахрор</h4>
-                                    <p>Директор, Tujjor</p>
-                                </div>
-                            </div>
-                            <div class="rectangle"></div>
-                        </div>
-                        <div class="col-6 axror">
-                            <div class="card">
-                                <h4>Невероятный опыт</h4>
-                                <p>
-                                    Мне очень понравилась работа этой команды.
-                                    Мастера своего дела <br />
-                                    выполнили проект в короткие сроки,
-                                    качественно, по доступной цене.
-                                    <br />
-                                    Рекомендую вам и буду работать с этой
-                                    командой снова в будущем.
-                                </p>
-                            </div>
-                            <div class="person">
-                                <div>
-                                    <img src="@/assets/img/logo6.png" alt="" />
-                                </div>
-                                <div class="name">
-                                    <h4>Максудов Ахрор</h4>
-                                    <p>Директор, Tujjor</p>
-                                </div>
-                            </div>
-                            <div class="rectangle"></div>
-                        </div>
-                        <div class="col-6 axror">
-                            <div class="card">
-                                <h4>Невероятный опыт</h4>
-                                <p>
-                                    Мне очень понравилась работа этой команды.
-                                    Мастера своего дела <br />
-                                    выполнили проект в короткие сроки,
-                                    качественно, по доступной цене.
-                                    <br />
-                                    Рекомендую вам и буду работать с этой
-                                    командой снова в будущем.
-                                </p>
-                            </div>
-                            <div class="person">
-                                <div>
-                                    <img src="@/assets/img/logo6.png" alt="" />
-                                </div>
-                                <div class="name">
-                                    <h4>Максудов Ахрор</h4>
-                                    <p>Директор, Tujjor</p>
-                                </div>
-                            </div>
-                            <div class="rectangle"></div>
-                        </div>
-                        <div class="col-6 axror">
-                            <div class="card">
-                                <h4>Невероятный опыт</h4>
-                                <p>
-                                    Мне очень понравилась работа этой команды.
-                                    Мастера своего дела <br />
-                                    выполнили проект в короткие сроки,
-                                    качественно, по доступной цене.
-                                    <br />
-                                    Рекомендую вам и буду работать с этой
+                                    Мастера своего дела выполнили проект в
+                                    короткие сроки, качественно, по доступной
+                                    цене. Рекомендую вам и буду работать с этой
                                     командой снова в будущем.
                                 </p>
                             </div>
@@ -204,6 +130,10 @@ export default {
 
 <style lang="scss">
 .clent {
+    .slick-prev,
+    .slick-next {
+        display: none !important;
+    }
     .slick-dots li button:before {
         font-family: "slick";
         font-size: 6px;
@@ -304,188 +234,194 @@ export default {
     }
 }
 
-    @media (min-width: 768px) and (max-width: 960px){
-        .clent{
-            .col-12{
-                h1{
-                    font-weight: 800;
-                    font-size: 24px;
-                    line-height: 64px
+@media (min-width: 768px) and (max-width: 960px) {
+    .clent {
+        .col-12 {
+            h1 {
+                font-weight: 800;
+                font-size: 24px;
+                line-height: 64px;
+            }
+            img {
+                width: 70px;
+                position: absolute;
+                margin-right: 285px;
+                margin-top: 35px;
+            }
+        }
+        .axror {
+            .card {
+                width: 380px;
+                height: 143px;
+                margin-bottom: 0;
+                padding: 15px;
+                h4 {
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 28px;
+                    margin-top: 0;
                 }
-                img{
-                    width: 70px;
-                    position: absolute;
-                    margin-right: 285px;
-                    margin-top: 35px;
-
+                p {
+                    font-size: 10px;
+                    line-height: 24px;
                 }
             }
-            .axror{
-                .card{
-                    width: 380px;
-                    height: 143px;
+            .rectangle {
+                position: absolute;
+                margin-top: -105px;
+                margin-left: 180px;
+            }
+            .person {
+                img {
+                    width: 51px;
+                    height: 51px;
+                    margin-left: -80px;
+                }
+                h4 {
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 28px;
                     margin-bottom: 0;
-                    padding: 15px;
-                    h4{
-                        font-weight: 600;
-                        font-size: 14px;
-                        line-height: 28px;
-                        margin-top: 0;
-                    }
-                    p{
-                        font-size: 10px;
-                        line-height: 24px;
-                    }
+                    margin-left: -10px;
+                    margin-top: 0;
                 }
-                .rectangle{
-                    position: absolute;
-                    margin-top: -105px;
-                    margin-left: 180px;
-                }
-                .person{
-                    img{
-                        width: 51px;
-                        height: 51px;
-                        margin-left: -80px;
-                    }
-                    h4{
-                        font-weight: bold;
-                        font-size: 16px;
-                        line-height: 28px;
-                        margin-bottom: 0;
-                        margin-left: -10px;
-                        margin-top: 0;
-                    }
-                    p{
-                        font-size: 12px;
-                        line-height: 24px;
-                        margin-left: -10px;
-                        margin-top: 0;
-                    }
+                p {
+                    font-size: 12px;
+                    line-height: 24px;
+                    margin-left: -10px;
+                    margin-top: 0;
                 }
             }
         }
     }
-    @media (min-width: 576px) and (max-width: 768px){
-        .clent{
-            .col-12{
-                h1{
-                    font-weight: 800;
-                    font-size: 24px;
-                    line-height: 64px
+}
+@media (min-width: 576px) and (max-width: 768px) {
+    .clent {
+        .col-12 {
+            h1 {
+                font-weight: 800;
+                font-size: 24px;
+                line-height: 64px;
+            }
+            img {
+                width: 70px;
+                position: absolute;
+                margin-right: 25px;
+                margin-top: 35px;
+            }
+        }
+        .axror {
+            .card {
+                width: 380px;
+                height: 143px;
+                margin-bottom: 0;
+                padding: 15px;
+                h4 {
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 28px;
+                    margin-top: 0;
                 }
-                img{
-                    width: 70px;
-                    position: absolute;
-                    margin-right: 25px;
-                    margin-top: 35px;
+                p {
+                    font-size: 10px;
+                    line-height: 24px;
                 }
             }
-            .axror{
-                .card{
-                    width: 380px;
-                    height: 143px;
+            .rectangle {
+                position: absolute;
+                margin-top: -105px;
+                margin-left: 180px;
+            }
+            .person {
+                img {
+                    width: 51px;
+                    height: 51px;
+                    margin-left: -80px;
+                }
+                h4 {
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 28px;
                     margin-bottom: 0;
-                    padding: 15px;
-                    h4{
-                        font-weight: 600;
-                        font-size: 14px;
-                        line-height: 28px;
-                        margin-top: 0;
-                    }
-                    p{
-                        font-size: 10px;
-                        line-height: 24px;
-                    }
+                    margin-left: -10px;
+                    margin-top: 0;
                 }
-                .rectangle{
-                    position: absolute;
-                    margin-top: -105px;
-                    margin-left: 180px;
-                }
-                .person{
-                    img{
-                        width: 51px;
-                        height: 51px;
-                        margin-left: -80px;
-                    }
-                    h4{
-                        font-weight: bold;
-                        font-size: 16px;
-                        line-height: 28px;
-                        margin-bottom: 0;
-                        margin-left: -10px;
-                        margin-top: 0;
-                    }
-                    p{
-                        font-size: 12px;
-                        line-height: 24px;
-                        margin-left: -10px;
-                        margin-top: 0;
-                    }
+                p {
+                    font-size: 12px;
+                    line-height: 24px;
+                    margin-left: -10px;
+                    margin-top: 0;
                 }
             }
         }
     }
-    @media (min-width: 340px) and (max-width: 576px){
-        .clent{
-            .col-12{
-                h1{
-                    font-weight: 800;
-                    font-size: 24px;
-                    line-height: 64px
+}
+@media (min-width: 340px) and (max-width: 576px) {
+    .col-6 {
+        padding: 0 !important;
+    }
+    .row { 
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+    .clent {
+        .col-12 {
+            h1 {
+                font-weight: 800;
+                font-size: 24px;
+                line-height: 64px;
+            }
+            img {
+                width: 70px;
+                position: absolute;
+                margin-right: -25px;
+                margin-top: 35px;
+            }
+        }
+        .axror {
+            .card {
+                width: 336px;
+                height: 220px;
+                margin-bottom: 0;
+                padding: 15px;
+                h4 {
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 28px;
+                    margin-top: 0;
                 }
-                img{
-                    width: 70px;
-                    position: absolute;
-                    margin-right: -25px;
-                    margin-top: 35px;
+                p {
+                    font-size: 13px;
+                    // line-height: 24px;
                 }
             }
-            .axror{
-                .card{
-                    width: 380px;
-                    height: 143px;
+            .rectangle {
+                position: absolute;
+                margin-top: -105px;
+                margin-left: 180px;
+            }
+            .person {
+                img {
+                    width: 51px;
+                    height: 51px;
+                    margin-left: -80px;
+                }
+                h4 {
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 28px;
                     margin-bottom: 0;
-                    padding: 15px;
-                    h4{
-                        font-weight: 600;
-                        font-size: 14px;
-                        line-height: 28px;
-                        margin-top: 0;
-                    }
-                    p{
-                        font-size: 10px;
-                        line-height: 24px;
-                    }
+                    margin-left: -10px;
+                    margin-top: 0;
                 }
-                .rectangle{
-                    position: absolute;
-                    margin-top: -105px;
-                    margin-left: 180px;
-                }
-                .person{
-                    img{
-                        width: 51px;
-                        height: 51px;
-                        margin-left: -80px;
-                    }
-                    h4{
-                        font-weight: bold;
-                        font-size: 16px;
-                        line-height: 28px;
-                        margin-bottom: 0;
-                        margin-left: -10px;
-                        margin-top: 0;
-                    }
-                    p{
-                        font-size: 12px;
-                        line-height: 24px;
-                        margin-left: -10px;
-                        margin-top: 0;
-                    }
+                p {
+                    font-size: 12px;
+                    line-height: 24px;
+                    margin-left: -10px;
+                    margin-top: 0;
                 }
             }
         }
     }
+}
 </style>

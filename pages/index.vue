@@ -149,6 +149,8 @@
 
         <wework />
 
+        <work />
+
         <team />
 
         <coment />
@@ -163,8 +165,9 @@ import result from "../components/result.vue";
 import Team from "../components/team.vue";
 import wework from "../components/wework.vue";
 import karta from "../components/karta.vue";
+import work from "../components/work.vue";
 export default {
-    components: { wework, Team, result, Coment, karta }
+    components: { wework, Team, result, Coment, karta, work }
 };
 
 // data() {
@@ -305,7 +308,7 @@ export default {
         .box {
             width: 157px;
             height: 180px;
-            border-bottom: 0px;
+            border-bottom: 6px solid #1e6bdd;
             margin-top: 15px;
             h2 {
                 font-size: 16px;

@@ -3,7 +3,7 @@
         <u-animate-container>
             <div class="container ">
                 <div class="row sayt">
-                    <div class="col-md-6 order-md-1 order-2 chap">
+                    <div class="col-md-6 order-md-1 order-1 chap">
                         <u-animate
                             name="fadeIn"
                             delay="0s"
@@ -30,7 +30,7 @@
                         </u-animate>
                     </div>
 
-                    <div class="col-md-6 ong order-md-2 order-1">
+                    <div class="col-md-6 ong order-md-2 order-2">
                         <div class="row">
                             <div class="col-6 box">
                                 <u-animate
@@ -390,12 +390,7 @@
         margin-bottom: 0;
     }
     button {
-<<<<<<< HEAD
-        width: 155px;
-        padding: 12px 16px;
-=======
-        padding: 0px 16px;
->>>>>>> e18e157bc03ec56728d6f17f3cf4680154acf266
+        padding: 8px 16px;
         background: #1e6bdd;
         border-radius: 5px;
         font-size: 16px;
@@ -404,6 +399,7 @@
         transition: 0.3s ease;
         border: 1px solid #1e6bdd;
         margin-top: 30px;
+        margin-bottom: 15px;
     }
     button:hover {
         background: #fff;
@@ -538,6 +534,7 @@
             margin: 0 auto;
             display: block;
             margin-top: 30px;
+            margin-bottom: 15px;
         }
     }
 }

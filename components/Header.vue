@@ -12,6 +12,15 @@
                     ></div>
                     <div :class="toggleMenu ? 'menu menu-media' : 'menu'">
                         <ul class="nav-ul">
+                            <li class="nav-item logotip">
+                                <a href="#" class="nav-link text-primary">
+                                    <img
+                                        href="#"
+                                        src="@/assets/img/logo8.png"
+                                        alt=""
+                                    />
+                                </a>
+                            </li>
                             <li class="nav-item">
                                 <a href="#" class="nav-link text-primary"
                                     >О нас</a
@@ -30,7 +39,7 @@
                                 <a href="#" class="nav-link">Контакты</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">Отзыве</a>
+                                <a href="#" class="nav-link">Отзывы</a>
                             </li>
                             <button @click="modal" type="button" class="">
                                 Заказат проект
@@ -101,8 +110,9 @@ export default {
 .bar {
     display: none;
 }
-.container{
+.container {
     width: 87%;
+    margin: 0 auto;
 }
 .head {
     width: 87%;
@@ -159,10 +169,19 @@ export default {
                 color: #1e6bdd;
             }
         }
+        li.logotip {
+            display: none;
+            img {
+                display: none;
+            }
+        }
     }
 }
 
 @media (min-width: 280px) and (max-width: 900px) {
+    .nav-menu .nav-ul li.logotip img{
+        display: block;
+    }
     .bar {
         display: block;
     }
@@ -183,6 +202,14 @@ export default {
         height: 100vh;
         li {
             display: block !important;
+            img {
+                display: block;
+            }
+        }
+        li.logotip {
+            img {
+                display: block;
+            }
         }
     }
 }

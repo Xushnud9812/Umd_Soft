@@ -5,8 +5,18 @@
                 <div class="col-md-4 col-12 ">
                     <div class="text">
                         <img src="@/assets/img/UMDSOFT.png" alt="" />
+                        
                         <h1>IT Компания</h1>
-                        <h2>Мобильная разрвязаться</h2>
+
+                        <h1 style="min-height: 50px">
+                            <span
+                                class="txt-rotate"
+                                data-period="2000"
+                                data-rotate='[ "nerdy.", "simple.", "pure JS.", "pretty.", "fun!" ]'
+                            ></span>
+                        </h1>
+
+                        <!-- <h2>Мобильная разрвязаться</h2> -->
                         <button @click="modal" type="button" class="">
                             Заказат проект
                         </button>
@@ -23,6 +33,61 @@
 </template>
 <script>
 export default {
+    mounted() {
+        var TxtRotate = function(el, toRotate, period) {
+            this.toRotate = toRotate;
+            this.el = el;
+            this.loopNum = 0;
+            this.period = parseInt(period, 0) || 2000;
+            this.txt = "";
+            this.tick();
+            this.isDeleting = false;
+        };
+
+        TxtRotate.prototype.tick = function() {
+            var i = this.loopNum % this.toRotate.length;
+            var fullTxt = this.toRotate[i];
+
+            if (this.isDeleting) {
+                this.txt = fullTxt.substring(0, this.txt.length - 1);
+            } else {
+                this.txt = fullTxt.substring(0, this.txt.length + 1);
+            }
+
+            this.el.innerHTML = '<span class="wrap">' + this.txt + "</span>";
+
+            var that = this;
+            var delta = 200 - Math.random() * 100;
+
+            if (this.isDeleting) {
+                delta /= 2;
+            }
+
+            if (!this.isDeleting && this.txt === fullTxt) {
+                delta = this.period;
+                this.isDeleting = true;
+            } else if (this.isDeleting && this.txt === "") {
+                this.isDeleting = false;
+                this.loopNum++;
+                delta = 100;
+            }
+
+            setTimeout(function() {
+                that.tick();
+            }, delta);
+        };
+
+        var elements = document.getElementsByClassName("txt-rotate");
+        for (var i = 0; i < elements.length; i++) {
+            var toRotate = ["Мобильная разрвязаться", "Веб дизайн", "SMM дизайн ", "", ""];
+            var period = elements[i].getAttribute("data-period");
+
+            console.log("too->", toRotate);
+            if (toRotate) {
+                new TxtRotate(elements[i], toRotate, period);
+            }
+        }
+    },
     methods: {
         modal() {
             this.$store.commit("changeButton");
@@ -33,8 +98,14 @@ export default {
 </script>
 
 <style lang="scss">
-*{
-    transition: .5s;
+span.wrap {
+    background-color: transparent !important;
+    border-right: 2px solid #1e6bdd;
+    padding: 0px;
+    color: #1e6bdd;
+}
+* {
+    transition: 0.5s;
 }
 .tag {
     margin-top: 70px;
@@ -127,7 +198,6 @@ export default {
         width: 100%;
         //height: 560, 36px;
         margin-left: 0px;
-
     }
     @media (min-width: 577px) and (max-width: 950px) {
         .tag {

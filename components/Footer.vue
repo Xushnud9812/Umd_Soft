@@ -145,7 +145,6 @@ a.nav-li:hover {
 }
 .set {
     margin-top: 20px;
-    margin-left: 15px;
     width: 210px;
     display: flex;
     justify-content: space-around;
@@ -194,7 +193,7 @@ a.nav-li:hover {
             height: 40px;
             border-radius: 20px;
             text-align: center;
-            background: #ffffff;
+            background: silver;
             align-items: center;
             display: flex;
             justify-content: center;

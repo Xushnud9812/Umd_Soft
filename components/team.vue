@@ -12,7 +12,7 @@
                             animateClass="animate__animated animate__fadeInUp"
                             :begin="false"
                         >
-                            <h1>Наши команда</h1>
+                            <h1>Наша команда</h1>
                         </u-animate>
                         <div class="row">
                             <Carousel v-bind="slickOptions">
@@ -446,13 +446,14 @@ export default {
                             infinite: false,
                             slidesToScroll: 2,
                             dots: true,
-                            draggable: true
+                            draggable: true,
                         }
                     },
                     {
-                        breakpoint: 500,
+                        breakpoint: 600,
                         settings: {
                             dots: true,
+                            speed: 500,
                             slidesToShow: 2,
                             infinite: false,
                             slidesToScroll: 1,

@@ -134,7 +134,7 @@ h1 {
 
     @media (min-width: 340px) and (max-width: 576px){
         .headone{
-
+            padding-top: 30px;
             //width: 300px;
             .login{
                 padding: 0;

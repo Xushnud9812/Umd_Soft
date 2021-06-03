@@ -104,7 +104,7 @@ export default {};
             }
             button {
                 width: 356px;
-                height: 50px;
+                padding: 6px 0;
                 background: #1e6bdd;
                 box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
                 border-radius: 5px;
@@ -134,8 +134,8 @@ export default {};
                         margin-top: 10px;
                     }
                     h5{
-                        font-size: 10px;
-                        margin-top: 7px;
+                        font-size: 13px;
+                        // margin-top: 7px;
                     }
                     input{
                         width: 185px;
@@ -151,9 +151,9 @@ export default {};
                     }
                     button{
                         width: 185px;
-                        height: 24px;
-                        font-size: 10px;
-                        margin-top: 27px;
+                        padding: 10px 0;
+                        font-size: 12px;
+                        // margin-top: 27px;
                         margin-bottom: 13px;
                     }
                 }
