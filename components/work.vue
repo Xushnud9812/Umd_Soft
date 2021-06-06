@@ -193,7 +193,7 @@
                                         </div>
                                     </div>
                                     <div class="col">
-                                        <div class="square">
+                                        <div class="square oxirgi">
                                             <div class="img">
                                                 <svg
                                                     xmlns="http://www.w3.org/2000/svg"
@@ -282,6 +282,25 @@
                     color: #000000;
                 }
             }
+        }
+    }
+}
+@media (min-width: 330px) and (max-width: 576px) {
+    .square{
+        margin: 0 auto;
+        img{
+            display: none;
+        }
+    }
+}
+@media (min-width: 577px) and (max-width: 767px) {
+    .oxirgi{
+        margin: 0 auto;
+    }
+    .square{
+        margin: 0 auto;
+        img{
+            display: none;
         }
     }
 }

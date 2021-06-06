@@ -1,21 +1,21 @@
 <template>
     <div>
         <u-animate-container>
-                <div class="team">
-                    <div class="container">
-                        <u-animate
-                            name="fadeIn"
-                            delay="0s"
-                            duration="1.5s"
-                            :iteration="1"
-                            :offset="0"
-                            animateClass="animate__animated animate__fadeInUp"
-                            :begin="false"
-                        >
-                            <h1>Наша команда</h1>
-                        </u-animate>
-                        <div class="row">
-                            <Carousel v-bind="slickOptions">
+            <div class="team">
+                <div class="container">
+                    <u-animate
+                        name="fadeIn"
+                        delay="0s"
+                        duration="1.5s"
+                        :iteration="1"
+                        :offset="0"
+                        animateClass="animate__animated animate__fadeInUp"
+                        :begin="false"
+                    >
+                        <h1>Наша команда</h1>
+                    </u-animate>
+                    <div class="row">
+                        <Carousel v-bind="slickOptions">
                             <div class="col">
                                 <u-animate
                                     name="fadeIn"
@@ -418,11 +418,10 @@
                                     </div>
                                 </u-animate>
                             </div>
-                            </Carousel>
-                        </div>
+                        </Carousel>
                     </div>
                 </div>
-
+            </div>
         </u-animate-container>
     </div>
 </template>
@@ -430,8 +429,8 @@
 <script>
 export default {
     data() {
-        return { 
-                slickOptions: {
+        return {
+            slickOptions: {
                 dots: false,
                 speed: 500,
                 slidesToShow: 5,
@@ -442,33 +441,44 @@ export default {
                     {
                         breakpoint: 1024,
                         settings: {
-                            slidesToShow: 2,
-                            infinite: false,
-                            slidesToScroll: 2,
+                            speed: 1500,
+                            touchThreshold: 1000,
+                            autoplay: true,
+                            autoplaySpeed: 2000,
+                            slidesToShow: 3,
+                            infinite: true,
+                            slidesToScroll: 1,
                             dots: true,
-                            draggable: true,
+                            draggable: true
                         }
                     },
                     {
                         breakpoint: 600,
                         settings: {
+                            focusOnSelect: true,
+                            loop: false,
+                            arrows: false,
                             dots: true,
-                            speed: 500,
                             slidesToShow: 2,
-                            infinite: false,
+                            speed: 1500,
+                            touchThreshold: 1000,
+                            autoplay: true,
+                            autoplaySpeed: 3000,
+                            infinite: true,
                             slidesToScroll: 1,
                             draggable: true
                         }
                     }
                 ]
-            }};
+            }
+        };
     }
 };
 </script>
 
 <style lang="scss" scoped>
 .team {
-    *{
+    * {
         margin: 0 auto;
     }
     // width: 1160px;
@@ -488,7 +498,7 @@ export default {
     .card {
         position: relative;
         padding: 20px;
-        width: 200px;
+        width: 202px;
         height: 256px;
         background: #f6f6f6;
         box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
@@ -560,25 +570,26 @@ export default {
         }
     }
 }
-    @media (min-width: 768px) and (max-width: 960px){
-
+@media (min-width: 768px) and (max-width: 960px) {
+}
+@media (min-width: 576px) and (max-width: 768px) {
+}
+@media (min-width: 340px) and (max-width: 576px) {
+    .team {
+        overflow-x: scroll;
     }
-    @media (min-width: 576px) and (max-width: 768px){
-
-    }
-    @media (min-width: 340px) and (max-width: 576px){
-        .team{
-            overflow-x: scroll;
+    .team .card[data-v-1ced0998] {
+        width: 169px;
+        padding: 15px;
+        img {
+            width: 125px;
         }
-        .team .card[data-v-1ced0998]{
-            width: 166px;
-            padding: 15px;
-            img{
-                width: 125px;
-            }
-        }
-        .team .card h4 a{
-            font-size: 12px;
+        span{
+            font-size: 11px;
         }
     }
+    .team .card h4 a {
+        font-size: 12px;
+    }
+}
 </style>

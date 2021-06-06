@@ -410,7 +410,7 @@
 .ong {
     //padding: 0 110px;
     .box {
-        display: flex;
+        // display: flex;
         .cardone {
             display: flex;
             justify-content: center;
@@ -501,8 +501,8 @@
         .box {
             justify-content: flex-end;
             .cardone {
-                margin: 0 auto;
-                width: 156px;
+                margin: 12px auto;
+                // width: 156px;
             }
         }
     }

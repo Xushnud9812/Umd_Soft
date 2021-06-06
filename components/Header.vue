@@ -5,7 +5,7 @@
                 <div>
                     <img href="#" src="@/assets/img/logo8.png" alt="" />
                 </div>
-                <div>
+                <div class="bardiv">
                     <div
                         @click="toggleMenu = !toggleMenu"
                         :class="toggleMenu ? 'fix-vh' : ''"
@@ -107,12 +107,17 @@ export default {
 </script>
 
 <style lang="scss">
-.bar {
-    display: none;
+.bardiv {
+    display: flex;
+    .bar {
+        display: none;
+    }
 }
+
 .container {
     width: 87%;
     margin: 0 auto;
+    // overflow-x: hidden;
 }
 .head {
     width: 87%;
@@ -179,12 +184,15 @@ export default {
 }
 
 @media (min-width: 280px) and (max-width: 900px) {
-    .nav-menu .nav-ul li.logotip img{
+    .nav-menu .nav-ul li.logotip img {
         display: block;
     }
-    .bar {
+    .bardiv{
+        .bar {
         display: block;
     }
+    }
+    
     .menu {
         position: fixed;
         // transform: translateX(-103%);

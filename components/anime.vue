@@ -5,7 +5,7 @@
                 <div class="col-md-4 col-12 ">
                     <div class="text">
                         <img src="@/assets/img/UMDSOFT.png" alt="" />
-                        
+
                         <h1>IT Компания</h1>
 
                         <h1 style="min-height: 50px">
@@ -25,6 +25,10 @@
                 <div class="col-md-8 col-12">
                     <div class="img">
                         <img src="@/assets/img/Graphics.png" alt="" />
+                        <div class="anim">
+                            
+                            <fa icon="cog" />
+                        </div>
                     </div>
                 </div>
             </div>
@@ -79,7 +83,13 @@ export default {
 
         var elements = document.getElementsByClassName("txt-rotate");
         for (var i = 0; i < elements.length; i++) {
-            var toRotate = ["Мобильная разрвязаться", "Веб дизайн", "SMM дизайн ", "", ""];
+            var toRotate = [
+                "Мобильная разрвязаться",
+                "Веб дизайн",
+                "SMM дизайн ",
+                "",
+                ""
+            ];
             var period = elements[i].getAttribute("data-period");
 
             console.log("too->", toRotate);
@@ -98,6 +108,28 @@ export default {
 </script>
 
 <style lang="scss">
+.anim {
+    svg {
+        font-size: 40px;
+        color: black;
+        position: absolute;
+        right: 242px;
+        top: 182px;
+        color: #fff;
+       animation: anim 7s linear infinite;
+        // animation-direction: alternate;
+       
+    }
+}
+@keyframes anim {
+    from{
+        transform: rotate(0deg);
+    }
+    
+    to {
+        transform: rotate(360deg);
+    }
+}
 span.wrap {
     background-color: transparent !important;
     border-right: 2px solid #1e6bdd;

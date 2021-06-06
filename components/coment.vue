@@ -106,18 +106,28 @@ export default {
                         breakpoint: 1024,
                         settings: {
                             slidesToShow: 1,
-                            infinite: false,
-                            slidesToScroll: 4,
+                            infinite: true,
+                            slidesToScroll: 1,
                             dots: true,
+                            autoplay: true,
+                            autoplaySpeed: 1500,
                             draggable: true
                         }
                     },
                     {
                         breakpoint: 600,
                         settings: {
+                             focusOnSelect: true,
+                            loop: false,
+                            arrows: false,
+                            dots: true,
                             slidesToShow: 1,
-                            infinite: false,
-                            slidesToScroll: 2,
+                            speed: 1500,
+                            touchThreshold: 1000,
+                            autoplay: true,
+                            autoplaySpeed: 3000,
+                            infinite: true,
+                            slidesToScroll: 1,
                             draggable: true
                         }
                     }

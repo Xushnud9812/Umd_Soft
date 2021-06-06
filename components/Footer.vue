@@ -13,7 +13,7 @@
                         massa non nisi, placerat.
                     </p>
                 </div>
-                <div class="col-md-3 col-6 umd">
+                <div class="col-md-3 col-6 umd sal">
                     <h4>Быстрые ссылки</h4>
                     <ul class="nav flex-column">
                         <a href="#" class="nav-link">О нас</a>
@@ -26,21 +26,21 @@
                 <div class="col-md-3 col-6 umd">
                     <h4>Связаться с нами</h4>
                     <ul class="nav flex-column">
-                        <a href="#" class="nav-link "
+                        <a href="#" class="aloqa "
                             ><img
                                 class="me-2"
                                 src="@/assets/img/logo9.png"
                                 alt=""
                             />info@umdsoft.org</a
                         >
-                        <a href="#" class="nav-link"
+                        <a href="#" class="aloqa"
                             ><img
                                 class="me-2"
                                 src="@/assets/img/logo10.png"
                                 alt=""
                             />+998 91 134 77 73</a
                         >
-                        <a style="line-height: 28px" href="#" class="nav-link"
+                        <a href="#" class="aloqa"
                             ><img
                                 class="me-2"
                                 src="@/assets/img/logo11.png"
@@ -50,10 +50,11 @@
                         </a>
                     </ul>
                 </div>
-                <div class="col-md-3 col-6 umd">
+                <div class="col-md-3 col-6 umd sal">
                     <h4>Cоциальные сети</h4>
                     <div class="set">
                         <a
+                            target="_blank"
                             href="https://www.instagram.com/umdsoft"
                             class="nav-li "
                         >
@@ -72,7 +73,10 @@
                                 />
                             </svg>
                         </a>
-                        <a href="https://t.me/Umdsoft" class="nav-li"
+                        <a
+                            target="_blank"
+                            href="https://t.me/Umdsoft"
+                            class="nav-li"
                             ><svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="17"
@@ -86,6 +90,7 @@
                                 /></svg
                         ></a>
                         <a
+                            target="_blank"
                             href="https://www.facebook.com/umdsoft"
                             class="nav-li"
                         >
@@ -103,7 +108,7 @@
                         ></a>
                     </div>
                 </div>
-                <div class="col-6 umd">
+                <div class="col-md-6 col-12 umd">
                     <h6>© 2020 UMD SOFT . Все права защищены</h6>
                     <div class="up" href="">
                         <a href="#"> <img src="@/assets/img/up.png" alt=""/></a>
@@ -117,6 +122,10 @@
 <style lang="scss">
 * {
     scroll-behavior: smooth;
+}
+.v-application ul,
+.v-application ol {
+    margin-left: 0 !important;
 }
 a.nav-li {
     width: 40px;
@@ -136,11 +145,26 @@ a.nav-li:hover {
         }
     }
 }
+a.aloqa {
+    margin-top: 10px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 24px;
+    font-feature-settings: "liga" off;
+    color: #d9dbe1;
+}
 .set {
     svg {
         path {
             fill: #fff;
         }
+    }
+}
+.sal {
+    h4 {
+        margin-left: 18px;
     }
 }
 .set {
@@ -183,12 +207,7 @@ a.nav-li:hover {
         .up {
             position: fixed;
             bottom: 20px;
-
-
             right: 50px;
-
-            /*right: 40px;*/
-
             width: 40px;
             height: 40px;
             border-radius: 20px;
@@ -197,15 +216,13 @@ a.nav-li:hover {
             align-items: center;
             display: flex;
             justify-content: center;
-
-            //left: 1275px;
             margin-top: -120px;
             cursor: pointer;
         }
         h4 {
             color: #fff;
             font-size: 14px;
-            margin-left: 16px;
+            // margin-left: 16px;
         }
 
         .nav {
@@ -224,31 +241,35 @@ a.nav-li:hover {
     }
 }
 
-    @media (min-width: 340px) and (max-width: 576px){
-        .umd{
-            .img{
-                img{
-                    width: 85px;
-                }
-            }
-            h4{
-                font-size: 24px;
-                font-weight: lighter;
-                //line-height: 30px;
-            }
-            .set{
-                width: 150px;
-                margin-left: 8px;
-                a.nav-li{
-                    width: 30px;
-                    height: 30px;
-                }
-            }
-
+@media (min-width: 340px) and (max-width: 576px) {
+    .sal {
+        h4 {
+            margin-left: 12px;
         }
     }
+    .umd {
+        .img {
+            img {
+                width: 85px;
+            }
+        }
+        h4 {
+            font-size: 24px;
+            font-weight: lighter;
+            //line-height: 30px;
+        }
+        .set {
+            width: 150px;
+            margin-left: 8px;
+            a.nav-li {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+}
 
-.footer .umd .nav a{
+.footer .umd .nav a {
     line-height: 14px;
 }
 </style>

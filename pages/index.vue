@@ -283,6 +283,9 @@ export default {
             margin: 0 auto;
         }
     }
+    .boxs .box h2{
+        font-size: 20px;
+    }
     .down {
         margin-top: 0;
     }

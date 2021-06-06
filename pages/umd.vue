@@ -3,212 +3,16 @@
         <!-- <login /> -->
         <div class="header">
             <div class="container">
-                <div class="row top">
-                    <div class="left">
+                <div class="row ">
+                    <div class="col-md-4 col-6 left">
                         <h1>
                             Дизайнерские <br />
                             услуги
                         </h1>
-                        <button class="btn ">Заказат проект</button>
+                        <button @click="modal" class="">Заказат проект</button>
                     </div>
-                    <div class="right">
-                        <img
-                            class="bulutone"
-                            src="@/assets/img/bulut.png"
-                            alt=""
-                        />
-                        <img
-                            class="buluttwo"
-                            src="@/assets/img/bulut.png"
-                            alt=""
-                        />
-                        <img
-                            class="bulutthree"
-                            src="@/assets/img/bulut.png"
-                            alt=""
-                        />
-
-                        <img
-                            class="bargchap"
-                            src="@/assets/img/bargchap.png"
-                            alt=""
-                        />
-                        <img
-                            class="bargong"
-                            src="@/assets/img/bargong.png"
-                            alt=""
-                        />
-                        <img
-                            class="phonedown"
-                            src="@/assets/img/phonedown.png"
-                            alt=""
-                        />
-
-                        <img class="ball" src="@/assets/img/ball.png" alt="" />
-
-                        <img
-                            class="phone"
-                            src="@/assets/img/phone.png"
-                            alt=""
-                        />
-                        <img
-                            class="inphone"
-                            src="@/assets/img/inphone.png"
-                            alt=""
-                        />
-                        <div class="starbox">
-                            <img
-                                class=""
-                                src="@/assets/img/starbox.png"
-                                alt=""
-                            />
-                            <div class="pack">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="39"
-                                    height="37"
-                                    viewBox="0 0 39 37"
-                                    fill="none"
-                                >
-                                    <path
-                                        d="M22.3131 2.28513L24.8297 10.022C25.2208 11.2293 26.3431 12.0455 27.6184 12.0455H35.7464C38.5861 12.0455 39.7594 15.6674 37.4638 17.3338L30.8832 22.112C29.863 22.8602 29.4208 24.1695 29.8119 25.3768L32.3286 33.1137C33.2128 35.8174 30.118 38.0449 27.8224 36.3785L21.2418 31.6003C20.2216 30.8522 18.8272 30.8522 17.807 31.6003L11.2264 36.3785C8.93082 38.0449 5.85302 35.8004 6.72024 33.1137L9.23687 25.3768C9.62797 24.1695 9.20286 22.8432 8.1656 22.112L1.58499 17.3338C-0.710572 15.6674 0.462733 12.0455 3.30243 12.0455H11.4304C12.7057 12.0455 13.828 11.2293 14.2191 10.022L16.7357 2.28513C17.6199 -0.418531 21.4289 -0.418531 22.3131 2.28513Z"
-                                        fill="url(#paint0_linear)"
-                                    />
-                                    <defs>
-                                        <linearGradient
-                                            id="paint0_linear"
-                                            x1="19.5258"
-                                            y1="36.9628"
-                                            x2="19.5258"
-                                            y2="0.263847"
-                                            gradientUnits="userSpaceOnUse"
-                                        >
-                                            <stop stop-color="#FFB300" />
-                                            <stop
-                                                offset="1"
-                                                stop-color="#FFF176"
-                                            />
-                                        </linearGradient>
-                                    </defs>
-                                </svg>
-                                <svg
-                                    class="x1"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="39"
-                                    height="37"
-                                    viewBox="0 0 39 37"
-                                    fill="none"
-                                >
-                                    <path
-                                        d="M22.3131 2.28513L24.8297 10.022C25.2208 11.2293 26.3431 12.0455 27.6184 12.0455H35.7464C38.5861 12.0455 39.7594 15.6674 37.4638 17.3338L30.8832 22.112C29.863 22.8602 29.4208 24.1695 29.8119 25.3768L32.3286 33.1137C33.2128 35.8174 30.118 38.0449 27.8224 36.3785L21.2418 31.6003C20.2216 30.8522 18.8272 30.8522 17.807 31.6003L11.2264 36.3785C8.93082 38.0449 5.85302 35.8004 6.72024 33.1137L9.23687 25.3768C9.62797 24.1695 9.20286 22.8432 8.1656 22.112L1.58499 17.3338C-0.710572 15.6674 0.462733 12.0455 3.30243 12.0455H11.4304C12.7057 12.0455 13.828 11.2293 14.2191 10.022L16.7357 2.28513C17.6199 -0.418531 21.4289 -0.418531 22.3131 2.28513Z"
-                                        fill="url(#paint0_linear)"
-                                    />
-                                    <defs>
-                                        <linearGradient
-                                            id="paint0_linear"
-                                            x1="19.5258"
-                                            y1="36.9628"
-                                            x2="19.5258"
-                                            y2="0.263847"
-                                            gradientUnits="userSpaceOnUse"
-                                        >
-                                            <stop stop-color="#FFB300" />
-                                            <stop
-                                                offset="1"
-                                                stop-color="#FFF176"
-                                            />
-                                        </linearGradient>
-                                    </defs>
-                                </svg>
-                                <svg
-                                    class="x2"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="39"
-                                    height="37"
-                                    viewBox="0 0 39 37"
-                                    fill="none"
-                                >
-                                    <path
-                                        d="M22.3131 2.28513L24.8297 10.022C25.2208 11.2293 26.3431 12.0455 27.6184 12.0455H35.7464C38.5861 12.0455 39.7594 15.6674 37.4638 17.3338L30.8832 22.112C29.863 22.8602 29.4208 24.1695 29.8119 25.3768L32.3286 33.1137C33.2128 35.8174 30.118 38.0449 27.8224 36.3785L21.2418 31.6003C20.2216 30.8522 18.8272 30.8522 17.807 31.6003L11.2264 36.3785C8.93082 38.0449 5.85302 35.8004 6.72024 33.1137L9.23687 25.3768C9.62797 24.1695 9.20286 22.8432 8.1656 22.112L1.58499 17.3338C-0.710572 15.6674 0.462733 12.0455 3.30243 12.0455H11.4304C12.7057 12.0455 13.828 11.2293 14.2191 10.022L16.7357 2.28513C17.6199 -0.418531 21.4289 -0.418531 22.3131 2.28513Z"
-                                        fill="url(#paint0_linear)"
-                                    />
-                                    <defs>
-                                        <linearGradient
-                                            id="paint0_linear"
-                                            x1="19.5258"
-                                            y1="36.9628"
-                                            x2="19.5258"
-                                            y2="0.263847"
-                                            gradientUnits="userSpaceOnUse"
-                                        >
-                                            <stop stop-color="#FFB300" />
-                                            <stop
-                                                offset="1"
-                                                stop-color="#FFF176"
-                                            />
-                                        </linearGradient>
-                                    </defs>
-                                </svg>
-                                <svg
-                                    class="x3"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="39"
-                                    height="37"
-                                    viewBox="0 0 39 37"
-                                    fill="none"
-                                >
-                                    <path
-                                        d="M22.3131 2.28513L24.8297 10.022C25.2208 11.2293 26.3431 12.0455 27.6184 12.0455H35.7464C38.5861 12.0455 39.7594 15.6674 37.4638 17.3338L30.8832 22.112C29.863 22.8602 29.4208 24.1695 29.8119 25.3768L32.3286 33.1137C33.2128 35.8174 30.118 38.0449 27.8224 36.3785L21.2418 31.6003C20.2216 30.8522 18.8272 30.8522 17.807 31.6003L11.2264 36.3785C8.93082 38.0449 5.85302 35.8004 6.72024 33.1137L9.23687 25.3768C9.62797 24.1695 9.20286 22.8432 8.1656 22.112L1.58499 17.3338C-0.710572 15.6674 0.462733 12.0455 3.30243 12.0455H11.4304C12.7057 12.0455 13.828 11.2293 14.2191 10.022L16.7357 2.28513C17.6199 -0.418531 21.4289 -0.418531 22.3131 2.28513Z"
-                                        fill="url(#paint0_linear)"
-                                    />
-                                    <defs>
-                                        <linearGradient
-                                            id="paint0_linear"
-                                            x1="19.5258"
-                                            y1="36.9628"
-                                            x2="19.5258"
-                                            y2="0.263847"
-                                            gradientUnits="userSpaceOnUse"
-                                        >
-                                            <stop stop-color="#FFB300" />
-                                            <stop
-                                                offset="1"
-                                                stop-color="#FFF176"
-                                            />
-                                        </linearGradient>
-                                    </defs>
-                                </svg>
-                                <svg
-                                    class="x4"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="39"
-                                    height="37"
-                                    viewBox="0 0 39 37"
-                                    fill="none"
-                                >
-                                    <path
-                                        d="M22.3131 2.28513L24.8297 10.022C25.2208 11.2293 26.3431 12.0455 27.6184 12.0455H35.7464C38.5861 12.0455 39.7594 15.6674 37.4638 17.3338L30.8832 22.112C29.863 22.8602 29.4208 24.1695 29.8119 25.3768L32.3286 33.1137C33.2128 35.8174 30.118 38.0449 27.8224 36.3785L21.2418 31.6003C20.2216 30.8522 18.8272 30.8522 17.807 31.6003L11.2264 36.3785C8.93082 38.0449 5.85302 35.8004 6.72024 33.1137L9.23687 25.3768C9.62797 24.1695 9.20286 22.8432 8.1656 22.112L1.58499 17.3338C-0.710572 15.6674 0.462733 12.0455 3.30243 12.0455H11.4304C12.7057 12.0455 13.828 11.2293 14.2191 10.022L16.7357 2.28513C17.6199 -0.418531 21.4289 -0.418531 22.3131 2.28513Z"
-                                        fill="url(#paint0_linear)"
-                                    />
-                                    <defs>
-                                        <linearGradient
-                                            id="paint0_linear"
-                                            x1="19.5258"
-                                            y1="36.9628"
-                                            x2="19.5258"
-                                            y2="0.263847"
-                                            gradientUnits="userSpaceOnUse"
-                                        >
-                                            <stop stop-color="#FFB300" />
-                                            <stop
-                                                offset="1"
-                                                stop-color="#FFF176"
-                                            />
-                                        </linearGradient>
-                                    </defs>
-                                </svg>
-                            </div>
-                        </div>
+                    <div class="col-md-8 right">
+                        <img src="@/assets/img/imgtwo.png" alt="" />
                         <!-- <img src="@/assets/img/Group.png" alt="" /> -->
                     </div>
                 </div>
@@ -230,7 +34,7 @@
                         >
                             <div class="box ">
                                 <img src="@/assets/img/Group (1).png" alt="" />
-                                <h2>Landing page</h2>
+                                <h2>Веб дизайн</h2>
                                 <p>
                                     Получиили бесценный опыт идоверие клиентов
                                 </p>
@@ -249,10 +53,10 @@
                         >
                             <div class="box down">
                                 <img src="@/assets/img/Group (2).png" alt="" />
-                                <h2>Интернет магазин</h2>
+                                <h2>Мобильный дизайн</h2>
                                 <p>
-                                    Экономим на времени,но не экономим на
-                                    качестве
+                                    Найдем наилучшее решение для каждой задачи и
+                                    каждого человека
                                 </p>
                             </div>
                         </u-animate>
@@ -269,7 +73,7 @@
                         >
                             <div class="box">
                                 <img src="@/assets/img/Group (3).png" alt="" />
-                                <h2>Многостраничные сайты</h2>
+                                <h2>Логотип</h2>
                                 <p>Наша цель-сделать Ваш бизнес эффективне</p>
                             </div>
                         </u-animate>
@@ -286,7 +90,7 @@
                         >
                             <div class="box down">
                                 <img src="@/assets/img/Group (4).png" alt="" />
-                                <h2>Мобильный дизайн</h2>
+                                <h2>Cоциал медиа пост</h2>
                                 <p>
                                     Найдем наилучшее решение для каждой задачи и
                                     каждого человека
@@ -303,13 +107,13 @@
         <div class="container design">
             <h1>UI / UX Дизайн</h1>
             <div class="row">
-                <div class="col-7">
+                <div class="col-md-7 col-12">
                     <p>
                         Наша компания придерживается подхода к
                         дизайну,ориентированного на человека..
                     </p>
                     <div class="row little">
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-6">
                             <div class="littlecard">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -328,7 +132,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-6">
                             <div class="littlecard">
                                 <svg
                                     width="53"
@@ -367,7 +171,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-6">
                             <div class="littlecard">
                                 <svg
                                     width="64"
@@ -386,7 +190,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-6">
                             <div class="littlecard">
                                 <svg
                                     width="35"
@@ -413,7 +217,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-6">
                             <div class="littlecard">
                                 <svg
                                     width="68"
@@ -432,7 +236,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-6">
                             <div class="littlecard">
                                 <svg
                                     width="69"
@@ -454,7 +258,7 @@
                     </div>
                 </div>
                 <div class="col-5">
-                    <img src="@/assets/img/dizayn.png" alt="" />
+                    <!-- <img src="@/assets/img/dizayn.png" alt="" /> -->
                 </div>
             </div>
         </div>
@@ -462,7 +266,7 @@
         <u-animate-container>
             <div class="container main">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-md-3 col-12">
                         <u-animate
                             name="fadeIn"
                             delay="0s"
@@ -494,7 +298,7 @@
                             </div>
                         </u-animate>
                     </div>
-                    <div class="col-9">
+                    <div class="col-md-9 col-12">
                         <div class="lan">
                             <Carousel v-bind="slickOptions">
                                 <u-animate
@@ -631,13 +435,24 @@
                         </h1>
 
                         <div class="tab" v-if="tabIndex == 1">
-                            <p>Название организации</p>
-                            <v-text-field
-                                label=""
-                                placeholder="Пример : UMDSOFT "
-                                @keypress.enter="nextTab"
-                            ></v-text-field>
-
+                            <v-app id="inspire">
+                                <v-form
+                                    ref="form"
+                                    v-model="valid"
+                                    lazy-validation
+                                >
+                                    <p>Название организации</p>
+                                    <v-text-field
+                                        value=""
+                                        v-model="name"
+                                        :rules="nameRules"
+                                        required
+                                        label=""
+                                        placeholder="Пример : UMDSOFT "
+                                        @keypress.enter="nextTab"
+                                    ></v-text-field>
+                                </v-form>
+                            </v-app>
                             <div class="img">
                                 <img src="@/assets/img/checkTrue.png" alt="" />
                                 <img src="@/assets/img/Line 2.png" alt="" />
@@ -650,7 +465,7 @@
                             <div class="pagtwo">
                                 <img src="@/assets/img/Arrow 1.png" alt="" />
 
-                                <button @click="nextTab">
+                                <button :disabled="!valid" @click="validate">
                                     <img
                                         src="@/assets/img/Arrow 2.png"
                                         alt=""
@@ -659,14 +474,25 @@
                             </div>
                         </div>
                         <div class="tab" v-if="tabIndex == 2">
-                            <p>Ф.И.О</p>
-                            <v-text-field
-                                label=""
-                                placeholder="Пример : Насимов Мироншох "
-                                value=""
-                                @keypress.enter="nextTab"
-                                autofocus
-                            ></v-text-field>
+                            <v-app id="inspire">
+                                <v-form
+                                    ref="form"
+                                    v-model="valid"
+                                    lazy-validation
+                                >
+                                    <p>Ф.И.О</p>
+                                    <v-text-field
+                                        value=" "
+                                        v-model="name"
+                                        :rules="nameRules"
+                                        required
+                                        label=""
+                                        placeholder="Пример : Насимов Мироншох "
+                                        @keypress.enter="nextTab"
+                                        autofocus
+                                    ></v-text-field>
+                                </v-form>
+                            </v-app>
 
                             <div class="img">
                                 <img src="@/assets/img/checkTrue.png" alt="" />
@@ -685,7 +511,7 @@
                                     />
                                 </button>
 
-                                <button @click="nextTab">
+                                <button :disabled="!valid" @click="validate">
                                     <img
                                         src="@/assets/img/Arrow 2.png"
                                         alt=""
@@ -694,13 +520,25 @@
                             </div>
                         </div>
                         <div class="tab" v-if="tabIndex == 3">
-                            <p>Номер телефона</p>
-                            <v-text-field
-                                label=""
-                                value="+998"
-                                @keypress.enter="nextTab"
-                                autofocus
-                            ></v-text-field>
+                            <v-app id="inspire">
+                                <v-form
+                                    ref="form"
+                                    v-model="valid"
+                                    lazy-validation
+                                >
+                                    <p>Номер телефона</p>
+                                    <v-text-field
+                                        type="number"
+                                        v-model="name"
+                                        :rules="nameRules"
+                                        required
+                                        label=""
+                                        @keypress.enter="nextTab"
+                                        autofocus
+                                        value="+998"
+                                    ></v-text-field>
+                                </v-form>
+                            </v-app>
 
                             <div class="img">
                                 <img src="@/assets/img/checkTrue.png" alt="" />
@@ -719,7 +557,7 @@
                                     />
                                 </button>
 
-                                <button @click="nextTab">
+                                <button @click="validate">
                                     <img
                                         src="@/assets/img/Arrow 2.png"
                                         alt=""
@@ -772,16 +610,16 @@ export default {
         return {
             slickOptions: {
                 // dots: true,
-                speed: 500,
+                speed: 300,
                 slidesToShow: 4,
-                slidesToScroll: 1,
-                // draggable: false,
+                slidesToScroll: 2,
+                draggable: true,
                 infinite: true,
                 responsive: [
                     {
                         breakpoint: 1024,
                         settings: {
-                            slidesToShow: 4,
+                            slidesToShow: 3,
                             infinite: false,
                             slidesToScroll: 4,
                             dots: true,
@@ -791,9 +629,14 @@ export default {
                     {
                         breakpoint: 600,
                         settings: {
+                            dots: true,
                             slidesToShow: 2,
-                            infinite: false,
-                            slidesToScroll: 2,
+                            speed: 1500,
+                            touchThreshold: 1000,
+                            autoplay: true,
+                            autoplaySpeed: 3000,
+                            infinite: true,
+                            slidesToScroll: 1,
                             draggable: true
                         }
                     }
@@ -804,11 +647,28 @@ export default {
             ex2: { color: "silver" },
             model: 0,
             page: 1,
-            data: []
+            data: [],
+            valid: true,
+            name: "",
+            nameRules: [v => !!v || " required"]
         };
     },
 
     methods: {
+        modal() {
+            this.$store.commit("changeButton");
+            // clickoutside(changeButton)
+        },
+        validate() {
+            this.$refs.form.validate();
+            this.nextTab();
+        },
+        reset() {
+            this.$refs.form.reset();
+        },
+        resetValidation() {
+            this.$refs.form.resetValidation();
+        },
         bos() {
             let btn = document.querySelector(".prew");
             btn;
@@ -819,44 +679,6 @@ export default {
         prewTaba() {
             this.tabIndex = this.tabIndex - 1;
         }
-    },
-    mounted() {
-        let x1 = document.querySelector(".x1");
-        let x2 = document.querySelector(".x2");
-        let x3 = document.querySelector(".x3");
-        let x4 = document.querySelector(".x4");
-
-        setInterval(() => {
-            setTimeout(() => {
-                console.log("element-->", x1.classList);
-                x1.classList.add("go");
-            }, 10);
-            setTimeout(() => {
-                x2.classList.add("go");
-            }, 200);
-            setTimeout(() => {
-                x3.classList.add("go");
-            }, 400);
-            setTimeout(() => {
-                x4.classList.add("go");
-            }, 800);
-
-            // setTimeout(() => {
-            //     x4.classList.remove("go");
-            // }, 1000);
-
-            // setTimeout(() => {
-            //     x3.classList.remove("go");
-            // }, 1200);
-
-            // setTimeout(() => {
-            //     x2.classList.remove("go");
-            // }, 1400);
-
-            // setTimeout(() => {
-            //     x1.classList.remove("go");
-            // }, 1600);
-        }, 1800);
     }
 };
 </script>
@@ -881,7 +703,7 @@ img {
     h1 {
         font-style: normal;
         font-weight: 600;
-        font-size: 48px;
+        font-size: calc(1.375rem + 1.5vw);
         line-height: 72px;
         margin-top: 20px;
         color: #1e6bdd;
@@ -890,31 +712,31 @@ img {
         margin: 25px 0;
         font-style: normal;
         font-weight: 500;
-        font-size: 24px;
+        font-size: calc(0.475rem + 1.5vw);
         line-height: 36px;
         color: #000000;
     }
-    .little {
-        width: 82%;
-    }
+    // .little {
+    //     width: 82%;
+    // }
     .littlecard {
         padding: 15px;
-        width: 166px;
+        // width: 166px;
         height: 141px;
         background: #f6f6f6;
         box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
         border-radius: 10px;
-        .txt{
+        .txt {
             margin-top: 20px;
             p {
-            margin-top: 10px;
-            font-weight: 500;
-            font-size: 18px;
-            line-height: 141.3%;
-            color: #202020;
+                margin-top: 10px;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 141.3%;
+                color: #202020;
+            }
         }
-        }
-        
+
         svg {
             height: 60px;
             margin-bottom: 10px;
@@ -922,161 +744,50 @@ img {
     }
 }
 
-//  bulut //////////////////////
-
-.right {
-    img {
-        position: absolute;
-    }
-}
-.yellow {
-    background-color: none !important;
-}
-.starbox {
-    position: absolute;
-    top: 150px;
-    left: 500px;
-    display: flex;
-    .pack {
-        margin: 70px;
-        z-index: 20;
-    }
-    svg {
-        margin-left: 5px;
-    }
-}
-.phonedown {
-    top: 500px;
-    right: 100px;
-}
-.bargchap {
-    top: 256px;
-    right: 480px;
-}
-.bargong {
-    top: 190px;
-    right: 140px;
-}
-.phone {
-    top: 120px;
-    right: 348px;
-}
-.ball {
-    top: 490px;
-    right: 443px;
-    z-index: 12;
-}
-.inphone {
-    top: 170px;
-    right: 323px;
-}
-
-img.bulutone {
-    position: absolute;
-    top: 90px;
-    // right: 320px;
-    width: 130px;
-    animation: run 25s linear infinite;
-}
-@keyframes run {
-    0% {
-        right: 90px;
-    }
-    50% {
-        right: 450px;
-    }
-    100% {
-        right: 90px;
-    }
-}
-.buluttwo {
-    position: absolute;
-    top: 190px;
-    // right: 290px;
-    width: 160px;
-    animation: runtwo 30s linear infinite;
-}
-@keyframes runtwo {
-    0% {
-        right: 500px;
-    }
-    50% {
-        right: 100px;
-    }
-    100% {
-        right: 500px;
-    }
-}
-.bulutthree {
-    position: absolute;
-    top: 290px;
-    // right: 390px;
-    width: 160px;
-    animation: runthree 22s linear infinite;
-    z-index: 100;
-}
-@keyframes runthree {
-    0% {
-        right: 500px;
-    }
-    50% {
-        right: 80px;
-    }
-    100% {
-        right: 500px;
-    }
-}
-svg.x1,
-svg.x2,
-svg.x3,
-svg.x4 {
-    opacity: 0;
-    transition: 0.4s;
-}
-svg.go {
-    opacity: 1;
-}
-.starbox {
-    animation: star 10s linear infinite;
-}
-
 .img {
     width: 270px;
     margin: 0 auto;
 }
 .header {
-    background: #9bc3f6;
-    height: 640px;
+    // height: 640px;
+    margin-top: 60px;
     width: 100%;
-}
+    .left {
+        padding-top: 200px;
+        h1 {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 141.3%;
+        }
+        button {
+            margin-top: 10px;
 
-.left {
-    padding-top: 200px;
-    h1 {
-        font-family: "Poppins", sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 48px;
-        line-height: 141.3%;
-        color: #ffffff;
+            padding: 10px 12px;
+            background: #1e6bdd;
+            color: #fff;
+            border-radius: 5px;
+            transition: 0.3s ease;
+            border: 1px solid #1e6bdd;
+        }
+        button:active {
+            outline: none;
+        }
+        button:focus {
+            outline: none !important;
+        }
+        button:hover {
+            background: #fff;
+            color: #1e6bdd;
+            border: 1px solid #1e6bdd;
+        }
     }
-    button {
-        background: #1e6bdd;
-        border-radius: 5px;
-        margin-top: 10px;
-        font-family: "Poppins", sans-serif;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        color: #ffffff;
-    }
-    button:hover {
-        color: #1e6bdd;
-        background: #ffffff;
-        border: 1px solid #1e6bdd;
-    }
-    button:focus {
-        outline: none;
+    .right {
+        display: flex;
+        justify-content: flex-end;
+        img {
+            width: 80%;
+        }
     }
 }
 
@@ -1084,16 +795,6 @@ svg.go {
     margin-top: 30px;
 }
 
-#input-20 {
-    color: blue;
-    font-size: 24px;
-    text-align: center;
-}
-#input-50 {
-    color: blue;
-    font-size: 24px;
-    text-align: center;
-}
 .boxs {
     padding: 20px;
     margin-top: 40px;
@@ -1128,36 +829,7 @@ svg.go {
         // margin-top: -10px;
     }
 }
-.content {
-    display: flex;
-    margin: 40px auto;
-    width: 970px;
-    background: #ffffff;
-    border: 2px solid #1e6bdd;
-    box-sizing: border-box;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-}
 
-.etap {
-    padding: 30px;
-    span {
-        font-style: normal;
-        font-weight: bold;
-        font-size: 120px;
-        line-height: 180px;
-        color: #e8eaf2;
-    }
-    h3 {
-        margin: -100px 0 0 70px;
-        width: 388px;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 32px;
-        line-height: 120%;
-        color: #666666;
-    }
-}
 .two {
     margin-top: 100px;
 }
@@ -1203,6 +875,7 @@ svg.go {
     }
 }
 .four {
+    margin-top: 30px;
     background: #f6f6f6;
     padding-top: 50px;
     padding-bottom: 60px;
@@ -1241,70 +914,11 @@ svg.go {
 .v-application--wrap {
     min-height: auto !important;
 }
-.child {
-    margin: -20px 0 0 28px;
-}
-.tik {
-    display: flex;
-    width: 20px;
-    /* background: silver; */
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.circle.active,
-.line.active {
-    background: #1e6bdd;
-}
-.circle {
-    width: 22px;
-    height: 22px;
-    border-radius: 50%;
-    background: #e8eaf2;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
-}
-.line {
-    width: 6px;
-    background: #e8eaf2;
-    height: 82px;
-}
-.vertical {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 70px;
-}
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-    .etap {
-        h3 {
-            font-size: 25px;
-            width: auto;
-        }
-        span {
-            font-size: 110px;
-        }
-    }
-    .lan {
-        overflow: hidden;
-    }
 }
 
 @media (min-width: 950px) and (max-width: 1024px) {
-    .etap {
-        h3 {
-            margin: -100px 0 0 58px;
-            width: 210px;
-            font-size: 17px;
-        }
-        span {
-            font-size: 100px;
-        }
-    }
-    .lan {
-        overflow: hidden;
-    }
     .narx {
         width: auto !important;
     }
@@ -1317,21 +931,18 @@ svg.go {
 }
 
 @media (min-width: 768px) and (max-width: 950px) {
-    .etap {
-        h3 {
-            width: 210px;
-            font-size: 20px;
+    .right {
+        display: none;
+    }
+    .pag {
+        display: none;
+    }
+    .design {
+        img {
+            display: none;
         }
-        span {
-            font-size: 100px;
-        }
     }
-    .lan {
-        overflow: hidden;
-    }
-    .narx {
-        width: auto !important;
-    }
+
     v-container {
         padding: 0;
     }
@@ -1339,9 +950,10 @@ svg.go {
         margin-top: 0;
     }
     .form {
-        width: auto !important;
+        width: 75% !important;
     }
     .left {
+        padding-top: 20px;
         h1 {
             font-size: 40px;
         }
@@ -1360,56 +972,43 @@ svg.go {
     }
 }
 
-@media (min-width: 600px) and (max-width: 767px) {
-    .left {
-        h1 {
-            font-size: 35px;
+@media (min-width: 577px) and (max-width: 767px) {
+    .pag {
+        display: none;
+    }
+    .design {
+        img {
+            display: none;
         }
-        button {
-            font-size: 14px;
+    }
+    .header {
+        margin-bottom: 20px;
+    }
+    .boxs {
+        margin-top: 0;
+        .box {
+            height: 265px;
+            h2 {
+                font-size: 20px;
+            }
         }
     }
     .right {
+        display: none;
+    }
+    .littlecard {
         img {
-            transform: scale(1.3);
-            margin-top: 140px;
+            display: none !important;
         }
     }
-    .lan {
-        width: auto !important;
-        overflow: hidden;
-    }
+
     .form {
         width: auto !important;
     }
     .down {
         margin-top: 0;
     }
-    .etap {
-        h3 {
-            width: 150px;
-            font-size: 17px;
-            margin: -100px 0 0 40px;
-        }
-        span {
-            font-size: 60px;
-        }
-    }
-    .content {
-        .container {
-            max-width: auto !important;
-        }
-        .narx {
-            width: auto !important;
-            padding: 18px;
-            p {
-                font-size: 18px;
-                span {
-                    font-size: 22px;
-                }
-            }
-        }
-    }
+
     .four {
         .form {
             h1 {
@@ -1430,22 +1029,46 @@ svg.go {
     }
 }
 
-@media (min-width: 481px) and (max-width: 599px) {
-    .col-md-2 {
+@media (min-width: 330px) and (max-width: 576px) {
+    .pag {
         display: none;
     }
     .lan {
-        width: auto !important;
-        overflow: hidden;
-    }
-    .content {
-        .narx {
-            width: auto !important;
+        .card {
+            margin-left: 0;
         }
     }
+    .header {
+        .left {
+            padding-top: 30px !important;
+             h1 {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 141.3%;
+        }
+        button {
+            margin-top: 10px;
+            padding: 6px 6px;
+            background: #1e6bdd;
+            font-size: 12px;
+            color: #fff;
+            border-radius: 5px;
+            transition: 0.3s ease;
+            border: 1px solid #1e6bdd;
+        }
+        }
+
+        .right {
+            display: none;
+        }
+    }
+    
+
     .four {
         .form {
             width: auto !important;
+            padding: 25px;
             h1 {
                 font-size: 18px;
             }
@@ -1455,6 +1078,34 @@ svg.go {
             .pagtwo {
                 margin: 45px 20%;
             }
+        }
+    }
+
+    .boxs {
+        margin-top: 0;
+    }
+    .down {
+        margin-top: 0;
+    }
+    .design {
+        .little {
+            // width: 100%;
+            margin-top: 10px;
+            .littlecard {
+                // width: 145px;
+                padding: 12px;
+                .txt {
+                    p {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+        p {
+            margin: 0;
+        }
+        img {
+            display: none;
         }
     }
 }

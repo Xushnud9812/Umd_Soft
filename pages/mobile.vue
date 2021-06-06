@@ -2,16 +2,17 @@
     <div>
         <div class="header">
             <div class="container">
-                <div class="row top">
-                    <div class="col-md-6 left">
+                <div class="row ">
+                    <div class="col-md-4 col-6 left">
                         <h1>
-                            Заказать <br />
-                            приложения
+                          Заказать 
+приложения
                         </h1>
-                        <button class="btn ">Заказат проект</button>
+                        <button @click="modal" class="">Заказат проект</button>
                     </div>
-                    <div class="col-md-6 right">
+                    <div class="col-md-8 right">
                         <img src="@/assets/img/mobileimg.png" alt="" />
+                        <!-- <img src="@/assets/img/Group.png" alt="" /> -->
                     </div>
                 </div>
             </div>
@@ -20,11 +21,11 @@
         <u-animate-container>
             <div class="container">
                 <div class="row">
-                    <div class="col-3 boxs">
+                    <div class="col-md-3 col-sm-6  col boxs">
                         <u-animate
                             name="fadeIn"
-                            delay="0s"
-                            duration="1s"
+                            delay="0.5s"
+                            duration="2s"
                             :iteration="1"
                             :offset="0"
                             animateClass="animate__animated animate__fadeInUp"
@@ -39,11 +40,11 @@
                             </div>
                         </u-animate>
                     </div>
-                    <div class="col-3 boxs">
+                    <div class="col-md-3 col-sm-6 boxs">
                         <u-animate
                             name="fadeIn"
-                            delay="0.2s"
-                            duration="1s"
+                            delay="0.7s"
+                            duration="2s"
                             :iteration="1"
                             :offset="0"
                             animateClass="animate__animated animate__fadeInUp"
@@ -51,19 +52,19 @@
                         >
                             <div class="box down">
                                 <img src="@/assets/img/Group (2).png" alt="" />
-                                <h2>Интернет магазин</h2>
+                                <h2>Интернет магазин
+</h2>
                                 <p>
-                                    Экономим на времени,но не экономим на
-                                    качестве
+                                  Экономим на времени,но не экономим на качестве
                                 </p>
                             </div>
                         </u-animate>
                     </div>
-                    <div class="col-3 boxs">
+                    <div class="col-md-3 col-sm-6 boxs">
                         <u-animate
                             name="fadeIn"
-                            delay="0.4s"
-                            duration="1s"
+                            delay="1s"
+                            duration="2s"
                             :iteration="1"
                             :offset="0"
                             animateClass="animate__animated animate__fadeInUp"
@@ -71,16 +72,17 @@
                         >
                             <div class="box">
                                 <img src="@/assets/img/Group (3).png" alt="" />
-                                <h2>Многостраничные сайты</h2>
+                                <h2>Многостраничные сайты
+</h2>
                                 <p>Наша цель-сделать Ваш бизнес эффективне</p>
                             </div>
                         </u-animate>
                     </div>
-                    <div class="col-3 boxs">
+                    <div class="col-md-3 col-sm-6 boxs">
                         <u-animate
                             name="fadeIn"
-                            delay="0.6s"
-                            duration="1s"
+                            delay="1.3s"
+                            duration="2s"
                             :iteration="1"
                             :offset="0"
                             animateClass="animate__animated animate__fadeInUp"
@@ -88,10 +90,10 @@
                         >
                             <div class="box down">
                                 <img src="@/assets/img/Group (4).png" alt="" />
-                                <h2>Мобильный дизайн</h2>
+                                <h2>Мобильные приложения
+</h2>
                                 <p>
-                                    Найдем наилучшее решение для каждой задачи и
-                                    каждого человека
+                                  Найдем наилучшее решение для каждой задачи и каждого человека
                                 </p>
                             </div>
                         </u-animate>
@@ -100,482 +102,17 @@
             </div>
         </u-animate-container>
 
-        <u-animate-container>
-            <div class="container">
-                <u-animate
-                    name="fadeIn"
-                    delay="0s"
-                    duration="1s"
-                    :iteration="1"
-                    :offset="0"
-                    animateClass="animate__animated animate__fadeInUp"
-                    :begin="false"
-                >
-                    <h1>Как мы развиваем сайт?</h1>
-                </u-animate>
-                <div class="row">
-                    <div class="col-md-5 etap">
-                        <u-animate
-                            name="fadeIn"
-                            delay="0s"
-                            duration="1s"
-                            :iteration="1"
-                            :offset="0"
-                            animateClass="animate__animated animate__fadeInUp"
-                            :begin="false"
-                        >
-                            <div class="col-12">
-                                <span>01 </span>
-                                <h3>Создаем карту сайта</h3>
-                            </div>
-                            <div class="col-12">
-                                <span>03 </span>
-                                <h3>
-                                    Создаем уникальный дизайн
-                                </h3>
-                            </div>
-                            <div class="col-12">
-                                <span>05 </span>
-                                <h3>Разрабатываем программное обеспечение</h3>
-                            </div>
-                        </u-animate>
-                    </div>
 
-                    <div class="col-md-2">
-                        <u-animate
-                            name="fadeIn"
-                            delay="1s"
-                            duration="2s"
-                            :iteration="1"
-                            :offset="0"
-                            animateClass="animate__animated animate__fadeInUp"
-                            :begin="false"
-                        >
-                            <div class="vertical">
-                                <div class="tik">
-                                    <div class="circle active"></div>
-                                    <div class="line active"></div>
-                                </div>
-                                <div class="tik">
-                                    <div class="circle"></div>
-                                    <div class="line"></div>
-                                </div>
-                                <div class="tik">
-                                    <div class="circle"></div>
-                                    <div class="line"></div>
-                                </div>
-                                <div class="tik">
-                                    <div class="circle"></div>
-                                    <div class="line"></div>
-                                </div>
-                                <div class="tik">
-                                    <div class="circle"></div>
-                                    <div class="line"></div>
-                                </div>
-                                <div class="tik">
-                                    <div class="circle"></div>
-                                </div>
-                            </div>
-                        </u-animate>
-                    </div>
-                    <div class="col-md-5 etap two">
-                        <u-animate
-                            name="fadeIn"
-                            delay="1s"
-                            duration="2s"
-                            :iteration="1"
-                            :offset="0"
-                            animateClass="animate__animated animate__fadeInUp"
-                            :begin="false"
-                        >
-                            <div class="col-12">
-                                <span>02 </span>
-                                <h3>Готовим технический документ</h3>
-                            </div>
-                            <div class="col-12">
-                                <span>04 </span>
-                                <h3>Адаптируем ко всем устройствам</h3>
-                            </div>
-                            <div class="col-12">
-                                <span>06 </span>
-                                <h3>Предварительное тестирование</h3>
-                            </div>
-                        </u-animate>
-                    </div>
-                </div>
-            </div>
-        </u-animate-container>
-
-        <u-animate-container>
-            <div class="container-fluid full">
-                <div class="container">
-                    <u-animate
-                        name="fadeIn"
-                        delay="0s"
-                        duration="1s"
-                        :iteration="1"
-                        :offset="0"
-                        animateClass="animate__animated animate__fadeInUp"
-                        :begin="false"
-                    >
-                        <h1>Подсчитаем нужный вам сайт</h1>
-                    </u-animate>
-
-                    <u-animate
-                        name="fadeIn"
-                        delay="0s"
-                        duration="1s"
-                        :iteration="1"
-                        :offset="0"
-                        animateClass="animate__animated animate__fadeInUp"
-                        :begin="false"
-                    >
-                        <div class="content">
-                            <div class="col-6">
-                                <v-container fluid>
-                                    <v-row align="center">
-                                        <v-col
-                                            class="d-flex col-sm-12 col-12"
-                                            cols="12"
-                                            sm="12"
-                                        >
-                                            <v-select
-                                                v-model="valueSelect"
-                                                class="choose"
-                                                :items="items"
-                                                item-text="text"
-                                                return-object
-                                                @change="changeSelect"
-                                                label="Ландинг"
-                                                solo
-                                            ></v-select>
-                                            <!-- <p>{{ valueSelect }}</p> -->
-                                        </v-col>
-                                    </v-row>
-                                </v-container>
-                                <div class="text" v-if="valueSelect.id == 1">
-                                    <div class="d-flex">
-                                        <h4>Главная +</h4>
-                                        <span
-                                            ><v-text-field
-                                                @change="changeSlider"
-                                                v-model="slider"
-                                                item-value="id"
-                                                class="count mt-0 pt-0"
-                                                hide-details
-                                                single-line
-                                                type="number"
-                                                style="width: 60px"
-                                            ></v-text-field
-                                        ></span>
-                                        <h4>внутренние</h4>
-                                    </div>
-                                    <v-container fluid>
-                                        <div id="app">
-                                            <v-app id="inspire">
-                                                <div>
-                                                    <v-card
-                                                        flat
-                                                        color="transparent"
-                                                    >
-                                                        <v-card-text>
-                                                            <v-row>
-                                                                <v-col
-                                                                    class="pr-4"
-                                                                >
-                                                                    <v-slider
-                                                                        @change="
-                                                                            changeSlider
-                                                                        "
-                                                                        v-model="
-                                                                            slider
-                                                                        "
-                                                                        class="align-center"
-                                                                        :max="
-                                                                            max
-                                                                        "
-                                                                        :min="
-                                                                            min
-                                                                        "
-                                                                        hide-details
-                                                                    >
-                                                                        <template
-                                                                            v-slot:append
-                                                                        >
-                                                                        </template>
-                                                                    </v-slider>
-                                                                </v-col>
-                                                            </v-row>
-                                                        </v-card-text>
-                                                    </v-card>
-                                                </div>
-                                            </v-app>
-                                        </div>
-                                    </v-container>
-                                </div>
-                                <div
-                                    class="text"
-                                    v-if="valueSelect.id == 2"
-                                ></div>
-                                <div class="text" v-if="valueSelect.id == 3">
-                                    <div class="d-flex">
-                                        <h4>Главная +</h4>
-                                        <span>
-                                            <v-text-field
-                                                @change="changeSlider"
-                                                v-model="slider"
-                                                item-value="id"
-                                                class="count mt-0 pt-0"
-                                                hide-details
-                                                single-line
-                                                type="number"
-                                                style="width: 60px"
-                                            ></v-text-field>
-                                        </span>
-                                        <h4>внутренние</h4>
-                                    </div>
-                                    <v-container fluid>
-                                        <div id="app">
-                                            <v-app id="inspire">
-                                                <div>
-                                                    <v-card
-                                                        flat
-                                                        color="transparent"
-                                                    >
-                                                        <v-card-text>
-                                                            <v-row>
-                                                                <v-col
-                                                                    class="pr-4"
-                                                                >
-                                                                    <v-slider
-                                                                        @change="
-                                                                            changeSliderThree
-                                                                        "
-                                                                        v-model="
-                                                                            slider
-                                                                        "
-                                                                        class="align-center"
-                                                                        :max="
-                                                                            max
-                                                                        "
-                                                                        :min="
-                                                                            min
-                                                                        "
-                                                                        hide-details
-                                                                    >
-                                                                        <template
-                                                                            v-slot:append
-                                                                        >
-                                                                        </template>
-                                                                    </v-slider>
-                                                                </v-col>
-                                                            </v-row>
-                                                        </v-card-text>
-                                                    </v-card>
-                                                </div>
-                                            </v-app>
-                                        </div>
-                                    </v-container>
-                                </div>
-                                <div class="text" v-if="valueSelect.id == 4">
-                                    <div class="d-flex">
-                                        <h4>Количество</h4>
-                                        <span
-                                            ><v-text-field
-                                                @change="changeSliderFour"
-                                                v-model="slider"
-                                                item-value="id"
-                                                class="count mt-0 pt-0"
-                                                hide-details
-                                                single-line
-                                                type="number"
-                                                style="width: 60px"
-                                            ></v-text-field
-                                        ></span>
-                                    </div>
-                                    <v-container fluid>
-                                        <div id="app">
-                                            <v-app id="inspire">
-                                                <div>
-                                                    <v-card
-                                                        flat
-                                                        color="transparent"
-                                                    >
-                                                        <v-card-text>
-                                                            <v-row>
-                                                                <v-col
-                                                                    class="pr-4"
-                                                                >
-                                                                    <v-slider
-                                                                        @change="
-                                                                            changeSliderFour
-                                                                        "
-                                                                        v-model="
-                                                                            slider
-                                                                        "
-                                                                        class="align-center"
-                                                                        :max="
-                                                                            max
-                                                                        "
-                                                                        :min="
-                                                                            min
-                                                                        "
-                                                                        hide-details
-                                                                    >
-                                                                        <template
-                                                                            v-slot:append
-                                                                        >
-                                                                        </template>
-                                                                    </v-slider>
-                                                                </v-col>
-                                                            </v-row>
-                                                        </v-card-text>
-                                                    </v-card>
-                                                </div>
-                                            </v-app>
-                                        </div>
-                                    </v-container>
-                                </div>
-
-                                <div id="app" v-if="valueSelect.id == 1">
-                                    <v-app id="inspire">
-                                        <v-container fluid>
-                                            <v-checkbox
-                                                @change="changeNight"
-                                                v-model="check"
-                                                value="50"
-                                                :label="`Ночной режим`"
-                                            ></v-checkbox>
-                                        </v-container>
-                                    </v-app>
-                                </div>
-
-                                <div id="app" v-if="valueSelect.id == 2">
-                                    <v-app id="inspire">
-                                        <v-container>
-                                            <v-checkbox
-                                                disabled
-                                                v-model="checkAll"
-                                                input-value="true"
-                                                :label="`Создат логотип`"
-                                            ></v-checkbox>
-                                        </v-container>
-                                    </v-app>
-                                </div>
-                                <div id="app" v-if="valueSelect.id == 2">
-                                    <v-app id="inspire">
-                                        <v-container fluid>
-                                            <!-- <p>{{ parent }}</p> -->
-                                            <v-checkbox
-                                                @change="changeParent"
-                                                v-model="parent"
-                                                :label="`Брендбук`"
-                                            ></v-checkbox>
-                                            <div
-                                                v-for="(item,
-                                                index) in children"
-                                                :key="index"
-                                                class="child "
-                                            >
-                                                <v-checkbox
-                                                    @change="
-                                                        changeChildren(
-                                                            item,
-                                                            index
-                                                        )
-                                                    "
-                                                    v-model="item.value"
-                                                    :label="item.text"
-                                                ></v-checkbox>
-                                            </div>
-                                        </v-container>
-                                    </v-app>
-                                </div>
-                                <div id="app" v-if="valueSelect.id == 3">
-                                    <v-app id="inspire">
-                                        <v-container fluid>
-                                            <v-checkbox
-                                                @change="changeNightThree"
-                                                v-model="checkThree"
-                                                value="50"
-                                                :label="`Ночной режим`"
-                                            ></v-checkbox>
-                                            <v-checkbox
-                                                @change="changeResponsive"
-                                                v-model="checkThreeRes"
-                                                value="50"
-                                                :label="`Нужен адаптивной`"
-                                            ></v-checkbox>
-                                        </v-container>
-                                    </v-app>
-                                </div>
-
-                                <p></p>
-                            </div>
-                            <div class="col-6">
-                                <div class="narx" v-if="valueSelect.id == 1">
-                                    <p>
-                                        Цена:<span>{{ result.price }} $</span>
-                                    </p>
-                                    <p>
-                                        Время:<span>{{ result.day }} ден</span>
-                                    </p>
-                                </div>
-                                <div class="narx" v-if="valueSelect.id == 2">
-                                    <p>
-                                        Цена:<span
-                                            >{{ result.priceTwo }} $</span
-                                        >
-                                    </p>
-                                    <p>
-                                        Время:<span
-                                            >{{ result.dayTwo }} ден</span
-                                        >
-                                    </p>
-                                </div>
-                                <div class="narx" v-if="valueSelect.id == 3">
-                                    <p>
-                                        Цена:<span
-                                            >{{ result.priceThree }} $</span
-                                        >
-                                    </p>
-                                    <p>
-                                        Время:<span
-                                            >{{ result.dayThree }} ден</span
-                                        >
-                                    </p>
-                                </div>
-                                <div class="narx" v-if="valueSelect.id == 4">
-                                    <p>
-                                        Цена:<span
-                                            >{{ result.priceFour }} $</span
-                                        >
-                                    </p>
-                                    <p>
-                                        Время:<span
-                                            >{{ result.dayFour }} ден</span
-                                        >
-                                    </p>
-                                </div>
-
-                                <!-- <pre>
-                            {{ children }}
-                        </pre> -->
-                            </div>
-                        </div>
-                    </u-animate>
-                </div>
-            </div>
-        </u-animate-container>
+       
 
         <u-animate-container>
             <div class="container main">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-md-3 col-12">
                         <u-animate
                             name="fadeIn"
                             delay="0s"
-                            duration="1s"
+                            duration="2s"
                             :iteration="1"
                             :offset="0"
                             animateClass="animate__animated animate__fadeInUp"
@@ -583,133 +120,144 @@
                         >
                             <h1>Наши Cтеки</h1>
                             <div class="pag">
-                                <img src="@/assets/img/Arrow 1.png" alt="" />
+                                <button
+                                    data-v-21137603=""
+                                    data-v-3d1a4f76=""
+                                    type="button"
+                                    data-role="none"
+                                    class="slick-arrow slick-prev slick-disabled"
+                                    style="display: block; prew"
+                                >
+                                    Previous
+                                </button>
+                                <button @click="bos">
+                                    <img
+                                        src="@/assets/img/Arrow 1.png"
+                                        alt=""
+                                    />
+                                </button>
                                 <img src="@/assets/img/Arrow 2.png" alt="" />
                             </div>
                         </u-animate>
                     </div>
-                    <div class="col-9">
+                    <div class="col-md-9 col-12">
                         <div class="lan">
-                            <u-animate
-                                name="fadeIn"
-                                delay="0s"
-                                duration="1s"
-                                :iteration="1"
-                                :offset="0"
-                                animateClass="animate__animated animate__fadeInUp"
-                                :begin="false"
-                            >
-                                <div class="card">
-                                    <img src="@/assets/img/node.png" alt="" />
-                                    <p>NodeJS</p>
-                                </div>
-                            </u-animate>
-                            <u-animate
-                                name="fadeIn"
-                                delay="0.2s"
-                                duration="1s"
-                                :iteration="1"
-                                :offset="0"
-                                animateClass="animate__animated animate__fadeInUp"
-                                :begin="false"
-                            >
-                                <div class="card">
-                                    <img src="@/assets/img/Vue.png" alt="" />
-                                    <p>Vue</p>
-                                </div>
-                            </u-animate>
+                            <Carousel v-bind="slickOptions">
+                                <u-animate
+                                    name="fadeIn"
+                                    delay="0.5s"
+                                    duration="2s"
+                                    :iteration="1"
+                                    :offset="0"
+                                    animateClass="animate__animated animate__fadeInUp"
+                                    :begin="false"
+                                >
+                                    <div class="card">
+                                        <img
+                                            src="@/assets/img/node.png"
+                                            alt=""
+                                        />
+                                        <p>NodeJS</p>
+                                    </div>
+                                </u-animate>
 
-                            <u-animate
-                                name="fadeIn"
-                                delay="0.4s"
-                                duration="1s"
-                                :iteration="1"
-                                :offset="0"
-                                animateClass="animate__animated animate__fadeInUp"
-                                :begin="false"
-                            >
-                                <div class="card">
-                                    <img src="@/assets/img/Python.png" alt="" />
-                                    <p>Python</p>
-                                </div>
-                            </u-animate>
+                                <u-animate
+                                    name="fadeIn"
+                                    delay="0.8s"
+                                    duration="2s"
+                                    :iteration="1"
+                                    :offset="0"
+                                    animateClass="animate__animated animate__fadeInUp"
+                                    :begin="false"
+                                >
+                                    <div class="card">
+                                        <img
+                                            src="@/assets/img/Vue.png"
+                                            alt=""
+                                        />
+                                        <p>Vue</p>
+                                    </div>
+                                </u-animate>
 
-                            <u-animate
-                                name="fadeIn"
-                                delay="0.6s"
-                                duration="1s"
-                                :iteration="1"
-                                :offset="0"
-                                animateClass="animate__animated animate__fadeInUp"
-                                :begin="false"
-                            >
-                                <div class="card">
-                                    <img src="@/assets/img/React.png" alt="" />
-                                    <p>React</p>
-                                </div>
-                            </u-animate>
+                                <u-animate
+                                    name="fadeIn"
+                                    delay="1.1s"
+                                    duration="2s"
+                                    :iteration="1"
+                                    :offset="0"
+                                    animateClass="animate__animated animate__fadeInUp"
+                                    :begin="false"
+                                >
+                                    <div class="card">
+                                        <img
+                                            src="@/assets/img/Python.png"
+                                            alt=""
+                                        />
+                                        <p>Python</p>
+                                    </div>
+                                </u-animate>
+
+                                <u-animate
+                                    name="fadeIn"
+                                    delay="1.4s"
+                                    duration="2s"
+                                    :iteration="1"
+                                    :offset="0"
+                                    animateClass="animate__animated animate__fadeInUp"
+                                    :begin="false"
+                                >
+                                    <div class="card">
+                                        <img
+                                            src="@/assets/img/React.png"
+                                            alt=""
+                                        />
+                                        <p>React</p>
+                                    </div>
+                                </u-animate>
+                                <u-animate
+                                    name="fadeIn"
+                                    delay="1.4s"
+                                    duration="2s"
+                                    :iteration="1"
+                                    :offset="0"
+                                    animateClass="animate__animated animate__fadeInUp"
+                                    :begin="false"
+                                >
+                                    <div class="card">
+                                        <img
+                                            src="@/assets/img/adobe-x.png"
+                                            alt=""
+                                        />
+                                        <p>Xd</p>
+                                    </div>
+                                </u-animate>
+                                <u-animate
+                                    name="fadeIn"
+                                    delay="1.4s"
+                                    duration="2s"
+                                    :iteration="1"
+                                    :offset="0"
+                                    animateClass="animate__animated animate__fadeInUp"
+                                    :begin="false"
+                                >
+                                    <div class="card">
+                                        <img
+                                            src="@/assets/img/adobe-x.png"
+                                            alt=""
+                                        />
+                                        <p>Xd</p>
+                                    </div>
+                                </u-animate>
+                            </Carousel>
                         </div>
 
                         <div></div>
                     </div>
                 </div>
-
-                <div class="row"></div>
             </div>
         </u-animate-container>
 
-        <u-animate-container>
-            <u-animate
-                name="fadeIn"
-                delay="0s"
-                duration="1s"
-                :iteration="1"
-                :offset="0"
-                animateClass="animate__animated animate__fadeInUp"
-                :begin="false"
-            >
-                <div class="container">
-                    <div class="oplata">
-                        <div class="row">
-                            <h1>Интеграция платежних системы</h1>
-                            <div class="col-2">
-                                <div class="op-box">
-                                    <img src="@/assets/img/Click.png" alt="" />
-                                </div>
-                            </div>
-                            <div class="col-2">
-                                <div class="op-box">
-                                    <img src="@/assets/img/payme.png" alt="" />
-                                </div>
-                            </div>
-                            <div class="col-2">
-                                <div class="op-box">
-                                    <img src="@/assets/img/stripe.png" alt="" />
-                                </div>
-                            </div>
-                            <div class="col-2">
-                                <div class="op-box">
-                                    <img src="@/assets/img/oson.png" alt="" />
-                                </div>
-                            </div>
-                            <div class="col-2">
-                                <div class="op-box">
-                                    <img
-                                        src="@/assets/img/apelsin.png"
-                                        alt=""
-                                    />
-                                </div>
-                            </div>
-                            <div class="col-2">
-                                <div class="op-box">
-                                    <img src="@/assets/img/visa.png" alt="" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </u-animate>
-        </u-animate-container>
+        <oplata />
 
         <u-animate-container>
             <u-animate
@@ -729,13 +277,24 @@
                         </h1>
 
                         <div class="tab" v-if="tabIndex == 1">
-                            <p>Название организации</p>
-                            <v-text-field
-                                label=""
-                                placeholder="Пример : UMDSOFT "
-                                @keypress.enter="nextTab"
-                            ></v-text-field>
-
+                            <v-app id="inspire">
+                                <v-form
+                                    ref="form"
+                                    v-model="valid"
+                                    lazy-validation
+                                >
+                                    <p>Название организации</p>
+                                    <v-text-field
+                                        value=""
+                                        v-model="name"
+                                        :rules="nameRules"
+                                        required
+                                        label=""
+                                        placeholder="Пример : UMDSOFT "
+                                        @keypress.enter="nextTab"
+                                    ></v-text-field>
+                                </v-form>
+                            </v-app>
                             <div class="img">
                                 <img src="@/assets/img/checkTrue.png" alt="" />
                                 <img src="@/assets/img/Line 2.png" alt="" />
@@ -747,22 +306,35 @@
                             </div>
                             <div class="pagtwo">
                                 <img src="@/assets/img/Arrow 1.png" alt="" />
-                                <img
-                                    src="@/assets/img/Arrow 2.png"
-                                    alt=""
-                                    @click="nextTab"
-                                />
+
+                                <button :disabled="!valid" @click="validate">
+                                    <img
+                                        src="@/assets/img/Arrow 2.png"
+                                        alt=""
+                                    />
+                                </button>
                             </div>
                         </div>
                         <div class="tab" v-if="tabIndex == 2">
-                            <p>Ф.И.О</p>
-                            <v-text-field
-                                label=""
-                                placeholder="Пример : Насимов Мироншох "
-                                value=""
-                                @keypress.enter="nextTab"
-                                autofocus
-                            ></v-text-field>
+                            <v-app id="inspire">
+                                <v-form
+                                    ref="form"
+                                    v-model="valid"
+                                    lazy-validation
+                                >
+                                    <p>Ф.И.О</p>
+                                    <v-text-field
+                                        value=" "
+                                        v-model="name"
+                                        :rules="nameRules"
+                                        required
+                                        label=""
+                                        placeholder="Пример : Насимов Мироншох "
+                                        @keypress.enter="nextTab"
+                                        autofocus
+                                    ></v-text-field>
+                                </v-form>
+                            </v-app>
 
                             <div class="img">
                                 <img src="@/assets/img/checkTrue.png" alt="" />
@@ -774,26 +346,41 @@
                                 <img src="@/assets/img/checkFalse.png" alt="" />
                             </div>
                             <div class="pagtwo">
-                                <img
-                                    src="@/assets/img/Arrow 1.png"
-                                    alt=""
-                                    @click="prewTab"
-                                />
-                                <img
-                                    src="@/assets/img/Arrow 2.png"
-                                    alt=""
-                                    @click="nextTab"
-                                />
+                                <button @click="prewTaba">
+                                    <img
+                                        src="@/assets/img/Arrow 1.png"
+                                        alt=""
+                                    />
+                                </button>
+
+                                <button :disabled="!valid" @click="validate">
+                                    <img
+                                        src="@/assets/img/Arrow 2.png"
+                                        alt=""
+                                    />
+                                </button>
                             </div>
                         </div>
                         <div class="tab" v-if="tabIndex == 3">
-                            <p>Номер телефона</p>
-                            <v-text-field
-                                label=""
-                                value="+998"
-                                @keypress.enter="nextTab"
-                                autofocus
-                            ></v-text-field>
+                            <v-app id="inspire">
+                                <v-form
+                                    ref="form"
+                                    v-model="valid"
+                                    lazy-validation
+                                >
+                                    <p>Номер телефона</p>
+                                    <v-text-field
+                                        type="number"
+                                        v-model="name"
+                                        :rules="nameRules"
+                                        required
+                                        label=""
+                                        @keypress.enter="nextTab"
+                                        autofocus
+                                        value="+998"
+                                    ></v-text-field>
+                                </v-form>
+                            </v-app>
 
                             <div class="img">
                                 <img src="@/assets/img/checkTrue.png" alt="" />
@@ -805,21 +392,25 @@
                                 <img src="@/assets/img/checkFalse.png" alt="" />
                             </div>
                             <div class="pagtwo">
-                                <img
-                                    src="@/assets/img/Arrow 1.png"
-                                    alt=""
-                                    @click="prewTab"
-                                />
-                                <img
-                                    src="@/assets/img/Arrow 2.png"
-                                    alt=""
-                                    @click="nextTab"
-                                />
+                                <button @click="prewTaba">
+                                    <img
+                                        src="@/assets/img/Arrow 1.png"
+                                        alt=""
+                                    />
+                                </button>
+
+                                <button @click="validate">
+                                    <img
+                                        src="@/assets/img/Arrow 2.png"
+                                        alt=""
+                                    />
+                                </button>
                             </div>
                         </div>
                         <div class="tab" v-if="tabIndex == 4">
                             <p>Удобное время звонка</p>
                             <v-text-field
+                                type="time"
                                 label=""
                                 placeholder="-- : --"
                             ></v-text-field>
@@ -834,11 +425,13 @@
                                 <img src="@/assets/img/checkTrue.png" alt="" />
                             </div>
                             <div class="pagtwo">
-                                <img
-                                    src="@/assets/img/Arrow 1.png"
-                                    alt=""
-                                    @click="prewTab"
-                                />
+                                <button @click="prewTaba">
+                                    <img
+                                        src="@/assets/img/Arrow 1.png"
+                                        alt=""
+                                    />
+                                </button>
+
                                 <img src="@/assets/img/Arrow 2.png" alt="" />
                             </div>
                         </div>
@@ -846,213 +439,87 @@
                 </div>
             </u-animate>
         </u-animate-container>
-
-        <u-animate-container>
-            <u-animate
-                name="fadeIn"
-                delay="0s"
-                duration="1s"
-                :iteration="1"
-                :offset="0"
-                animateClass="animate__animated animate__fadeInUp"
-                :begin="false"
-            >
-                <footera />
-            </u-animate>
-        </u-animate-container>
     </div>
 </template>
 
 <script>
-
+import oplata from "../components/oplata.vue";
 export default {
+    components: { oplata },
+
     data() {
         return {
+            slickOptions: {
+                // dots: true,
+                speed: 300,
+                slidesToShow: 4,
+                slidesToScroll: 2,
+                draggable: true,
+                infinite: true,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 3,
+                            infinite: false,
+                            slidesToScroll: 4,
+                            dots: true,
+                            draggable: true
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            dots: true,
+                            slidesToShow: 2,
+                            speed: 1500,
+                            touchThreshold: 1000,
+                            autoplay: true,
+                            autoplaySpeed: 3000,
+                            infinite: true,
+                            slidesToScroll: 1,
+                            draggable: true
+                        }
+                    }
+                ]
+            },
             nightMode: false,
             tabIndex: 1,
-            check: "",
-            checkThree: "",
-            checkThreeRes: "",
-            checkAll: true,
-            parent: false,
-            nightPrice: 50,
             ex2: { color: "silver" },
-            valueSelect: {
-                text: "Лого брандинг",
-                id: 2
-            },
-
-            children: [
-                {
-                    value: false,
-                    text: "Визитка",
-                    price: 12,
-                    day: 1
-                },
-                {
-                    value: false,
-                    text: "3x шт SMM пост",
-                    price: 30,
-                    day: 2
-                },
-                {
-                    value: false,
-                    text: "Флаер",
-                    price: 20,
-                    day: 2
-                },
-                {
-                    value: false,
-                    text: "Баннер",
-                    price: 40,
-                    day: 2
-                }
-            ],
-            items: [
-                {
-                    text: "Мобильный дизайн",
-                    id: 1
-                },
-                {
-                    text: "Лого брандинг",
-                    id: 2
-                },
-                {
-                    text: "Веб дизайн",
-                    id: 3
-                },
-                {
-                    text: "Smm дизайн",
-                    id: 4
-                }
-            ],
-            min: 0,
-            max: 30,
-            slider: 0,
             model: 0,
             page: 1,
             data: [],
-            stepPrice: 30,
-            stepDay: 1,
-            stepPriceThree: 50,
-            stepDayThree: 1,
-            priceFour: 0,
-            dayFour: 0,
-            stepDayFour: 1,
-            stepPriceFour: 15,
-            stepDay: 1,
-            price: 40,
-            day: 4,
-            priceResponsive: 20,
-            dayResponsive: 3,
-            priceTwo: 100,
-            dayTwo: 10,
-            priceThree: 100,
-            dayThree: 5,
-            logoPrice: 100,
-            logoDay: 10,
-            result: {
-                price: 40,
-                day: 4,
-                priceTwo: 100,
-                dayTwo: 10,
-                priceThree: 50,
-                dayThree: 5,
-                priceFour: 15,
-                dayFour: 1
-            }
+            valid: true,
+            name: "",
+            nameRules: [v => !!v || " required"]
         };
     },
 
     methods: {
-        nextTab() {},
-        changeParent() {
-            if (this.parent == false) {
-                this.children.forEach(item => {
-                    item.value = false;
-                });
-            }
-            if (this.parent == true) {
-                this.children.forEach(item => {
-                    item.value = true;
-                });
-            }
-            this.addInfo();
+        modal() {
+            this.$store.commit("changeButton");
+            // clickoutside(changeButton)
         },
-
-        changeChildren(item, index) {
-            let isSelect = true;
-
-            this.children.forEach(item => {
-                if (item.value == false) {
-                    isSelect = false;
-                }
-            });
-
-            if (isSelect) {
-                this.parent = true;
-            } else {
-                this.parent = false;
-            }
-
-            this.addInfo();
+        validate() {
+            this.$refs.form.validate();
+            this.nextTab();
         },
-        addInfo() {
-            this.children.forEach(item => {
-                let p = this.logoPrice;
-                let d = this.logoDay;
-                if (item.value == true) {
-                    p += item.price;
-                    d += item.day;
-                }
-                this.result.priceTwo = p;
-                this.result.dayTwo = d;
-            });
+        reset() {
+            this.$refs.form.reset();
         },
-        changeSlider() {
-            this.result.price = this.price + this.slider * this.stepPrice;
-            this.result.day = this.day + this.slider * this.stepDay;
+        resetValidation() {
+            this.$refs.form.resetValidation();
         },
-
-        changeNight() {
-            if (this.check == null) {
-                this.result.price -= 50;
-            } else this.result.price += parseInt(this.check);
-        },
-        changeNightThree() {
-            // alert(check);
-            if (this.checkThree == null) {
-                this.result.priceThree -= 50;
-                this.result.dayThree -= 3;
-            } else this.result.priceThree += parseInt(this.checkThree);
-            this.result.dayThree += 3;
-        },
-        changeResponsive() {
-            if (this.checkThreeRes == null) {
-                this.result.priceThree -= this.priceResponsive;
-                this.result.dayThree -= this.dayResponsive;
-            } else this.result.priceThree += this.priceResponsive;
-            this.result.dayThree += this.dayResponsive;
-        },
-        changeSliderThree() {
-            this.result.priceThree =
-                this.priceThree + this.slider * this.stepPriceThree;
-            this.result.dayThree =
-                this.dayThree + this.slider * this.stepDayThree;
-        },
-        changeSliderFour() {
-            this.result.priceFour =
-                this.priceFour + this.slider * this.stepPriceFour;
-            this.result.dayFour = this.dayFour + this.slider * this.stepDayFour;
+        bos() {
+            let btn = document.querySelector(".prew");
+            btn;
         },
         nextTab() {
             this.tabIndex = this.tabIndex + 1;
         },
-        prewTab() {
+        prewTaba() {
             this.tabIndex = this.tabIndex - 1;
-        },
-
-        changeSelect() {}
+        }
     }
 };
 </script>
@@ -1063,39 +530,105 @@ export default {
     padding: 0;
     margin: 0;
     font-family: "Poppins", sans-serif;
+    transition: 0.5s ease;
+    // pointer-events: none;
+    // user-select: none;
 }
+img {
+    pointer-events: none;
+}
+.design {
+    img {
+        margin-top: -60px;
+    }
+    h1 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: calc(1.375rem + 1.5vw);
+        line-height: 72px;
+        margin-top: 20px;
+        color: #1e6bdd;
+    }
+    p {
+        margin: 25px 0;
+        font-style: normal;
+        font-weight: 500;
+        font-size: calc(0.475rem + 1.5vw);
+        line-height: 36px;
+        color: #000000;
+    }
+    // .little {
+    //     width: 82%;
+    // }
+    .littlecard {
+        padding: 15px;
+        // width: 166px;
+        height: 141px;
+        background: #f6f6f6;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        .txt {
+            margin-top: 20px;
+            p {
+                margin-top: 10px;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 141.3%;
+                color: #202020;
+            }
+        }
+
+        svg {
+            height: 60px;
+            margin-bottom: 10px;
+        }
+    }
+}
+
 .img {
     width: 270px;
     margin: 0 auto;
 }
 .header {
-    background: #9bc3f6;
-    height: 640px;
+    // height: 640px;
+    margin-top: 60px;
     width: 100%;
-}
-.box {
-    // animation-duration: 2s;
-    animation-delay: 3;
-}
-.left {
-    padding-top: 200px;
-    h1 {
-        font-family: "Poppins", sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 48px;
-        line-height: 141.3%;
-        color: #ffffff;
+    .left {
+        padding-top: 200px;
+        h1 {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 141.3%;
+        }
+        button {
+            margin-top: 10px;
+
+            padding: 10px 12px;
+            background: #1e6bdd;
+            color: #fff;
+            border-radius: 5px;
+            transition: 0.3s ease;
+            border: 1px solid #1e6bdd;
+        }
+        button:active {
+            outline: none;
+        }
+        button:focus {
+            outline: none !important;
+        }
+        button:hover {
+            background: #fff;
+            color: #1e6bdd;
+            border: 1px solid #1e6bdd;
+        }
     }
-    button {
-        background: #1e6bdd;
-        border-radius: 5px;
-        margin-top: 10px;
-        font-family: "Poppins", sans-serif;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        color: #ffffff;
+    .right {
+        display: flex;
+        justify-content: flex-end;
+        img {
+            width: 80%;
+        }
     }
 }
 
@@ -1103,16 +636,6 @@ export default {
     margin-top: 30px;
 }
 
-#input-20 {
-    color: blue;
-    font-size: 24px;
-    text-align: center;
-}
-#input-50 {
-    color: blue;
-    font-size: 24px;
-    text-align: center;
-}
 .boxs {
     padding: 20px;
     margin-top: 40px;
@@ -1120,19 +643,16 @@ export default {
         height: 300px;
         border-radius: 5px 0px;
         border-top: 7px solid #1e6bdd;
-        // border-bottom: 7px solid #1e6bdd;
         background: #f6f6f6;
         padding: 20px;
+        transition: 0.2s ease;
+        // cursor: pointer;
         h2 {
             margin-top: 30px;
             font-style: normal;
             font-weight: 600;
             font-size: 24px;
             line-height: 141.3%;
-            /* identical to box height, or 34px */
-
-            /* head color */
-
             color: #1e6bdd;
         }
         p {
@@ -1141,114 +661,23 @@ export default {
             font-weight: normal;
             font-size: 15px;
             line-height: 141.3%;
-            /* or 21px */
+            color: #000000;
+        }
+    }
+    .box:hover {
+        transform: translateY(-10px);
+        // transform: scale(1.05);
+        // margin-top: -10px;
+    }
+}
 
-            color: #000000;
-        }
-    }
-}
-.content {
-    display: flex;
-    margin: 40px auto;
-    width: 970px;
-    background: #ffffff;
-    border: 2px solid #1e6bdd;
-    box-sizing: border-box;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    // .text p {
-    //     margin: 60px 0px 0 -325px;
-    // }
-    .narx {
-        width: 375px;
-        background: #f6f6f6;
-        border-radius: 10px;
-        padding: 30px;
-        margin: 30px 0 0 40px;
-        p {
-            font-style: normal;
-            font-weight: 500;
-            font-size: 22px;
-            line-height: 141.3%;
-            color: #000000;
-            span {
-                margin-left: 30px;
-                font-style: normal;
-                font-weight: bold;
-                font-size: 28px;
-                line-height: 141.3%;
-                color: #1e6bdd;
-            }
-        }
-    }
-}
-.full {
-    background: #f6f6f6;
-    padding: 20px;
-    margin-top: 40px;
-    h1 {
-        font-style: normal;
-        font-weight: 600;
-        font-size: 48px;
-        line-height: 141.3%;
-        color: #1e6bdd;
-    }
-    .sel {
-        background: #ffffff;
-        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
-        border-radius: 5px;
-    }
-    .text {
-        padding: 10px;
-        span {
-            margin-left: 10px;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 28px;
-            line-height: 42px;
-            color: #1e6bdd;
-        }
-        h4 {
-            margin-left: 10px;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 24px;
-            line-height: 36px;
-            color: #000000;
-        }
-        .few {
-            margin-top: 30px;
-        }
-    }
-}
-.etap {
-    padding: 30px;
-    span {
-        font-style: normal;
-        font-weight: bold;
-        font-size: 120px;
-        line-height: 180px;
-        color: #e8eaf2;
-    }
-    h3 {
-        margin: -100px 0 0 70px;
-        width: 388px;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 32px;
-        line-height: 120%;
-        color: #666666;
-    }
-}
 .two {
     margin-top: 100px;
 }
 .main {
     padding: 50px 0;
 }
-.lan {
-    display: flex;
-}
+
 .three {
     margin-left: 100px;
 }
@@ -1287,9 +716,9 @@ export default {
     }
 }
 .four {
+    margin-top: 30px;
     background: #f6f6f6;
     padding-top: 50px;
-    margin-bottom: 60px;
     padding-bottom: 60px;
     .form {
         padding: 40px 80px;
@@ -1326,55 +755,185 @@ export default {
 .v-application--wrap {
     min-height: auto !important;
 }
-.child {
-    margin: -20px 0 0 28px;
+
+@media (min-width: 1025px) and (max-width: 1280px) {
 }
 
-.op-box {
-    cursor: pointer;
-    background: #f6f6f6;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    padding: 30px 10px;
-    // margin-left: 20px;
-    margin: 20px 0 30px 20px;
-    width: 169px;
-    height: 139px;
-    display: flex;
-    align-items: center;
-    img {
-        width: 144px;
+@media (min-width: 950px) and (max-width: 1024px) {
+    .narx {
+        width: auto !important;
+    }
+    v-container {
+        padding: 0;
+    }
+    .down {
+        margin-top: 0;
     }
 }
 
-.tik {
-    display: flex;
-    width: 20px;
-    /* background: silver; */
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+@media (min-width: 768px) and (max-width: 950px) {
+    .right {
+        display: none;
+    }
+    .pag {
+        display: none;
+    }
+    .design {
+        img {
+            display: none;
+        }
+    }
+
+    v-container {
+        padding: 0;
+    }
+    .down {
+        margin-top: 0;
+    }
+    .form {
+        width: 75% !important;
+    }
+    .left {
+        h1 {
+            font-size: 40px;
+        }
+        button {
+            font-size: 14px;
+        }
+    }
+    .right img {
+        width: 100%;
+        margin-top: 110px;
+    }
+    .full {
+        h1 {
+            font-size: 40px;
+        }
+    }
 }
-.circle.active,
-.line.active {
-    background: blue;
+
+@media (min-width: 577px) and (max-width: 767px) {
+    .pag {
+        display: none;
+    }
+    .design {
+        img {
+            display: none;
+        }
+    }
+    .header {
+        margin-bottom: 20px;
+    }
+    .boxs {
+        margin-top: 0;
+        .box {
+            height: 265px;
+            h2 {
+                font-size: 20px;
+            }
+        }
+    }
+    .right {
+        display: none;
+    }
+    .littlecard {
+        img {
+            display: none !important;
+        }
+    }
+
+    .form {
+        width: auto !important;
+    }
+    .down {
+        margin-top: 0;
+    }
+
+    .four {
+        .form {
+            h1 {
+                font-size: 23px;
+            }
+            p {
+                font-size: 20px;
+            }
+            .pagtwo {
+                margin: 40px 30%;
+            }
+        }
+    }
+    .full {
+        h1 {
+            font-size: 30px;
+        }
+    }
 }
-.circle {
-    width: 22px;
-    height: 22px;
-    border-radius: 50%;
-    background: #e8eaf2;
-}
-.line {
-    width: 6px;
-    background: #e8eaf2;
-    height: 82px;
-}
-.vertical {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 70px;
+
+@media (min-width: 330px) and (max-width: 576px) {
+    .hedaer {
+        .left {
+            padding-top: 30px !important;
+        }
+    }
+
+    .pag {
+        display: none;
+    }
+    .lan {
+        .card {
+            margin-left: 0;
+        }
+    }
+    .header {
+        .right {
+            display: none;
+        }
+    }
+    .col-md-2 {
+        display: none;
+    }
+
+    .four {
+        .form {
+            width: auto !important;
+            h1 {
+                font-size: 18px;
+            }
+            p {
+                font-size: 16px;
+            }
+            .pagtwo {
+                margin: 45px 20%;
+            }
+        }
+    }
+
+    .boxs {
+        margin-top: 0;
+    }
+    .down {
+        margin-top: 0;
+    }
+    .design {
+        .little {
+            // width: 100%;
+            margin-top: 10px;
+            .littlecard {
+                // width: 145px;
+                padding: 12px;
+                .txt {
+                    p {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+        p {
+            margin: 0;
+        }
+        img {
+            display: none;
+        }
+    }
 }
 </style>

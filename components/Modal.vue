@@ -27,6 +27,7 @@
                                 Заполните форму прямо сейчас и получите
                                 квалифицированную
                             </h1>
+                            
                             <v-text-field class="inputss"
                                 :rules="required"
                                 label=""
@@ -47,7 +48,7 @@
                             <v-text-field class="inputss"
                             type="text"
                                 label=""
-                                placeholder="lorem input dollor"
+                                placeholder="Описание"
                             ></v-text-field>
 
 
@@ -98,7 +99,7 @@ h1 {
     width: 702px;
     height: 484px;
     margin: 0px auto;
-    padding: 50px;
+    padding: 25px 50px;
     // background: rgba(255, 255, 255, 0.5);
     background-color: transparent;
     backdrop-filter: blur(5px);
